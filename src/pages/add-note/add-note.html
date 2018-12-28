@@ -1,0 +1,69 @@
+<!--
+  Generated template for the AddNotePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 11px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center">  {{ 'Nuevanota' | translate }}</ion-title>
+
+
+  </ion-navbar>
+
+</ion-header> 
+
+
+<ion-content >
+  <div class="BackImageList ">
+    <div class="GradientColor">
+
+      <form [formGroup]="formGroup" (ngSubmit)="saveNote( action , formGroup.value)" >
+
+        <ion-input type="hidden" formControlName="event_id" [value]="event_id"></ion-input>
+
+        <ion-list  class="shadowNotes MarginNotes">
+
+          <ion-item class="backgroundInput">
+            <ion-label floating>Nombre de la nota</ion-label>
+            <ion-input id="NoteTittle" type="text" name="title" formControlName="title" required [value]="title"></ion-input>
+                  <div class="alert" *ngIf="!formGroup.controls['title'].valid
+                && formGroup.controls['title'].touched">{{ titleAlert }}</div>
+          </ion-item>
+
+          <ion-item class="backgroundInput">
+            <ion-label floating>{{ 'Descripcion' | translate }}</ion-label>
+            <ion-textarea        
+                id="noteContent"
+                #noteContent 
+                type="text"
+                name="content" 
+                formControlName="content"  
+                (keyup)="resize()" 
+                [value]="content"
+                required
+                rows="19" maxLength="1000">
+                  
+            </ion-textarea>
+            <div class="alert" *ngIf="!formGroup.controls['content'].valid
+                && formGroup.controls['content'].touched">{{ contentAlert }}</div>
+
+          </ion-item> 
+
+        </ion-list>
+
+            <button  class="button button-clear button-block main-btn main-bg-color borderXs disable-hover button-ios button-default button-default-ios button-full button-full-ios BtnSave" ion-button type="submit" [disabled]="!formGroup.valid">Guardar</button>
+      </form>
+
+
+    </div>
+  </div>
+
+
+</ion-content>

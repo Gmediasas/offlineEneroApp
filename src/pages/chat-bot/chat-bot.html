@@ -1,0 +1,50 @@
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center">{{ 'Chat' | translate }}</ion-title>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+    <ion-item *ngFor="let m of messages" no-lines>
+
+      <div class="chat-message" text-right *ngIf="m.from === 'user'">
+        <div class="right-bubble">
+          <span class="msg-name">Me</span>
+          <span class="msg-date">{{m.date | date:'short'}}</span>
+          <p text-wrap>{{m.msg}}</p>
+        </div>
+      </div>
+      <div class="chat-message" text-left *ngIf="m.from === 'bot'">
+        <div class="left-bubble">
+          <span class="msg-name">Bot</span>
+          <span class="msg-date">{{m.date | date:'short'}}</span>
+          <p text-wrap>{{m.msg}}</p>
+        </div>
+      </div>
+
+    </ion-item>
+  </ion-list>
+  <!-- <button ion-button color="secondary" (click)="exitChat()">Secondary</button> -->
+</ion-content>
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-10>
+        <ion-input type="text" placeholder="Type a message" [(ngModel)]="chatBox" name="message"></ion-input>
+      </ion-col>
+      <ion-col col-2 (click)="sendMessage()">
+        <ion-icon name="paper-plane"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

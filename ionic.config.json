@@ -1,0 +1,12 @@
+{
+  "name": "helloWorld",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "environments": {
+    "dev": "environments/environment.ts",
+    "prod": "environments/environment.prod.ts",
+    "qa": "environments/environment.qa.ts"
+  }
+}

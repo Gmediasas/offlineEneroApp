@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
+            "map": [
+                {
+                    "source": "/home/desarrollo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/899f4bc34a2832207e8f9b66b7f8c2be/res/values-v12/values-v12.xml",
+                    "from": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        }
+    ]
+}

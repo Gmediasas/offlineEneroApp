@@ -1,0 +1,81 @@
+<!--
+  Generated template for the GalleryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 11px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center"> {{ 'Galeria' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content >
+  
+  <div class="BackImageList ">
+    <div class="opacidadColor">
+      <div class="logoEventoGallery text-center paddingTopXs">
+
+        <img class="animated tada detailsimgSpeaker " height="120" width="120" [src]="appAppearance.logo">
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="main-bg-color">
+    <ion-segment [(ngModel)]="galleryType" color="transparent" padding>
+      <ion-segment-button value="regular">
+          {{ 'Todas' | translate }}
+      </ion-segment-button>
+      <ion-segment-button value="recent">
+          {{ 'Recientes' | translate }}
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="galleryType">
+
+    <!-- Responsive Layout with Ion Grid-->
+
+    <ion-grid *ngSwitchCase="'regular'" >
+      <ion-row>
+
+        <ion-col col-6 col-md-4 col-xl-3 
+          *ngFor="let image of gallery"
+          (click)="goToOpenBasicModal(image)">
+
+          <div class="image-container" 
+            [style.background-image]="'url('+image.galFImagenThumb+')'">
+          </div>
+
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid *ngSwitchCase="'recent'" (click)="goToOpenBasicModal()">
+      <ion-row>
+        
+        <ion-col col-6 col-md-4 col-xl-3 
+          *ngFor="let image of recent_gallery"
+          (click)="goToOpenBasicModal(image)">
+
+          <div class="image-container" 
+            [style.background-image]="'url('+image.galFImagenThumb+')'">
+          </div>
+
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+    
+  </div>
+
+</ion-content>

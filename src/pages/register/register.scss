@@ -1,0 +1,104 @@
+page-register {
+
+	ion-item{
+		padding-left: 16px;
+	    padding-left: 16px;
+	    border-radius: 0;
+	    position: relative;
+	    border-radius: 8px !important;
+	    font-size: 1rem;
+	    color: rgba(230, 230, 230, 1) !important;
+	    background-color: rgba(255, 255, 255, 0.1) !important;
+	   // -webkit-transition: background-color 200ms linear;
+	    transition: background-color 200ms linear;
+
+	}
+
+	ion-item ion-label{
+	    font-size: 1.5rem !important;
+
+	}
+	.item-ios.item-block .item-inner{
+		border-bottom: 0.55px solid transparent !important;
+
+	}
+	.list-inset {
+		padding: 1px !important;
+		min-height: 0.5px !important;
+	}
+	.bgGrey{
+		background: rgba(0, 0, 0, 0.5) !important;
+	}
+
+
+	.placeholder-icon{
+	    font-size: 21px !important;
+	    padding: 9px 10px !important;
+	    margin-right: 20px !important;
+	}
+	.lineWhiteRegister {
+	    margin: 0 9px;
+	    border-bottom: 1px solid #ffffff9e;
+	}
+	.PaddingBottomXs{
+		    padding-bottom: 1px;
+	}
+	ion-content {
+		background-image: url('../assets/img/poster.png');
+		//-webkit-background-image: url('../assets/img/poster.png');
+		-webkit-box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+		box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+		
+		background-size: cover;
+	}
+	
+}
+.register-content .app-form .item-input {
+    width: 312px !important;
+}
+.PadddingTopRegister{
+	padding-top: 70px;
+}
+.logoRegister{
+	    padding-top: 20px !important;
+
+}
+
+.overlayBgVideo{
+    //background: $main_color_with_opacity_50;
+   
+    -webkit-box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+    box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+    background: transparent url(../assets/img/poster.png) no-repeat;
+    height: -webkit-fill-available;
+    background-size: cover;
+    position: relative;
+}
+// .app-form {
+//     height: inherit;
+// }
+
+.app-form {
+	bottom: auto;
+}
+.scroll1{
+	overflow: scroll !important;
+}
+.danger-container {
+	margin-top: 6px;
+	background: rgba(252, 246, 246, 0.11) !important;
+	border-left: rgba(255, 255, 255, 0.32) 2px solid;
+}
+.danger {
+	//color: white !important;
+	white-space: normal !important;
+}
+.label-md {
+	margin: 0px 8px 0px 0 !important;
+}
+.item-md {
+	padding-left: 9px;
+	padding-right: 0;
+	position: relative;
+	font-size: 1.2rem;
+}

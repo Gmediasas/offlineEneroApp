@@ -1,0 +1,196 @@
+<!--
+  Generated template for the SettingsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 11px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center"> </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content class="backgroundGrey1">
+
+  <div class="BackImageList ">
+    <div class="GradientColor">
+
+
+      <ion-grid class="paddingSearch">
+        <!--       <div>
+          <ion-searchbar class="searchbar searchbar-ios searchbar-left-aligned">
+            <div class="searchbar-input-container">
+              <button class="searchbar-md-cancel disable-hover button button-md button-clear button-clear-md button-clear-md-light" clear="" color="light" ion-button="" mode="md" type="button">
+                <span class="button-inner">
+                  <ion-icon name="md-arrow-back" role="img" class="icon icon-ios ion-md-arrow-back" aria-label="arrow white"></ion-icon>
+                </span>
+                <div class="button-effect"></div>
+              </button>
+              <div class="searchbar-search-icon"></div>
+                <input class="searchbar-input" dir="auto" placeholder="Buscar" type="search" autocomplete="off" autocorrect="off" spellcheck="false">
+                <button class="searchbar-clear-icon disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button="" type="button">
+                  <span class="button-inner"></span>
+                  <div class="button-effect"></div></button></div>
+                  <button class="searchbar-ios-cancel disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button="" mode="ios" type="button" tabindex="-1">
+                    <span class="button-inner">Cancel</span>
+                    <div class="button-effect"></div>
+              </button>
+          </ion-searchbar>
+        </div> -->
+
+
+
+      </ion-grid>
+      <ion-grid>
+        <ion-row class="row">
+          <ion-col class="col">
+            <div></div>
+          </ion-col>
+          <ion-col class="col text-center" col-6="">
+            <div class="CategoriasBtn">
+
+
+              <span class="">
+                {{ 'Configuraciones' | translate }}
+                <!--   <i class="demo-icon    icon-geventsdown-open placeholder-icon " style="padding-top: 8px;">&#xe84e;</i> -->
+              </span>
+
+            </div>
+          </ion-col>
+          <ion-col class="col">
+            <div></div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+
+
+
+
+    </div>
+
+
+  </div>
+
+
+  <!-- 
+CARD ORIGINAL -->
+
+
+
+  <ion-card class="shadowCards heightCards borderCard marginTopCard">
+    <ion-card-content>
+      <ion-row>
+        <ion-col col-2>
+          <div class="Circle1">
+            <i class="demo-icon   icon-geventsbell  placeholder-icon IconLeft" style="padding-top: 10px;">&#xe812;</i>
+          </div>
+        </ion-col>
+        <ion-col col-10>
+
+          <ion-item>
+            <ion-label class="textDate"> {{ 'Notificacionespush' | translate }}</ion-label>
+            <ion-toggle value="foo" checked="true" color="energized" class="ColorToggle"></ion-toggle>
+          </ion-item>
+          <div class="lineNotifications"></div>
+          <div class="textNotification">
+            {{ 'mensajeNotificaciones' | translate }}
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+  <ion-card class="shadowCards heightCards borderCard marginTopCard">
+    <ion-card-content>
+      <ion-row>
+        <ion-col col-2>
+          <div class="Circle1">
+            <i class="demo-icon   icon-geventskey  placeholder-icon IconLeft" style="padding-top: 10px;">&#xe88f;</i>
+          </div>
+        </ion-col>
+        <ion-col col-10>
+
+          <ion-item>
+            <ion-label class="textDate">{{ 'Permisos' | translate }}</ion-label>
+            <ion-toggle value="foo" checked="true" color="energized" class="ColorToggle"></ion-toggle>
+          </ion-item>
+          <div class="lineNotifications"></div>
+          <div class="textNotification">
+            {{ 'mensajePermisos' | translate }}
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+
+
+  <ion-card class="shadowCards heightCards borderCard marginTopCard">
+    <ion-card-content>
+      <ion-row>
+        <ion-col col-2>
+          <div class="Circle1">
+            <i class="demo-icon   icon-geventsglobe-1  placeholder-icon IconLeft" style="padding-top: 10px;">&#xe888;</i>
+          </div>
+        </ion-col>
+        <ion-col col-10>
+
+          <ion-item>
+            <ion-label class="textDate">{{ 'Idioma' | translate }}</ion-label>
+
+            <ion-select [(ngModel)]="os" submitText="Seleccionar" cancelText="Cancelar" (ionChange)="onLangChange($event)">
+              <ion-option value="es">{{ 'Español' | translate }}</ion-option>
+              <ion-option value="en">{{ 'Inglés' | translate }} </ion-option>
+              <ion-option value="pt">{{ 'Portugués' | translate }} </ion-option>
+              <ion-option value="zh">{{ 'chino' | translate }} </ion-option>
+            </ion-select>
+
+          </ion-item>
+          <div class="lineNotifications"></div>
+          <div class="textNotification">
+            {{ 'mensajeIdioma' | translate }}
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="shadowCards heightCards borderCard marginTopCard" (click)="goToChangePassword()">
+    <ion-card-content>
+      <ion-row>
+        <ion-col col-2>
+          <div class="Circle1">
+            <i class="demo-icon   icon-geventslock-1  placeholder-icon IconLeft" style="padding-top: 10px;">&#xe872;</i>
+          </div>
+        </ion-col>
+        <ion-col col-10>
+
+          <ion-item>
+            <ion-label class="textDate">{{ 'CambioContraseña' | translate }}</ion-label>
+            <i class="demo-icon   icon-geventslock-1  placeholder-icon IconLeft" style="padding-top: 10px;">&#xe872;</i>
+
+          </ion-item>
+          <div class="lineNotifications"></div>
+          <div class="textNotification">
+            {{ 'mensajeCambioContraseña' | translate }}
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+
+
+
+</ion-content>

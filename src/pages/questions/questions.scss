@@ -1,0 +1,201 @@
+page-questions {
+	.BackImageList {
+	    height: 220px;
+	    background: url(../assets/img/cardEvent166.png)no-repeat;
+	    background-size: cover;
+	    position: relative;
+	} 
+	.searchbar-ios{
+		border-bottom: 0.55px solid transparent;
+	    background: transparent;
+	}
+	.GradientColor{
+		height: 160px;
+		background: $main_bg_color;
+	    background: -webkit-gradient(left top, left bottom, color-stop(0%, #489cea), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+	    background: -webkit-gradient(linear, left top, left bottom, from($main_bg_color), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+	    background: linear-gradient(to bottom, $main_bg_color 0%, rgba(255, 255, 255, 0.01) 77%, rgba(255, 255, 255, 0) 78%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#489cea', endColorstr='#ffffff', GradientType=0 );
+	}
+
+	.heightCards{
+		margin-top: -30px !important;
+		margin-bottom: 41px;
+	}
+
+	.shadowCards{
+		-webkit-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+	box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+	} 
+	.borderCard{
+		    border-radius: 6px;
+	}
+	.paddingSearch{
+		padding-top: 50px;
+	}
+	.avatarCard{
+		// min-width: 36px;
+  //  		min-height: 36px;
+   		img {
+		    border-radius: 50%;
+			overflow: hidden;
+			width: 50px;
+			height: 50px;
+   		}
+	}
+	.arrowCard{
+		font-size: 24px;
+	    font-weight: lighter;
+	    // color: rgb(195, 195, 195);
+	    color: $main-bg-colorSecond;
+	    float: right;
+	    padding: 5px;
+	}
+	.marginBottomCard{
+		margin-bottom: 43px !important;
+	}
+	// .LongDivDot{
+	// 	    left: 0;
+	// 	    top: 0;
+	// 	    padding: 2px 90px;
+	// 	    position: fixed;
+	// 	    width: 100%;
+	// 	    height: 50px;
+	// 	    -webkit-transform: translateZ(0);
+	// 	    transform: translateZ(0);
+	// 	    pointer-events: none;
+	// }
+
+	// .LongTextDot{
+	//     display: block;
+	//     overflow: hidden;
+	//     width: 100%;
+	//     text-overflow: ellipsis;
+	//     white-space: nowrap;
+
+	// }
+
+	.LongDivDot{
+		left: 0;
+		/* top: 0; */
+		padding: 2px 10px 2px 7px;
+		position: absolute;
+		width: 100%;
+		height: 50px;
+		text-align: left;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		pointer-events: none;
+	}
+
+	.LongTextDot{
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+
+	}
+	.CategoriasBtn{
+		color: rgb(255,255,255);
+		font-size: 18px;
+		text-shadow: 2px 2px 7px rgba(150, 150, 150, 0.96);
+		background-color: rgba(255, 255, 255, 0.5);
+		padding: 5px;
+		border-radius: 20px;
+
+	}
+	.backgroundCategory{
+		background-color: rgba( 255, 255, 255, 0.1)	
+	}
+	.NotesIcon{
+	    font-size: 41px;
+	    color: white;
+	    padding: 8px 20px;
+	}
+	.ColorNote{
+		background-color:  $main_monocromatico!important;
+	}
+	.circleNote{
+        height: 60px;
+	    width: 60px;
+	    border-radius: 50%;
+
+        // background-color: blue;
+    }	
+    .status{
+	    background-color: rgba(193, 192, 192, 0.28);
+	    border-radius: 12px;
+	    color: #8a8a8a;
+	    padding: 2px 13px;
+	    width: 80px;
+	    margin-top: 6px;
+	    font-size: 13px;
+
+    }
+    .IconLeft{
+		padding: 12px 10px;
+		font-size: 30px;
+		color: $main-bg-colorSecond;
+    }
+    .Circle1{
+		// background-color: #9f2a24; 
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		border: 1px solid #dadada;
+    }
+
+    // .item-md{
+    // 	background-color: transparent;
+    // }
+
+    .btnCircle{
+
+    	background-color:  $main_bg_color;
+    	color: $white;
+    	width: 20px;
+    	// height: 20px;
+
+    }
+
+    	// ANDROID
+	.item-md.item-block .item-inner{
+		border-bottom: 0.55px solid transparent;
+	}
+	// IOS
+
+	.item-ios.item-block .item-inner{
+		border-bottom: 0.55px solid transparent;
+	}
+
+
+	.SelectStyle{
+		background-color: transparent !important;
+	}
+
+		.select-md .select-placeholder{
+		color: $white !important;
+	}
+	.select-ios .select-placeholder{
+		color: $white !important;
+	}
+
+	.item-input .label-md, .item-select .label-md, .item-datetime .label-md{
+		color: $white !important;
+	}
+	.item-input .label-ios, .item-select .label-ios, .item-datetime .label-ios{
+		color: $white !important;
+	}
+	.QuestionText{
+		color: grey;
+
+	}
+	.QuestionText2{
+		color: rgba(193, 193, 193, 1) !important;
+
+	}
+
+}
+ 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">926127945374-cjr69t54dl961tgdeg3lc9q1l8kopfqi.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://feria-de-seguridad.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">926127945374</string>
+    <string name="google_api_key" translatable="false">AIzaSyDlcsYFy6Iilq3TWz48VErZOZeo_sycaic</string>
+    <string name="google_app_id" translatable="false">1:926127945374:android:3d39fa6788fe1ff3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDlcsYFy6Iilq3TWz48VErZOZeo_sycaic</string>
+    <string name="google_storage_bucket" translatable="false">feria-de-seguridad.appspot.com</string>
+</resources>

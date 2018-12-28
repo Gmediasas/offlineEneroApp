@@ -1,0 +1,229 @@
+<!--
+  Generated template for the SpeakerDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center">Detalle del Organizador</ion-title>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+
+  <div class=" shadowCards">
+
+    <img class="animated tada detailsimgSpeaker " [src]="sponsor?.spnsrLogo">
+  </div>
+
+  <div class="BackColorWhite  shadowCards1">
+
+    <ion-grid class="grid ">
+      <ion-row class="MarginShare">
+        <ion-col>
+          <div class="shareIconSpace">
+            <ion-fab middle right *ngIf="sponsor?.spnsrFacebook != undefined  ||  sponsor?.spnsrTwitter != undefined || sponsor?.spnsrLinkedin != undefined || sponsor?.spnsrGoogle != undefined ">
+              <button ion-fab mini class="main-bg-color iconWhite ">
+                <ion-icon ios="md-share" md="md-share" class="btnWhite"></ion-icon>
+              </button>
+              <ion-fab-list side="top">
+                <button  *ngIf="sponsor?.spnsrFacebook" ion-fab class="colorfacebook  shadowIcons" (click)="openLink(sponsor.spnsrFacebook)">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </button>
+                <button  *ngIf="sponsor?.spnsrLinkedin" ion-fab class="colorLinkedin  shadowIcons" (click)="openLink(sponsor.spnsrLinkedin)">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </button>
+                <button  *ngIf="sponsor?.spnsrTwitter" ion-fab class="colortwitter  shadowIcons"  (click)="openLink(sponsor.spnsrTwitter)">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </button>
+                <button  *ngIf="sponsor?.spnsrGoogle" ion-fab class="colorGoogle  shadowIcons" (click)="openLink(sponsor.spnsrGoogle)">
+                  <ion-icon name="logo-googleplus"></ion-icon>
+                </button>
+
+              </ion-fab-list>
+            </ion-fab>
+
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+
+        </ion-col>
+      </ion-row>
+      <ion-row class="row BorderBottomGrey">
+        <ion-col class="col">
+          <div>
+            <h2 class="TittleDetailCard"> {{sponsor?.spnsrName}}</h2>
+            <span class="textCategory PaddingLeftPatrocinador"> Organizador</span>
+          </div>
+        </ion-col>
+        <ion-col class="col" col-auto="">
+          <div>
+
+          </div>
+        </ion-col>
+        <ion-col class="col">
+          <div>
+
+          </div>
+        </ion-col>
+
+      </ion-row>
+
+
+
+    </ion-grid>
+    <ion-grid>
+
+      <ion-row class="row">
+        <ion-col class="col borderRightGrey">
+          <div>
+            <span class="RowItemsCard" col-6>
+
+              <span class="labelIconsTitle main-text-color">
+                <ion-icon ios="ios-bookmark" md="md-bookmark" role="img" class="icon icon-ios main-text-color" aria-label="star"></ion-icon> Categoría </span>
+              <br>
+              <span class="labelIcons" *ngFor="let category of sponsor?.spnsrCategory"> {{category}}</span>
+            </span>
+
+          </div>
+        </ion-col>
+        <ion-col class="col">
+          <div>
+            <span class="RowItemsCard" col-6>
+
+              <span class="labelIconsTitle main-text-color">
+                <ion-icon ios="ios-phone-portrait" md="md-phone-portrait" role="img" class="icon icon-ios main-text-color"
+                  aria-label="star"></ion-icon> Móvil</span>
+              <br>
+              <span class="labelIcons"> {{sponsor?.spnsrPhoneNum}}</span>
+            </span>
+          </div>
+        </ion-col>
+
+
+
+      </ion-row>
+
+      <ion-row class="row">
+
+        <ion-col class="col borderRightGrey">
+          <div>
+            <span class="RowItemsCard" col-6>
+
+              <span class="labelIconsTitle main-text-color text-center">
+                <ion-icon ios="ios-desktop-outline" md="md-desktop" role="img" class="icon icon-ios main-text-color" aria-label="star"></ion-icon> Website</span>
+              <br>
+              <a [href]="sponsor?.spnsrPath">{{sponsor?.spnsrPath}}</a>
+            </span>
+          </div>
+        </ion-col>
+
+        <ion-col class="col">
+          <div>
+            <span class="RowItemsCard" col-6>
+
+              <span class="labelIconsTitle main-text-color">
+                <ion-icon ios="ios-easel" md="md-easel" role="img" class="icon icon-ios main-text-color" aria-label="star"></ion-icon> Stand</span>
+              <br>
+              <span class="labelIcons">{{sponsor?.spnsrStandNum}}</span>
+            </span>
+
+          </div>
+        </ion-col>
+
+
+      </ion-row>
+    </ion-grid>
+
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="RowDetailCard">
+          <h4 class="SubTittle main-text-color">Perfil del Organizador </h4>
+          <div class="lineCard"></div>
+          <p class="textCardRow">
+            <!-- Nam faucibus accumsan purus, sed aliquet neque fringilla quis. Curabitur vel leo venenatis, accumsan urna eget, suscipit neque. Sed in malesuada felis, vitae varius lacus. Ut nec velit a arcu facilisis ultricies ut a turpis. Cras feugiat sapien purus, nec varius sem fringilla vel. Praesent nec lacinia ex. -->
+            {{sponsor?.spnsrDesc}}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <div *ngIf="banDocument > 0">
+    <ion-row>
+      <ion-col>
+        <div class="RowDetailCard">
+          <h4 class="SubTittle main-text-color">Documentación</h4>
+          <div class="lineCard"></div>
+        </div>
+        <div class="suggestion paddingSuggestion">
+       
+          <div class="item-det" *ngFor="let document of  sponsor?.spnsrDocs" (click)="download(document.path)">
+            <ion-row class="row">
+              <ion-col class="col">
+                <div>
+                  <ion-card class="colorCard1Doc">
+
+                    <ion-grid class="grid">
+                      <ion-row class="row">
+                        <ion-col class="col">
+                          <div></div>
+                        </ion-col>
+                        <ion-col class="col" col-auto="">
+                          <div>
+                            <div class="circleDoc {{ document.class }}">
+                              <!-- <ion-icon ios="ios-folder-open" md="md-folder-open" class="iconCircleDoc"></ion-icon> -->
+                              <img class="animated tada  PaddingDoc" [src]="'assets/img/'+document.icon">
+                            </div>
+                          </div>
+                        </ion-col>
+                        <ion-col class="col">
+                          <div></div>
+                        </ion-col>
+                      </ion-row>
+                      <ion-row>
+                        <ion-col>
+                          <div class="card-titleDoc  main-text-colorSecond">Documento</div>
+                        </ion-col>
+                      </ion-row>
+
+                    </ion-grid>
+
+                  </ion-card>
+                </div>
+              </ion-col>
+
+            </ion-row>
+          </div>
+
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+  </ion-grid>
+
+
+</ion-content>
+
+<ion-footer class="main-bg-color ">
+  <ion-row>
+    <ion-col col-12></ion-col>
+  </ion-row>
+</ion-footer>

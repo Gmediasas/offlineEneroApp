@@ -1,0 +1,277 @@
+page-multi-event {
+  .IconMap{
+    font-size:28px;
+  }
+  .logoImgMenu img {
+      border-radius: 50%;
+      border: 2px solid $white;
+      background-color: $white;
+  }
+  .sombraLogo{
+    box-shadow: -2px 9px 5px -6px rgba(0,0,0,0.71);
+  }
+  .backgroundFavorite{
+    background-color: $favoriteOrange;
+    height: 53px;
+    width: 30px;
+    margin-top: -4px;
+    margin-right: 10px;
+    float: right;
+    -webkit-box-shadow: -2px 9px 5px -6px rgba(0, 0, 0, 0.71);
+    box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.54);
+  }
+  .IconFavorite{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .lineRight{
+    border-right: 1px solid rgb(224, 224, 224);
+  }
+  .lineTop{
+    border-top: 1px solid rgba(224, 224, 224, 1);
+  }
+  .classEvent{
+    color: $white;
+    font-size: 13px;
+
+  }
+  .icon100{
+    width: 100%;
+    padding-bottom: 12px;
+    font-size: 16px;
+    color: rgba(93, 93, 93, 1);
+  }
+  .tittleEvent{
+    color: white !important;
+    font-weight: 500;
+    .tittleCategory{
+      font-weight: 300;
+    }
+  }
+	// .LongDivDot{
+	// 	    left: 0;
+	// 	    top: 0;
+	// 	    padding: 2px 90px;
+	// 	    position: fixed;
+	// 	    width: 100%;
+	// 	    height: 50px;
+	// 	    -webkit-transform: translateZ(0);
+	// 	    transform: translateZ(0);
+	// 	    pointer-events: none;
+	// }
+
+	// .LongTextDot{
+	//     display: block;
+	//     overflow: hidden;
+	//     width: 100%;
+	//     text-overflow: ellipsis;
+	//     white-space: nowrap;
+
+	// }
+
+	.LongDivDot{
+		left: 0;
+		/* top: 0; */
+		padding: 2px 10px 2px 7px;
+		position: absolute;
+		width: 100%;
+		height: 50px;
+		text-align: left;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		pointer-events: none;
+	}
+
+	.LongTextDot{
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+
+	}
+
+  order-by {
+    // ANDROID
+    .item-md{
+      background: transparent!important;
+    }      
+    .list-md > .item-block:last-child, .list-md > .item-wrapper:last-child .item-block {
+        border-bottom: 0.55px solid transparent;
+    }
+    .list-md > .item-block:first-child {
+        border-top: 0.55px solid transparent;
+    }
+
+    // IOS
+    .item-ios{
+      background: transparent!important;
+    }
+    .list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+        border-bottom: 0.55px solid transparent;
+    }
+    .list-ios > .item-block:first-child {
+        border-top: 0.55px solid transparent;
+    }
+
+  }
+
+}
+
+.news-title-card-events{
+    margin-top: -76px!important;
+    padding-left: 90px;
+}
+
+ion-content {
+
+    .scroll-content{
+        background: #e5e5e5;
+    }
+
+}
+
+.notifications-badge{
+    background-color: $white;
+    border-radius: 50%;
+    width: 100%;
+    height: 25px;
+    line-height: 20px;
+}
+
+.text-white{
+    div{
+        color: $white;
+    }
+}
+.iconCardHome{
+    font-size:17px;
+}
+.btnMore{
+    width: 100%;
+    // border-radius: 4px; 
+    height: 20px;
+    font-size: 24px;
+    color: #777;
+    background-color: transparent;
+    margin: 0.4rem 0.2rem;
+    padding: 2px 0px 2px 20px;
+}
+.typeEvent {
+    padding: 10px 10px 0px 10px;
+}
+.typeEvent span{
+    height:26px;
+    margin-bottom: 1px; 
+}
+.news-title-card-events{
+    height: 50px;
+    padding-top: 10px;
+}
+.paddingCard{
+    padding: 4px;
+}
+
+.action-sheets-basic-page {
+  .ion-md-share {
+    color: #ED4248;
+  }
+  .ion-md-arrow-dropright-circle {
+    color: #508AE4;
+  }
+  .ion-md-heart-outline {
+    color: #31D55F;
+  }
+  .action-sheet-cancel ion-icon,
+  .action-sheet-destructive ion-icon {
+    color: #757575;
+  }
+}
+
+.searchbar-ios .searchbar-input {
+  
+    color: white;
+}
+.searchbar-ios .searchbar-search-icon{
+    color: white!important;
+}
+.toolbar .searchbar-ios .searchbar-input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.searchbar-ios .searchbar-input {
+    border-radius: 28px;
+}
+.searchbar-ios {
+    padding: 0 20px;
+}
+
+.notifications-badge {
+    background-color: #fcfcfd;
+}
+ion-badge {
+    padding: 5px 3px;
+}
+
+.imgheader{
+  padding: 1px 20px 1px 20px;
+}
+
+
+.heightSlide{
+  height: fit-content !important;
+}
+
+.tutorial-page {
+
+  .toolbar-background {
+    background: #fff;
+    border-color: transparent;
+  }
+
+  .slide-zoom {
+    height: 100%;
+  }
+
+  .slide-title {
+    margin-top: 2.8rem;
+  }
+
+  .slide-image {
+    max-height: 50%;
+    max-width: 60%;
+    margin: 18px 0;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #60646B;
+
+    b {
+      color: #000000;
+    }
+  }
+
+  
+
+
+}
+
+.MarginTopXS{
+      margin-top: -37px;
+}
+.ArrowCity{
+  padding: 0px 70px;
+}
+.article-cat span{
+  color: #808080;
+  font-size: 16px;
+}
+

@@ -1,0 +1,200 @@
+page-single-event-more {
+
+.card-background-page {
+
+  .ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    // position: absolute;
+   height: 59px;
+    bottom: 20%;
+    /* top: 55%; */
+    /* font-family: inherit; */
+    font-size: 19px;
+    width: 85%;
+    line-height: 19px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 10px;
+    // color: white !important;
+    width: 100%;
+    // text-shadow: 4px 1px 7px rgba(72, 72, 72, 0.28);
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+  .iconCard{
+    font-size: 3.5em;
+    position: absolute;
+    top: 21%;
+    width: 85%;
+    text-align: center;
+   color: #33c5d3;
+    text-shadow: 4px 1px 7px rgba(72, 72, 72, 0.12);
+  }
+  .cardBackground{
+    background-color: #ffffff;
+    height: 100px;
+    width: 90%;
+
+  }
+  .backgroundGrey1{
+    background-color: #f5f5f5 !important;
+  }
+
+    // .colorCard1{
+    //  background-color: #F3D885;
+    // }
+    // .colorCard2{
+    //   background-color: #b6d2df;
+    // }
+    // .colorCard3{
+    //  background-color: #f3b385;
+    // }
+    // .colorCard4{
+    //   background-color:#85acf3;
+    // }
+    // .colorCard5{
+    //  background-color: #F3D885;
+    // }
+    // .colorCard6{
+    //   background-color: #b6dfb7;
+    // }
+    // .colorCard7{
+    //  background-color: #85caf3;
+    // }
+    // .colorCard8{
+    //   background-color:#f3b385;
+    // }
+    // .colorCard9{
+    //  background-color: #F3D885;
+    // }
+    // .colorCard10{
+    //   background-color: #f9a7a7;
+    // }
+    // .colorCard11{
+    //  background-color: #b6e0b7;
+    // }
+    // .colorCard12{
+    //   background-color: #b6d6e0;
+    // }
+    // .colorCard13{
+    //  background-color: #F3D885;
+    // }
+    // .colorCard14{
+    //   background-color: #f3a985;
+    // }
+
+  
+    .colorCard1{
+        background-image: url(../assets/img/cardEvent1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard2{
+        background-image: url(../assets/img/cardEvent2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard3{
+        background-image: url(../assets/img/cardEvent3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard4{
+        background-image: url(../assets/img/cardEvent4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard5{
+        background-image: url(../assets/img/cardEvent5.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard6{
+        background-image: url(../assets/img/cardEvent6.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard7{
+        background-image: url(../assets/img/cardEvent7.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard8{
+        background-image: url(../assets/img/cardEvent8.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard9{
+        background-image: url(../assets/img/cardEvent9.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard10{
+        background-image: url(../assets/img/cardEvent10.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard11{
+        background-image: url(../assets/img/cardEvent11.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard12{
+        background-image: url(../assets/img/cardEvent12.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard13{
+        background-image: url(../assets/img/cardEvent13.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard14{
+        background-image: url(../assets/img/cardEvent14.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard15{
+        background-image: url(../assets/img/cardEvent15.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colorCard16{
+        background-image: url(../assets/img/cardEvent16.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .circle{
+        height:80px;
+        width: 80px; 
+        // background-color: blue;
+    }
+    .iconCircle{
+        color: white;
+        font-size: 50px;
+        padding: 15px;
+    }
+    .iconCircle2{
+        color: white;
+        font-size: 42px;
+        padding: 15px 1px;
+    }
+
+	}   
+
+	.iconModule{
+        color: white;
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+}

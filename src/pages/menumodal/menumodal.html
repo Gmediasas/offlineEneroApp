@@ -1,0 +1,46 @@
+<!--
+  Generated template for the MenumodalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<div id="menu-modal" class="bg-opacityModal">
+  <div class="menu_modal animated fadeInRight main-opacity-color">
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-3 offset-9>
+          <ion-icon ios="ios-close" md="md-close" (click)="closeMenuModal()" class="text-white sizeClose "></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+    <ion-content class="menu_content" style="background: none;">
+      <ion-list>
+        <ion-item class="item item-icon-left" (click)="closeMenuModal();">
+          <ion-icon ios="ios-person-outline" md="md-person"></ion-icon>
+          Perfil
+        </ion-item>
+        <!--    <ion-item class="item item-icon-left" (click)="closeMenuModal();goto('/app/home')">
+              <i class="icon ion-stats-bars">
+              </i>
+              Statistics
+          </ion-item> -->
+        <ion-item class="item item-icon-left" (click)="closeMenuModal();">
+          <ion-icon ios="ios-settings-outline" md="md-settings"></ion-icon>
+          {{ 'Configuraciones' | translate }}
+        </ion-item>
+        <ion-item class="item item-icon-left" (click)="closeMenuModal();">
+          <ion-icon ios="ios-information-circle-outline" md="md-information-circle"></ion-icon>
+          {{ 'Ayuda' | translate }}
+        </ion-item>
+        <ion-item class="item item-icon-left" (click)="closeMenuModal();">
+          <ion-icon ios="ios-power-outline" md="md-power"></ion-icon>
+          {{ 'Cerrar' | translate }}
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </div>
+</div>
+

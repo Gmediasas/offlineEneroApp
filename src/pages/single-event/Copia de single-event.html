@@ -1,0 +1,792 @@
+<!--
+  Generated template for the SingleEventPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="bar-stable main-bg-color bar bar-header disable-user-behavior">
+  <ion-toolbar> 
+
+    <ion-buttons left>
+      <button ion-button icon-only (click)='openAppMenu()'>
+      <!--   <img src="assets/img/menu.png"> -->
+      <ion-icon name="menu" class="text-white"></ion-icon>
+        <!-- <ion-icon ios="ios-menu" md="md-menu" class="text-white"></ion-icon> -->
+      </button>
+    </ion-buttons>
+    <ion-buttons left>
+      <button ion-button icon-only (click)='openAppMenu()'>
+        <!-- <span class="notifications-icon main-text-color" ng-click="goto('/app/notification')">6</span>   -->
+        <ion-badge class="notifications-badge main-text-color" color="secondary">
+           <ion-icon name="notifications"></ion-icon>
+        </ion-badge>
+      </button>
+    </ion-buttons>
+
+  <!--   <ion-title class="text-white" text-center>Eventos</ion-title> -->
+<ion-grid>
+     <div>
+        <ion-searchbar class="searchbar searchbar-ios searchbar-left-aligned">
+          <div class="searchbar-input-container">
+            <button class="searchbar-md-cancel disable-hover button button-md button-clear button-clear-md button-clear-md-light" clear="" color="light" ion-button="" mode="md" type="button">
+              <span class="button-inner">
+                <ion-icon name="md-arrow-back" role="img" class="icon icon-ios ion-md-arrow-back" aria-label="arrow white"></ion-icon>
+              </span>
+              <div class="button-effect"></div>
+            </button>
+            <div class="searchbar-search-icon"></div>
+              <input class="searchbar-input" dir="auto" placeholder="Buscar" type="search" autocomplete="off" autocorrect="off" spellcheck="false">
+              <button class="searchbar-clear-icon disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button="" type="button">
+                <span class="button-inner"></span>
+                <div class="button-effect"></div></button></div>
+                <button class="searchbar-ios-cancel disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button="" mode="ios" type="button" tabindex="-1">
+                  <span class="button-inner">Cancel</span>
+                  <div class="button-effect"></div>
+            </button>
+        </ion-searchbar>
+      </div>
+    
+  </ion-grid>
+
+      
+
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="openSearchModal()">
+       <!--  <ion-icon ios="ios-search" md="md-search" class="text-white"></ion-icon> -->
+       <page-btn-menu-modal></page-btn-menu-modal>
+
+      </button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+  
+
+<!-- <page-btn-menu-modal></page-btn-menu-modal> -->
+
+<ion-content id="single-event" class="action-sheets-basic-page">
+
+<!--   <div id="map_canvas"></div> -->
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <div class="details-img" > 
+ 
+    <ion-fab bottom right>
+        <button ion-fab mini class="main-bg-color iconWhite" >
+           <ion-icon ios="md-share" md="md-share" class="btnWhite"></ion-icon>
+        </button>
+        <ion-fab-list side="top">
+          <button ion-fab class="main-text-color"><ion-icon name="logo-facebook"></ion-icon></button>
+          <button ion-fab class="main-text-color"><ion-icon name="logo-twitter"></ion-icon></button>
+          <button ion-fab class="main-text-color"><ion-icon name="logo-linkedin"></ion-icon></button>
+          <button ion-fab class="main-text-color"><ion-icon name="logo-googleplus"></ion-icon></button>
+        </ion-fab-list>
+    </ion-fab>
+    <div class="row ">
+      <br>
+      <br>
+      <br>
+      <br>    
+      <br>
+      <br>
+      <br>
+      <br> 
+      <br>
+      <br>
+      <br>
+      <br>    
+      <br>
+      <br>
+      <br>
+      <br>
+
+    </div>
+    <div  class="col padding ">
+        
+        <div class="col-10 logoImgHome">
+          <img class="animated fadeInLeft" height="100" width="100" src="assets/img/logoImg1.png">
+        </div>
+        <div class="col-30 ">
+          <h4 class="news-title-card-events text-right colorTitleW">
+             
+                       
+                        
+          </h4>
+        </div>
+    </div>
+    
+  </div>
+
+  <div class="det-padding">
+    <h4 class="news-title eventTitle">
+      {{event.evntName}}.
+    </h4>
+    <div class=" col-40 typeEvent2 center">
+      <span>
+      {{event.evntCategoria}}
+      </span>
+    </div>
+  </div>
+
+  <div class="row details-writer">
+    <ion-row _ngcontent-c1="" class="row">
+      <ion-col _ngcontent-c1="" class="col main-text-color">
+        <button _ngcontent-c1="" clear="" color="primary" icon-start="" ion-button="" small="" class="disable-hover button button-ios button-clear button-clear-ios button-small button-small-ios button-clear-ios-primary">
+          <span class="button-inner">
+            <ion-icon name="md-star" class="main-text-color"></ion-icon>
+
+            Favorito
+            </span>
+          <div class="button-effect"></div>
+        </button>
+      </ion-col>
+      <ion-col _ngcontent-c1="" class="col">
+        <button _ngcontent-c1="" clear="" color="primary" icon-start="" ion-button="" small="" class="disable-hover button button-ios button-clear button-clear-ios button-small button-small-ios button-clear-ios-primary">
+          <span class="button-inner">
+          <ion-icon name="md-calendar" class="main-text-colorSecond"></ion-icon>
+            {{event.evntStartDate | date}} 
+          </span>
+          <div class="button-effect"></div>
+        </button>
+      </ion-col>
+      <ion-col _ngcontent-c1="" class="col">
+        <button _ngcontent-c1="" clear="" color="primary" icon-start="" ion-button="" small="" class="disable-hover button button-ios button-clear button-clear-ios button-small button-small-ios button-clear-ios-primary">
+          <span class="button-inner">
+          <ion-icon name="md-pin" class="main-text-colorSecond"></ion-icon>
+          Cartagena
+          </span>
+          <div class="button-effect"></div>
+        </button>
+      </ion-col>
+
+    </ion-row>
+ <!--    <div class="row">
+      <div class="col  padding">
+        <span class="new-reg main-text-color ">
+          <button class=" " >
+            <ion-icon name="md-person-add"></ion-icon>
+          Asistir al evento</button>
+        </span>
+      </div>
+    
+    </div> -->  
+    <div class="col animated flipInX">
+      <button class="  btnEvent  btnAsistir  btnOnly">
+        <span class=""> 
+         <ion-icon name="md-person-add"></ion-icon>
+         {{ 'Asistir' | translate }}
+        </span>
+        <div class="button-effect"></div>
+      </button>
+    </div>
+
+
+<!--     <button color="secondary" icon-start="" ion-button="" outline="" class="disable-hover button button-ios button-outline button-outline-ios button-outline-ios-secondary">
+      <span class="button-inner">
+      <ion-icon is-active="false" name="paw" role="img" class="icon icon-ios ion-ios-paw" aria-label="paw"></ion-icon>
+      Best Friend
+    </span><div class="button-effect"></div></button> -->
+     <!--  <div class="col-80 ">      
+        <span class="date1 ">
+              <ion-icon name="calendar"></ion-icon>
+            21 Mayo 2018 8:00 Am
+        </span>
+      </div>
+        <div class="col col-10">
+               
+        <span class="date1 ">
+              <ion-icon name="calendar"></ion-icon>
+
+            21 Mayo 2018 8:00 Am
+        </span>
+      </div>
+        <div class="col col-50 writer-det">
+
+            <h4>William Stevenson</h4>
+            <p class="main-text-color">Writer and political analyst</p>
+        </div>
+        <div class="col col-40 date text-right">
+            <span>20 second ago</span>
+        </div> -->
+  </div>
+  <div class="row details-writer ">
+    <!-- <div class="col col-10">
+      <img src="assets/img/list-img.png" width="29" height="29" />
+    </div> -->
+    <div class="col col-50 writer-det">
+      <h4>{{event.evntLugarEvento}} Hoteles estelar</h4>
+      <p class="main-text-color laber">{{event.evntDireccion}}</p>
+    </div>
+    <div class="col col-40 label1 text-right">
+      <span> <ion-icon name="checkmark-circle-outline"></ion-icon>
+      10 personas asistiran</span>
+    </div>
+  </div>
+  <div class="det-padding">
+     <div class="mapa">
+        <img src="assets/img/mapa.png"/>
+     </div> 
+     <h4 class="sub-heading main-text-color">{{ 'Descripcion' | translate }}</h4><!-- 
+        <p>{{event.evntDescription}}</p> -->
+       
+        <p>NATO, which operates the missile defense system, said the missiles could not be used offensively as they don't include explosives and are designed to simply "punch" targets out of the sky.</p>
+  </div>
+
+  <ion-content class="card-background-page">
+ <div class="line"></div>
+  <ion-grid class="grid backgroundGrey1">
+<!--     <ion-row class="row">
+      <ion-col class="col" *ngFor="let option of options" (click)="goToPage(option.page)">
+        <div>
+            <ion-card class="{{option.class}}">
+            <img [src]="option.img"/>
+            <div class="card-title">{{option.text}}</div>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row> -->
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard1">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="md-calendar" md="md-calendar" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond">Agenda</div>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard2">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="ios-easel" md="md-easel" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond">Stand</div>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard3">
+             
+              <ion-grid class="grid">
+                <ion-row class="row">
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                  <ion-col class="col" col-auto="">
+                    <div>
+                       <div class="circle sec-main-bg">
+                          <ion-icon ios="ios-map-outline" md="md-map" class="iconCircle"></ion-icon>
+                        </div>
+                    </div>
+                  </ion-col>
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            <div class="card-title  main-text-colorSecond">Mapa</div>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard4">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="ios-pin-outline" md="md-pin" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond">Mapa interactivo</div>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard5">
+             
+              <ion-grid class="grid">
+                <ion-row class="row">
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                  <ion-col class="col" col-auto="">
+                    <div>
+                       <div class="circle sec-main-bg">
+                          <ion-icon ios="ios-mic" md="md-mic" class="iconCircle"></ion-icon>
+                        </div>
+                    </div>
+                  </ion-col>
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            <div class="card-title  main-text-colorSecond">Speakers</div>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard6">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="ios-bookmark" md="md-bookmark" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond">Patrocinadores</div>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard7">
+             
+              <ion-grid class="grid">
+                <ion-row class="row">
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                  <ion-col class="col" col-auto="">
+                    <div>
+                       <div class="circle sec-main-bg">
+                          <ion-icon ios="ios-list-box" md="md-list-box" class="iconCircle"></ion-icon>
+                        </div>
+                    </div>
+                  </ion-col>
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            <div class="card-title  main-text-colorSecond">Noticias</div>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard8">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="logo-facebook" md="logo-facebook" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond">Redes Sociales</div>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard9">
+             
+              <ion-grid class="grid">
+                <ion-row class="row">
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                  <ion-col class="col" col-auto="">
+                    <div>
+                       <div class="circle sec-main-bg">
+                          <ion-icon ios="ios-compass-outline" md="md-compass" class="iconCircle"></ion-icon>
+                        </div>
+                    </div>
+                  </ion-col>
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            <div class="card-title  main-text-colorSecond">WebView</div>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard10">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="ios-chatbubbles-outline" md="md-chatbubbles" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond"> Chat</div>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard11">
+             
+              <ion-grid class="grid">
+                <ion-row class="row">
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                  <ion-col class="col" col-auto="">
+                    <div>
+                       <div class="circle sec-main-bg">
+                          <ion-icon ios="ios-contacts" md="md-contacts" class="iconCircle"></ion-icon>
+                        </div>
+                    </div>
+                  </ion-col>
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            <div class="card-title  main-text-colorSecond">Preguntas</div>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard12">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="ios-images" md="md-images" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond"> {{ 'Galeria' | translate }}</div>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard13">
+             
+              <ion-grid class="grid">
+                <ion-row class="row">
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                  <ion-col class="col" col-auto="">
+                    <div>
+                       <div class="circle sec-main-bg">
+                          <ion-icon ios="logo-youtube" md="logo-youtube" class="iconCircle"></ion-icon>
+                        </div>
+                    </div>
+                  </ion-col>
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            <div class="card-title  main-text-colorSecond">Video</div>
+          </ion-card>
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard14">
+           
+            <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+                <ion-col class="col" col-auto="">
+                  <div>
+                     <div class="circle sec-main-bg">
+                        <ion-icon ios="ios-bookmarks" md="md-bookmarks" class="iconCircle"></ion-icon>
+                      </div>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div></div>
+                </ion-col>
+              </ion-row>
+              
+            </ion-grid>
+            <div class="card-title  main-text-colorSecond"> Documentos</div>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="row">
+      <ion-col class="col">
+        <div>
+            <ion-card class="colorCard15">
+             
+              <ion-grid class="grid">
+                <ion-row class="row">
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                  <ion-col class="col" col-auto="">
+                    <div>
+                       <div class="circle sec-main-bg">
+                          <ion-icon ios="ios-pin" md="md-pin" class="iconCircle"></ion-icon>
+                        </div>
+                    </div>
+                  </ion-col>
+                  <ion-col class="col">
+                    <div></div>
+                  </ion-col>
+                </ion-row>
+                
+              </ion-grid>
+            <div class="card-title  main-text-colorSecond">City tours</div>
+          </ion-card>
+        </div>
+      </ion-col>
+         <ion-col class="col">
+         </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+ <!--       <ion-col class="col">
+        <div>
+            <ion-card class="colorCard1">
+            <img src="assets/img/card1.png" />
+            <div class="card-title ">Agenda</div>
+          </ion-card>
+        </div>
+      </ion-col> -->
+
+
+ <!--      <ion-card>
+        <img src="assets/img/card-madison.png"/>
+        <div class="card-title">Madison</div>
+        <div class="card-subtitle">28 Listings</div>
+      </ion-card> -->
+
+</ion-content>
+
+  <!-- <div class="line black"></div> -->
+
+<!--   <div class="det-padding comments-section">
+    <h4>
+      <ion-icon ios="ios-chatbubbles" md="md-chatbubbles"></ion-icon>
+      COMMENTS
+    </h4>
+    <div class="comments">
+      <div class="row">
+        <div class="col col-10">
+          <img src="assets/img/oth-logo.png" width="29" height="29" />
+        </div>
+        <div class="col col-90 writer-det">
+          <h4>William Stevenson</h4>
+          <p>20 second ago</p>
+        </div>
+      </div>
+      <p class="comment-det">If yesterday in those areas of Romania people</p>
+      <div class="replay-comment" ng-if="text">
+        <label class="item item-input">
+          <textarea rows="3" class="main-text-color" placeholder="Your Comment"></textarea>
+        </label>
+      </div>
+      <span class="replay main-text-color" ng-click="opentextarea()">
+          <ion-icon ios="ios-arrow-round-back" md="md-arrow-round-back"></ion-icon>Reply
+      </span>
+    </div>
+  </div> -->
+
+
+<!--  <div class="line"></div>
+     <div class="suggestion">
+        
+              <div class="item-det" >
+                    <div class="item-img" style="background: url(assets/img/05.png)no-repeat;" ></div>
+                    <div class="padding">
+                        <h4>8 Bizarre Ad Campaigns That Translated Badly</h4>
+                        <span class="heart main-text-color"><i class="ion-ios-heart-outline"></i>23</span>
+                        <span class="comment"><i class="ion-ios-chatboxes-outline"></i>84</span>
+                    </div>
+                </div>
+                 <div class="item-det" >
+                    <div class="item-img" style="background: url(assets/img/05.png)no-repeat;" ></div>
+                    <div class="padding">
+                        <h4>8 Bizarre Ad Campaigns That Translated Badly</h4>
+                        <span class="heart main-text-color"><i class="ion-ios-heart-outline"></i>23</span>
+                        <span class="comment"><i class="ion-ios-chatboxes-outline"></i>84</span>
+                    </div>
+                </div>
+                 <div class="item-det" >
+                    <div class="item-img" style="background: url(assets/img/05.png)no-repeat;" ></div>
+                    <div class="padding">
+                        <h4>8 Bizarre Ad Campaigns That Translated Badly</h4>
+                        <span class="heart main-text-color"><i class="ion-ios-heart-outline"></i>23</span>
+                        <span class="comment"><i class="ion-ios-chatboxes-outline"></i>84</span>
+                    </div>
+                </div>  
+                <div class="item-det" >
+                    <div class="item-img" style="background: url(assets/img/05.png)no-repeat;" ></div>
+                    <div class="padding">
+                        <h4>8 Bizarre Ad Campaigns That Translated Badly</h4>
+                        <span class="heart main-text-color"><i class="ion-ios-heart-outline"></i>23</span>
+                        <span class="comment"><i class="ion-ios-chatboxes-outline"></i>84</span>
+                    </div>
+                </div>
+      </div> -->
+
+
+</ion-content>
+<ion-footer class="comment-footer sec-main-bg animated slideInUp">
+  <ion-grid class="grid">
+    <ion-row class="row">
+      <ion-col class="col">
+        <div class="iconTikets">
+          <ion-icon ios="ios-pricetags" md="md-pricetags"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col class="col" col-6="">
+        <div class="labelTikets">{{ 'Boletas' | translate }}
+          
+        </div>
+      </ion-col>
+      <ion-col class="col">
+        <div class="btnTikets">
+          $ 75
+          
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>
+
+<!-- <ion-footer class="comment-footer sec-main-bg">
+  <ion-toolbar>
+    <ion-item>
+      <ion-label>  <ion-icon ios="ios-chatbubbles" md="md-chatbubbles"></ion-icon> </ion-label>
+      <ion-input type="text" placeholder="Say something"></ion-input>
+    </ion-item>    
+    <ion-buttons end>
+      <button ion-button icon-right (click)="returnMultiEvent()">
+        <ion-icon name="send"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer> -->

@@ -1,0 +1,279 @@
+<!--
+  Generated template for the ConferencesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true" class="lineWhiteNav">
+
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 11px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+
+    <ion-title class="text-white text-center">Agenda</ion-title>
+    <div *ngIf="false">
+      <ion-buttons class="bar-buttons bar-buttons-ios" end>
+        <button color="royal" icon-only="" ion-button="" showwhen="ios,windows" class="text-white disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-royal">
+          <span class="button-inner">
+            <ion-icon name="search" role="img" class="icon icon-ios ion-ios-search" aria-label="search"></ion-icon>
+          </span>
+          <div class="button-effect"></div>
+        </button>
+
+        <button color="light" hidewhen="ios,windows" icon-only="" ion-button="" class="disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-light hidden-hide-when">
+          <span class="button-inner">
+            <ion-icon name="search" role="img" class="icon icon-ios ion-ios-search" aria-label="search"></ion-icon>
+          </span>
+          <div class="button-effect"></div>
+        </button>
+      </ion-buttons>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <!-- {{countdata | json}} -->
+
+  <div class="main-bg-color">
+    <ion-grid class="grid">
+      <ion-row class="row">
+        <ion-col class="col">
+          <div class="text-center">
+            <ion-icon name="arrow-back" class=" ArrowConference" (click)="previousSlide()" *ngIf="currentIndex > 0"></ion-icon>
+          </div>
+        </ion-col>
+        <ion-col class="col" col-8>
+          <div>
+
+            <ion-slides paginationClickable=true initialSlide=0 #slider (ionSlideWillChange)="onSlideChanged($event)">
+
+              <ion-slide *ngFor="let slideDay of scheduleDataDay">
+                <h2 class="slide-title"> Día {{slideDay.dataDay.day}}</h2>
+                <div class="slideDateMonth">
+                  {{slideDay.dataDay.startDateInitDayEvent_UNIX | date:'EEEE'}}
+                </div>
+                <div class="slideDateSchedule">
+                  {{slideDay.dataDay.startDateInitDayEvent_UNIX | date:'LLLL dd yyyy'}}
+                </div>
+                <!-- <ion-item class="someItem">
+                  <h2 class="slide-title"> Día {{slideDay.dataDay.day | json}}</h2>
+                </ion-item> -->
+                <!-- <img src="{{item.img}}">
+                <ion-item color="primary">
+                  {{item.camisa}} | {{item.nome}}
+                </ion-item> -->
+              </ion-slide>
+            </ion-slides>
+
+            <!-- <div class="swiper-button-next" (click)="nextSlide()"></div>
+            <div class="swiper-button-prev" (click)="previousSlide()"></div> -->
+
+
+
+
+          </div>
+        </ion-col>
+        <ion-col class="col">
+          <div class="text-center">
+            <!-- <ion-icon name="arrow-forward" class="ArrowConference" (click)="nextSlide()" *ngIf="currentIndex <= scheduleDataDay.length + 2"></ion-icon> -->
+            <ion-icon name="arrow-forward" class="ArrowConference" (click)="nextSlide()"></ion-icon>
+          </div>
+        </ion-col>
+      </ion-row>
+
+
+
+    </ion-grid>
+    <div class=" backgroundOpacidad AlturaCard1">
+      <ion-row class="">
+        <!-- <ion-col class="col text-center">
+          <div>
+            <ion-icon ios="ios-add-circle-outline" md="md-add-circle" class="IconsCalendarHeader AddConferenceicon"></ion-icon>
+          </div>
+        </ion-col> -->
+        <ion-col class="col text-center" col-6="">
+          <div class="calendarFont">2018</div>
+        </ion-col>
+        <ion-col class="col text-center">
+          <div (click)="goUserConferencesList()">
+            <ion-icon ios="ios-calendar" md="md-calendar" class="IconsCalendarHeader"></ion-icon>
+          </div>
+        </ion-col>
+      </ion-row>
+
+    </div>
+
+  </div>
+
+  <!-- <div *ngFor="let schdle of scheduleDataInfo">
+    {{schdle | json}}
+  </div> -->
+
+  <!-- <div id="bg" class="backgroundColor1" *ngFor="let schdle of scheduleDataInfo">
+    <ion-grid class="grid  NoPadding">
+      <ion-row class="row">
+        <ion-col class="col lineCalendarCard borderLeftColor1" col-1>
+          <div class="iconLeft main-text-color">
+            <ion-icon ios="ios-radio-button-on" md="md-radio-button-on"></ion-icon>
+          </div>
+        </ion-col>
+        <ion-col class="col" col-9>
+          <div>
+            <h1 class="TittleConference main-text-color" (click)="goToDeatil(schdle.schdlUID)">{{schdle.schdlName}}</h1>
+            <ion-col class="col">
+              <ion-col class="col PaddingTop" col-auto>
+                <div>
+                  <span class="TimeConferenceTittle">
+                    <ion-icon ios="md-time" md="md-time" class="iconPaddingLeft"></ion-icon>{{schdle.schdlStartDate | date:'medium'}}</span>
+                </div>
+              </ion-col>
+              <ion-col class="col PaddingTop" col-auto>
+                <div>
+                  <span class="TimeConferenceTittle">
+                    <ion-icon ios="md-time" md="md-time" class="iconPaddingLeft"></ion-icon>{{schdle.schdlFinishDate | date:'medium'}}</span>
+                </div>
+              </ion-col>
+              <ion-col class="col">
+                <div class=" animated flipInX" (click)="addConference(schdle.schdlUID)">
+                  <button class="BtnFollowConference  btnAsistir  btnOnly">
+                    <span>
+                      <ion-icon aria-label="person add" class="icon icon-ios ion-md-person-add" name="md-person-add" ng-reflect-name="md-person-add"
+                        role="img"></ion-icon>
+                      Asistir
+                    </span>
+                    <div class="button-effect"></div>
+                  </button>
+                </div>
+              </ion-col>
+            </ion-col>
+            <ion-row>
+              <ion-col>
+                <span class="Subtitle">Speakers</span>
+                <div class=" logoImgConference paddingPhoto">
+                  <img class="animated fadeInLeft" height="35" width="35" src="assets/img/avatar1.png">
+                  <img class="animated fadeInLeft" height="35" width="35" src="assets/img/avatar2.png">
+                  <img class="animated fadeInLeft" height="35" width="35" src="assets/img/avatar3.png">
+                  <img class="animated fadeInLeft" height="35" width="35" src="assets/img/avatar4.png">
+  
+                </div>
+  
+              </ion-col>
+            </ion-row>
+          </div>
+        </ion-col>
+        <ion-col class="col" col-1>
+          <div class="arrowRight">
+            <ion-icon ios="ios-arrow-forward" md="md-arrow-forward" role="img" class="icon icon-ios ion-ios-arrow-forward" aria-label="arrow forward"
+              ng-reflect-ios="ios-arrow-forward" ng-reflect-md="md-arrow-forward" (click)="goToDeatil(schdle.schdlUID)"></ion-icon>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <div class="col"></div>
+  </div> -->
+
+  <div id="bg" *ngFor="let schdle of scheduleDataInfo | orderBy: {property: search_key, direction: direction} " class="backgroundColor1">
+    <ion-grid class="grid  NoPadding">
+      <ion-row class="row">
+        <ion-col class="col lineCalendarCard borderLeftColor1" col-1>
+          <div class="iconLeft main-text-color">
+            <ion-icon ios="ios-radio-button-on" md="md-radio-button-on"></ion-icon>
+          </div>
+        </ion-col>
+        <ion-col class="col" col-10>
+          <div>
+            <div class="TittleConference main-text-color" (click)="goToDeatil(schdle.schdlUID)">{{schdle.schdlName}}</div>
+            <ion-row class="row">
+              <ion-col class="col PaddingTop">
+                <div>
+                  <span class="TimeConferenceTittle">
+                    <ion-icon ios="md-time" md="md-time" class="iconPaddingLeft"></ion-icon>{{schdle.dateStartSchdl_UNIX
+                    | date:'h:mm a'}}
+                  </span>
+                </div>
+              </ion-col>
+              <ion-col class="col PaddingTop">
+                <div>
+                  <span class="TimeConferenceTittle">
+                    <ion-icon ios="md-time" md="md-time" class="iconPaddingLeft"></ion-icon>{{schdle.dateFinishSchdl_UNIX
+                    | date:'h:mm a'}}
+                  </span>
+                </div>
+              </ion-col>
+
+              <ion-col class="col">
+
+                <div class="animated flipInX" *ngIf="!schdle.asistire" (click)="addConference(schdle.schdlUID,schdle)">
+
+                  <button class="BtnFollowConference  btnAsistir  btnOnly">
+                    <span>
+                      <ion-icon aria-label="person add" class="icon icon-ios ion-md-person-add" name="md-person-add"
+                        ng-reflect-name="md-person-add" role="img"></ion-icon>
+                      {{ 'Asistir' | translate }}
+                    </span>
+                    <div class="button-effect"></div>
+                  </button>
+
+                </div>
+
+                <div class="animated flipInX" *ngIf="schdle.asistire" (click)="removeConference(schdle.schdlUID)">
+
+                  <button class="BtnFollowConference  btnAsistir  btnOnly">
+                    <span>
+                      {{'Noasistir'| translate}}
+                    </span>
+                    <div class="button-effect"></div>
+                  </button>
+
+                </div>
+
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <span class="Subtitle">Conferencistas</span>
+                <div class=" logoImgConference paddingPhoto">
+
+                  <span *ngFor="let speaker of schdle.schdlSpeakers">
+
+                    <img class="animated fadeInLeft sombraLogo" height="35" width="35" [src]="speaker.photo" (error)="errorSpeakerPhoto($event)">
+
+                  </span>
+
+                </div>
+
+              </ion-col>
+            </ion-row>
+          </div>
+        </ion-col>
+        <!-- <ion-col class="col" col-1>
+          <div class="arrowRight">
+            <ion-icon ios="ios-arrow-forward" md="md-arrow-forward" role="img" class="icon icon-ios ion-ios-arrow-forward" aria-label="arrow forward"
+              ng-reflect-ios="ios-arrow-forward" ng-reflect-md="md-arrow-forward" (click)="goToDeatil(schdle.schdlUID)"></ion-icon>
+          </div>
+        </ion-col>-->
+      </ion-row>
+    </ion-grid>
+    <!-- <div class="col"></div> -->
+  </div>
+
+  <div *ngIf="countdata <= 0">
+    <ion-card>
+      <ion-item>
+        <h2>No hay registros</h2>
+        <p>No existe informacion de conferencias para este evento</p>
+      </ion-item>
+    </ion-card>
+  </div>
+
+</ion-content>

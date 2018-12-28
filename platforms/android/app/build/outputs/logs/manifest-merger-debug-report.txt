@@ -1,0 +1,795 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:12:127-180
+manifest
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/f85460852d5fcea327b1bec4e70dd88f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/6b54fdf2741d4ab0dd189f0f5e8c54b6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/0e1522b3a039494ad92683ee94c5a9d6/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.39.0.aar/c960cad2b986ab9d806ec90054f9f7ad/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-login-4.39.0.aar/590b17c5c0c017e2c07c6b9f84764983/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-share-4.39.0.aar/9e553619575bbebe957f207192710a02/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:21:1-37:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/4b46b3cf63b54e52cc4c85a39b0be614/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/b9fc620e15cd8a82aec18cd678c1240b/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/ca404c5eaa32c23573af913e56240a87/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/44f8de62292d75700689a77e0fc592b9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cb7c8d1a0234bace3bef7d59a7dca9a6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/a1294f2da09b01816a47123262f4cc3e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/06fe03908c0ded38604d1227317b2e37/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f07c22ad3a8fc1db3b4a86af669ea221/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/899f4bc34a2832207e8f9b66b7f8c2be/AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/d1ae160e028fd3bad320cf7d7548e5cd/AndroidManifest.xml:2:1-13:12
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:2:1-101:12
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:2:1-26:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/4e5b1eb8b116fe8e65963e96954a94e5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-places:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-places-4.39.0.aar/8e3fde5bff591dd98ce392414b037d6f/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.39.0.aar/d4ded28d2f19d20ece68f857eef63473/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.39.0.aar/612e829fc7cd27cc38b5dc53ec56290b/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:21:1-53:12
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/7b3c7af2559eb17ffabd8a84fc0e7845/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/3fc472e9778b0e9848b42b9f606584df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/acd54381404b49280002b3ca6179e161/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/b5d6bbe43f8bfe5e820b2c5190bac9c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/0001d172724a104b11f1007d54c4039f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6b91bd5bb619f91feda996e99f1601b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/8b98f65347918e6aff21be83d12d6e6e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a9aa6e8334545bcb5349b4a755ab0d17/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e4766f86bf9cbd8838b51b2705fdfd34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/55c8092c290742c4eac44129e8578e45/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/65b1f5850bf3552c690bce09cbf2f9a3/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:102-139
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:140-198
+	android:versionCode
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/0e1522b3a039494ad92683ee94c5a9d6/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/0e1522b3a039494ad92683ee94c5a9d6/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:23:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/d1ae160e028fd3bad320cf7d7548e5cd/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/d1ae160e028fd3bad320cf7d7548e5cd/AndroidManifest.xml:9:5-67
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:9:5-67
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:9:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:5:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/f85460852d5fcea327b1bec4e70dd88f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/f85460852d5fcea327b1bec4e70dd88f/AndroidManifest.xml:7:5-20
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/6b54fdf2741d4ab0dd189f0f5e8c54b6/AndroidManifest.xml:9:5-20
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/6b54fdf2741d4ab0dd189f0f5e8c54b6/AndroidManifest.xml:9:5-20
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/0e1522b3a039494ad92683ee94c5a9d6/AndroidManifest.xml:11:5-20
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/0e1522b3a039494ad92683ee94c5a9d6/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.39.0.aar/c960cad2b986ab9d806ec90054f9f7ad/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.39.0.aar/c960cad2b986ab9d806ec90054f9f7ad/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-login-4.39.0.aar/590b17c5c0c017e2c07c6b9f84764983/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-login-4.39.0.aar/590b17c5c0c017e2c07c6b9f84764983/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-share-4.39.0.aar/9e553619575bbebe957f207192710a02/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-share-4.39.0.aar/9e553619575bbebe957f207192710a02/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/4b46b3cf63b54e52cc4c85a39b0be614/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/4b46b3cf63b54e52cc4c85a39b0be614/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/b9fc620e15cd8a82aec18cd678c1240b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/b9fc620e15cd8a82aec18cd678c1240b/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/ca404c5eaa32c23573af913e56240a87/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/ca404c5eaa32c23573af913e56240a87/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/44f8de62292d75700689a77e0fc592b9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/44f8de62292d75700689a77e0fc592b9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cb7c8d1a0234bace3bef7d59a7dca9a6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cb7c8d1a0234bace3bef7d59a7dca9a6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/a1294f2da09b01816a47123262f4cc3e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/a1294f2da09b01816a47123262f4cc3e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/06fe03908c0ded38604d1227317b2e37/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/06fe03908c0ded38604d1227317b2e37/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:22:5-26:19
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/d1ae160e028fd3bad320cf7d7548e5cd/AndroidManifest.xml:11:5-20
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/d1ae160e028fd3bad320cf7d7548e5cd/AndroidManifest.xml:11:5-20
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:11:5-99:19
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:11:5-99:19
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:11:5-24:19
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:11:5-24:19
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/4e5b1eb8b116fe8e65963e96954a94e5/AndroidManifest.xml:9:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/4e5b1eb8b116fe8e65963e96954a94e5/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-places:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-places-4.39.0.aar/8e3fde5bff591dd98ce392414b037d6f/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-places-4.39.0.aar/8e3fde5bff591dd98ce392414b037d6f/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.39.0.aar/d4ded28d2f19d20ece68f857eef63473/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.39.0.aar/d4ded28d2f19d20ece68f857eef63473/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.39.0.aar/612e829fc7cd27cc38b5dc53ec56290b/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.39.0.aar/612e829fc7cd27cc38b5dc53ec56290b/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:28:5-51:19
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/7b3c7af2559eb17ffabd8a84fc0e7845/AndroidManifest.xml:9:5-20
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/7b3c7af2559eb17ffabd8a84fc0e7845/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#com.gmediasas.fseguridadapp.MainActivity
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:15:9-102
+	android:value
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:15:66-99
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:15:20-65
+meta-data#com.facebook.sdk.ApplicationName
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:16:9-106
+	android:value
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:16:68-103
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:16:20-67
+activity#com.facebook.FacebookActivity
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:17:9-186
+MERGED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:17:103-138
+	android:configChanges
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:17:19-102
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:17:139-183
+activity#com.gae.scaffolder.plugin.FCMPluginActivity
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:18:9-23:20
+	android:launchMode
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:18:43-73
+	android:exported
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:18:19-42
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:18:74-132
+intent-filter#FCM_PLUGIN_ACTIVITY+android.intent.category.DEFAULT
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:19:13-22:29
+action#FCM_PLUGIN_ACTIVITY
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:20:17-62
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:20:25-59
+category#android.intent.category.DEFAULT
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:21:27-73
+service#com.gae.scaffolder.plugin.MyFirebaseMessagingService
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:24:9-28:19
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:24:18-85
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:25:13-27:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:26:17-78
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:26:25-75
+service#com.gae.scaffolder.plugin.MyFirebaseInstanceIDService
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:29:9-33:19
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:29:18-86
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:30:13-32:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:31:17-80
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:31:25-77
+meta-data#io.fabric.ApiKey
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:34:9-111
+	android:value
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:34:52-108
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:34:20-51
+uses-sdk
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:36:5-74
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:36:5-74
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/f85460852d5fcea327b1bec4e70dd88f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/f85460852d5fcea327b1bec4e70dd88f/AndroidManifest.xml:5:5-44
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/6b54fdf2741d4ab0dd189f0f5e8c54b6/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:twitter:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-1.4.0.aar/6b54fdf2741d4ab0dd189f0f5e8c54b6/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/0e1522b3a039494ad92683ee94c5a9d6/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:tweet-ui:1.1.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-ui-1.1.0.aar/0e1522b3a039494ad92683ee94c5a9d6/AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.39.0.aar/c960cad2b986ab9d806ec90054f9f7ad/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.39.0.aar/c960cad2b986ab9d806ec90054f9f7ad/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-login-4.39.0.aar/590b17c5c0c017e2c07c6b9f84764983/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-login-4.39.0.aar/590b17c5c0c017e2c07c6b9f84764983/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-share-4.39.0.aar/9e553619575bbebe957f207192710a02/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-share-4.39.0.aar/9e553619575bbebe957f207192710a02/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/4b46b3cf63b54e52cc4c85a39b0be614/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/4b46b3cf63b54e52cc4c85a39b0be614/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/b9fc620e15cd8a82aec18cd678c1240b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/b9fc620e15cd8a82aec18cd678c1240b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/ca404c5eaa32c23573af913e56240a87/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/ca404c5eaa32c23573af913e56240a87/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/44f8de62292d75700689a77e0fc592b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/44f8de62292d75700689a77e0fc592b9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cb7c8d1a0234bace3bef7d59a7dca9a6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/cb7c8d1a0234bace3bef7d59a7dca9a6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/a1294f2da09b01816a47123262f4cc3e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/a1294f2da09b01816a47123262f4cc3e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/06fe03908c0ded38604d1227317b2e37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/06fe03908c0ded38604d1227317b2e37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f07c22ad3a8fc1db3b4a86af669ea221/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f07c22ad3a8fc1db3b4a86af669ea221/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/899f4bc34a2832207e8f9b66b7f8c2be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/899f4bc34a2832207e8f9b66b7f8c2be/AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/d1ae160e028fd3bad320cf7d7548e5cd/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:tweet-composer:0.7.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/tweet-composer-0.7.3.aar/d1ae160e028fd3bad320cf7d7548e5cd/AndroidManifest.xml:7:5-43
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:7:5-43
+MERGED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:7:5-43
+MERGED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/4e5b1eb8b116fe8e65963e96954a94e5/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/fabric-1.3.0.aar/4e5b1eb8b116fe8e65963e96954a94e5/AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-places:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-places-4.39.0.aar/8e3fde5bff591dd98ce392414b037d6f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-places-4.39.0.aar/8e3fde5bff591dd98ce392414b037d6f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.39.0.aar/d4ded28d2f19d20ece68f857eef63473/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.39.0.aar/d4ded28d2f19d20ece68f857eef63473/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.39.0.aar/612e829fc7cd27cc38b5dc53ec56290b/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.39.0.aar/612e829fc7cd27cc38b5dc53ec56290b/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:24:5-26:41
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/7b3c7af2559eb17ffabd8a84fc0e7845/AndroidManifest.xml:5:5-7:41
+MERGED from [com.twitter.cobalt:performance-metrics:0.2.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/performance-metrics-0.2.0.aar/7b3c7af2559eb17ffabd8a84fc0e7845/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/3fc472e9778b0e9848b42b9f606584df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/3fc472e9778b0e9848b42b9f606584df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/acd54381404b49280002b3ca6179e161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/acd54381404b49280002b3ca6179e161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/b5d6bbe43f8bfe5e820b2c5190bac9c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/b5d6bbe43f8bfe5e820b2c5190bac9c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/0001d172724a104b11f1007d54c4039f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/0001d172724a104b11f1007d54c4039f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6b91bd5bb619f91feda996e99f1601b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6b91bd5bb619f91feda996e99f1601b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/8b98f65347918e6aff21be83d12d6e6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/8b98f65347918e6aff21be83d12d6e6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a9aa6e8334545bcb5349b4a755ab0d17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/a9aa6e8334545bcb5349b4a755ab0d17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e4766f86bf9cbd8838b51b2705fdfd34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e4766f86bf9cbd8838b51b2705fdfd34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/55c8092c290742c4eac44129e8578e45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/55c8092c290742c4eac44129e8578e45/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/65b1f5850bf3552c690bce09cbf2f9a3/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/65b1f5850bf3552c690bce09cbf2f9a3/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:36:5-74
+	android:targetSdkVersion
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:36:42-71
+	android:minSdkVersion
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:36:15-41
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:37:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:38:5-80
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:38:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:39:5-81
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:39:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:40:5-79
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:40:22-76
+uses-feature#android.hardware.location.gps
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:41:5-66
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:41:19-63
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:42:5-75
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:42:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:43:5-68
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:43:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:44:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:44:22-76
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from /home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/src/main/AndroidManifest.xml:13:24-74
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-common-4.39.0.aar/97afefe6dc21d66ee5092f46901935a0/AndroidManifest.xml:34:19-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/a882e8b22d1511d8d7550e9f2ab7efdd/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/ccebe7d5e119f08ae13a0df7f2559547/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/1c0f1192d3c02030b91cdf542fa0e6b1/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/2e602b181ec65847e2a89f393ca3de62/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:38:13-78
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/952507029c9c60d22515b3c36f84a04e/AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/ad3c927ec4162f9a859e975780c26767/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/600cdcdfa7932222f356bf439e3715af/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/148019894614022300beb72fb924d825/AndroidManifest.xml:24:13-58
+activity#com.digits.sdk.android.PhoneNumberActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:12:9-18:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:15:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:18:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:16:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:14:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:17:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:13:13-70
+activity#com.digits.sdk.android.ConfirmationCodeActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:19:9-25:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:22:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:25:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:21:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:24:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:20:13-75
+activity#com.digits.sdk.android.LoginCodeActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:26:9-33:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:31:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:33:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:30:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:28:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:27:13-68
+activity#com.digits.sdk.android.PinCodeActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:34:9-41:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:37:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:39:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:41:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:36:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:40:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:35:13-66
+activity#com.digits.sdk.android.FailureActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:42:9-47:61
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:45:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:44:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:47:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:43:13-66
+activity#com.digits.sdk.android.ContactsActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:48:9-52:40
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:51:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:52:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:50:13-59
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:49:13-67
+activity#com.digits.sdk.android.PhoneNumberActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:53:9-59:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:56:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:59:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:57:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:55:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:58:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:54:13-79
+activity#com.digits.sdk.android.ConfirmationCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:60:9-66:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:63:13-46
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:66:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:64:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:62:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:65:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:61:13-84
+activity#com.digits.sdk.android.LoginCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:67:9-74:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:70:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:72:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:71:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:69:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:73:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:68:13-77
+activity#com.digits.sdk.android.FailureActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:75:9-80:61
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:78:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:77:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:80:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:76:13-75
+activity#com.digits.sdk.android.ContactsActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:81:9-85:40
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:84:13-46
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:85:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:83:13-59
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:82:13-76
+activity#com.digits.sdk.android.PinCodeActionBarActivity
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:86:9-93:58
+	android:excludeFromRecents
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:89:13-46
+	android:launchMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:91:13-43
+	android:windowSoftInputMode
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:93:13-55
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:90:13-37
+	android:configChanges
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:88:13-59
+	android:taskAffinity
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:92:13-58
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:87:13-75
+service#com.digits.sdk.android.ContactsUploadService
+ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:95:9-98:40
+	android:enabled
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:97:13-35
+	android:exported
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from [com.digits.sdk.android:digits:1.4.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/digits-1.4.0.aar/9e88ceb6a11a775f0e4f73a796766199/AndroidManifest.xml:96:13-72
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:12:9-16:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:15:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:16:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:14:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:13:13-79
+activity#com.twitter.sdk.android.core.identity.ShareEmailActivity
+ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:17:9-23:48
+	android:label
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:23:13-45
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:20:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:21:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:19:13-59
+	android:icon
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:22:13-53
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:1.3.2] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/twitter-core-1.3.2.aar/56ee46f40538bf405737521b8d1de849/AndroidManifest.xml:18:13-84
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.39.0.aar/dcb33c684d0ce9b47fa759daf55b06aa/AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:45:13-86
+intent-filter#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/desarrollo/.gradle/caches/transforms-1/files-1.1/facebook-core-4.39.0.aar/97b59455153857677b86e00aa1889f33/AndroidManifest.xml:48:25-92

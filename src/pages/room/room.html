@@ -1,0 +1,121 @@
+<!--
+  Generated template for the RoomPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+    <button ion-button navPop icon-only class="text-white">
+     <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+    </button>
+  </ion-buttons>
+    <ion-title class="text-white text-center">{{ 'Chat' | translate }}</ion-title>
+<!--     <ion-buttons end>
+      <button ion-button icon-only (click)="addRoom()" class="text-white">
+        <ion-icon ios="ios-add-circle-outline" md="md-add-circle"></ion-icon>
+      </button>
+    </ion-buttons> -->
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="backgroundGrey1">
+
+  <div class="BackImageList ">
+    <div class="GradientColor">
+
+      <ion-grid class="paddingSearch">
+        <!--       <div>
+          <ion-searchbar class="searchbar searchbar-ios searchbar-left-aligned">
+            <div class="searchbar-input-container">
+              <button class="searchbar-md-cancel disable-hover button button-md button-clear button-clear-md button-clear-md-light" clear="" color="light" ion-button="" mode="md" type="button">
+                <span class="button-inner">
+                  <ion-icon name="md-arrow-back" role="img" class="icon icon-ios ion-md-arrow-back" aria-label="arrow white"></ion-icon>
+                </span>
+                <div class="button-effect"></div>
+              </button>
+              <div class="searchbar-search-icon"></div>
+                <input class="searchbar-input" dir="auto" placeholder="Buscar" type="search" autocomplete="off" autocorrect="off" spellcheck="false">
+                <button class="searchbar-clear-icon disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button="" type="button">
+                  <span class="button-inner"></span>
+                  <div class="button-effect"></div></button></div>
+                  <button class="searchbar-ios-cancel disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button="" mode="ios" type="button" tabindex="-1">
+                    <span class="button-inner">Cancel</span>
+                    <div class="button-effect"></div>
+              </button>
+          </ion-searchbar>
+        </div> -->
+
+      </ion-grid>
+
+      <ion-grid>
+        <ion-row class="row">
+          <ion-col class="col">
+            <div></div>
+          </ion-col>
+          <ion-col class="col text-center" col-8="">
+
+          <!--   <order-by
+              [sort_component] = "sort_component"
+               (sort_by_output)="sortBy($event)"
+              (sort_by_direction_output)="sortByDirection($event)"
+            >
+            </order-by> -->
+
+          </ion-col>
+          
+          <ion-col class="col">
+            <div></div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </div>
+
+  </div>
+
+<!--   <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher> -->
+
+  <div >
+
+    <ion-card class="card card-ios  shadowCards heightCards borderCard marginBottomCard" *ngFor="let room of rooms" (click)="joinRoom(room.key, dataEvent, dataUser)">
+      <ion-item class="item item-block item-ios">
+
+        <ion-grid class="grid">
+          <ion-row class="row">
+            <ion-col class="col">
+              <div>
+                <div class="avatarCard   text-center">
+                  <i class="demo-icon  icon-geventscomment-1 placeholder-icon IconColor" style="padding-top: 8px;">&#xe877;</i>
+               <!--  <img class=" detailsimgSpeaker"   src="assets/img/607x411.png"> -->
+                </div>
+              </div>
+            </ion-col>
+            <ion-col class="col">
+              <div class="LongDivDot">
+                <h2 class="LongTextDot">   {{room.roomname}} </h2>
+                <!-- <p>#Stand: {{stnd.standName}}</p> -->
+              </div>
+            </ion-col>
+            <ion-col class="col">
+              <div class="arrowCard">
+                <ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>
+
+              </div>
+            </ion-col>
+          </ion-row>
+
+        </ion-grid>
+
+      </ion-item>
+    </ion-card>
+
+  </div>
+
+
+</ion-content>

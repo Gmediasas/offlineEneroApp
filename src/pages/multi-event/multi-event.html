@@ -1,0 +1,325 @@
+<!--
+  Generated template for the MultiEventPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- bar-stable main-bg-color bar bar-header disable-user-behavior -->
+<ion-header id="one-header" class="bar-stable main-bg-color bar bar-header disable-user-behavior" [color]="'#FFD406'">
+  <ion-toolbar>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)='goToProfilePage()'>
+        <!--   <img src="assets/img/menu.png"> -->
+        <!--   <ion-icon name="menu" class="text-white"></ion-icon> -->
+        <div class="logoImgMenu">
+            <thumbnail-photo-profile
+              [width]="35" [height]="35">
+            </thumbnail-photo-profile>
+        </div>
+        <!-- <ion-icon ios="ios-menu" md="md-menu" class="text-white"></ion-icon> -->
+      </button>
+    </ion-buttons>
+
+    <!--     <ion-buttons left>
+      <button ion-button icon-only (click)='openAppMenu()'>
+     
+        <ion-badge class="notifications-badge main-text-color" color="secondary">
+          <ion-icon name="notifications"></ion-icon>
+        </ion-badge>
+      </button>
+    </ion-buttons> -->
+
+    <!--   <ion-title class="text-white" text-center>Eventos</ion-title> -->
+    <ion-grid>
+      <div>
+        <ion-searchbar class="searchbar searchbar-ios searchbar-left-aligned" #txtFname>
+          <div class="searchbar-input-container">
+            <button class="searchbar-md-cancel disable-hover button button-md button-clear button-clear-md button-clear-md-light" clear=""
+              color="light" ion-button="" mode="md" type="button">
+              <span class="button-inner">
+                <ion-icon name="md-arrow-back" role="img" class="icon icon-ios ion-md-arrow-back" aria-label="arrow white"></ion-icon>
+              </span>
+              <div class="button-effect"></div>
+            </button>
+            <div class="searchbar-search-icon">
+              <i class="demo-icon  icon-geventssearch-2 text-white">&#xe8f9;</i>
+            </div>
+
+            <!-- <input #txtFname class="searchbar-input" dir="auto" placeholder="Buscar" type="search" autocomplete="off" autocorrect="off" spellcheck="false"> -->
+
+            <button class="searchbar-clear-icon disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button=""
+              type="button">
+              <span class="button-inner"></span>
+              <div class="button-effect"></div>
+            </button>
+          </div>
+          <button class="searchbar-ios-cancel disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button=""
+            mode="ios" type="button" tabindex="-1">
+            <span class="button-inner">Cancel</span>
+            <div class="button-effect"></div>
+          </button>
+        </ion-searchbar>
+        <!-- <input  #txtFname  placeholder="enter search term here"> -->
+      </div>
+
+    </ion-grid>
+
+    <!-- <ion-buttons end>
+
+       <ion-icon ios="ios-search" md="md-search" class="text-white"></ion-icon>
+        <page-btn-menu-modal></page-btn-menu-modal>
+
+      <button ion-button icon-only>
+        <i class="demo-icon  icon-geventslocation-3 IconMap text-white">&#xe97b;</i>
+
+        <ion-icon ios="ios-search" md="md-search" class="text-white"></ion-icon>
+
+
+      </button>
+
+    </ion-buttons> -->
+
+  </ion-toolbar>
+
+
+
+</ion-header>
+
+<ion-content style="background: #e5e5e5;">
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <div class="home-head animated jackInTheBox">
+
+    <div class="col col-12 imgheader animated slideInDown">
+      <!-- <img height="70" src="assets/img/logo-homewhite.png" width="230"> -->
+      <!-- <img  [src]="app_instance?.logo" width="230"> -->
+      <img [src]="app_instance?.logo" height="120">
+    </div>
+
+    <!--       <h4 class="home-title" ng-click="goto('/citymodal')">
+          Cartagena
+      </h4> -->
+    <ion-slides class="heightSlide" (ionSlideDidChange)="slideCitiesChanged()">
+        <!-- class="width:500px" -->
+      <ion-slide 
+          *ngFor="let city of cities_events">
+
+        <h4 class="home-title" >
+            {{city}}
+        </h4>
+
+      </ion-slide>
+
+    </ion-slides>
+
+    <div class="text-center MarginTopXS">
+      <!--  <i class="demo-icon icon-geventsfacebook-1  ">&#xe959;</i>
+            <i class="demo-icon icon-geventsfacebook-1  ">&#xe959;</i> -->
+      <ion-icon name="arrow-back" class="text-white ArrowCity"></ion-icon>
+      <ion-icon name="arrow-forward" class="text-white ArrowCity"></ion-icon>
+    </div>
+  </div>
+
+  <div class="row article-cat" style="    height: 59px;">
+    <div class="col" text-center>
+      <!-- <img src="img/pol.png"/>
+            <i class="icon ion-android-search placeholder-icon">
+          </i> -->
+          
+      <order-by 
+        [sort_component]="sort_component" (sort_by_output)="sortBy($event)" (sort_by_direction_output)="sortByDirection($event)">
+      </order-by>
+
+    </div>
+    <!--      <div class="col col-50 text-right">
+      </div> -->
+  </div>
+
+  <div class="line"></div>
+
+  <div class="home-det shadow2 borderCard animated bounceIn " 
+       *ngFor="let item of events| orderBy: {property: search_key, direction: direction} | searchfilter: 'evntName' : txtFname.value"
+       >
+
+      <div *ngIf="item.evntCiudadEvento === city_current_slide || city_current_index == 0" 
+        class="bg-img borderImg" 
+        (click)='goToEventDetail(item.evntUID, data_user)' 
+        [ngStyle]="{'background-image': 'url(' +  getBanner(item)  + ') ' } "
+        >
+
+        <div class="col paddingCard">
+          <div class="backgroundFavorite">
+            <i class="demo-icon  icon-geventsstar-filled IconFavorite">&#xe95d;</i>
+          </div>
+          <br>
+          <br>
+          <br>
+        </div>
+
+        <ion-grid class="grid bgCardText">
+          <ion-row class="row">
+            <ion-col class="col" col-3>
+              <div class="col-10 logoImgHome ">
+                <img height="80" class="sombraLogo" [src]=" getIcon(item) " width="80" />
+              </div>
+            </ion-col>
+            <ion-col class="col" col-9>
+              <div class="LongDivDot">
+                <h4 class="LongTextDot tittleEvent"> {{item.evntName | sentence}}
+                  <div class="tittleCategory"> {{item.evntCategoria}}</div>
+                </h4>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+      </div>
+
+      <div class="padding"
+          *ngIf="item.evntCiudadEvento === city_current_slide || city_current_index == 0">
+        <div class="col ">
+          <!--         <div class=" col-40 typeEvent text-left">
+              <span>
+                {{item.evntCategoria}}
+              </span>
+            </div> -->
+
+          <ion-grid class="grid">
+            <ion-row class="row"></ion-row>
+            <ion-row class="row">
+              <ion-col class="lineRight">
+                <div>
+                  <i class="demo-icon  icon-geventscalendar icon100">&#xe849;</i>
+                  <div class="date1 text-center">
+
+
+                    {{item.evntStartDate | date}}
+                    <!-- <br>
+                      8:00 Am (Quemado) -->
+                  </div>
+                </div>
+              </ion-col>
+              <ion-col class="lineRight">
+                <div>
+                  <i class="demo-icon   icon-geventsclock-3 icon100">&#xe9ef;</i>
+                  <div class="date1 text-center">
+
+                    {{item.evntStartDate | date:'HH:mm a'}}
+                    <!-- <br>
+                      8:00 Am (Quemado) -->
+                  </div>
+                </div>
+              </ion-col>
+              <ion-col class="lineRight">
+                <div>
+                  <i class="demo-icon   icon-geventslocation-3 icon100">&#xe97b;</i>
+                  <div class="date1 text-center">
+
+
+                    {{item.evntPlace.placeName | sentence}}
+                  </div>
+                </div>
+              </ion-col>
+              <ion-col class="col" col-2>
+                <div>
+                  <button class="btnMore" block right (click)="openMenu()">
+                    <!-- <ion-icon name="more"></ion-icon>  -->
+                    <i class="demo-icon icon-geventsshare">&#xf1e0;</i>
+                  </button>
+
+                </div>
+              </ion-col>
+
+            </ion-row>
+
+            <!--           <ion-row class="row lineTop" >
+
+                <ion-col class="col" col-5>
+                  <div class="iconCardHome">
+                    <span class="comment">
+                      <i class="demo-icon    icon-geventsbookmark">&#xe819;</i>
+                        {{item.evntCategoria}}
+                    </span>
+                  </div>
+                </ion-col>
+                <ion-col class="col" col-4>
+                  <div class="iconCardHome">
+                    <span class="comment">
+                            <i class="demo-icon icon-geventsuser-add-1">&#xe9d8;</i>
+                      Asistir
+                    </span>
+                  </div>
+                </ion-col>
+                <ion-col>
+                  <div>
+                    <span class="date1 text-right">
+                      <i class="demo-icon   icon-geventslocation-2">&#xe8c6;</i>
+
+                      {{item.evntPlace.placeName | sentence}}
+                    </span>
+                  </div>
+                </ion-col>
+                <ion-col class="col">
+                  <div>
+                    <button class="btnMore" block right (click)="openMenu()">
+                    <i class="demo-icon icon-geventsdot-3">&#xe918;</i>
+                    </button>
+
+                  </div>
+                </ion-col>
+              </ion-row> -->
+          </ion-grid>
+          <!--
+            <div class="col-50">
+              <span class="date1 ">
+                <ion-icon ios="ios-calendar-outline" md="md-calendar"></ion-icon>
+                {{item.evntStartDate | date}}
+
+              </span>
+            </div>
+            <div class="col-50">
+              <span class="date1 text-right">
+                <ion-icon ios="ios-pin-outline" md="md-pin"></ion-icon>
+                {{item.evntPlace.placeName}}
+              </span>
+            </div> -->
+        </div>
+
+
+      </div>
+
+  </div>
+
+
+  <!-- <div class="home-det padding" *ngFor="let item of events">
+      <div class="row" ng-click="goto('/app/details')">
+        <div class="col col-10">
+          <img src="assets/img/list-img.png" width="29" height="29" />
+        </div>
+        <div class="col col-50 writer-det">
+          <h4>{{item.evntName}}</h4>
+          <p class="main-text-color">{{item.category}}</p>
+        </div>
+        <div class="col col-40 date text-right">
+          <span>{{item.evntStartDate}}</span>
+        </div>
+      </div>
+      <div class="bg-img" [ngStyle]="{'background-image': 'url(' + item.img + ')'}" ng-click="goto('/app/details')"></div>
+      <h4 class="news-title">{{item.evntDescription}}</h4>
+      <span class="heart main-text-color">
+          <ion-icon ios="ios-heart-outline" md="md-heart-outline"></ion-icon>
+          23 Liked
+        </span>
+        <span class="comment">
+          <ion-icon ios="ios-chatbubbles-outline" md="md-chatbubbles"></ion-icon>
+          21 Comment
+        </span>
+
+    </div> -->
+
+</ion-content>
+

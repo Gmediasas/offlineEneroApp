@@ -1,0 +1,383 @@
+<!--
+  Generated template for the ConferenceDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 11px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center"> Detalle agenda</ion-title>
+    <ion-buttons class="bar-buttons bar-buttons-ios" end="">
+      <button (click)="goQuestionsList()" color="royal" icon-only="" ion-button="" showwhen="ios,windows" class="text-white disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-royal">
+        <span class="button-inner">
+          <!-- <ion-icon ios="ios-help" md="md-help"></ion-icon> -->
+          <i class="demo-icon    icon-geventshelp-circled icon100 iconHElP">&#xe80c;</i>
+        </span>
+        <div class="button-effect"></div>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <div>
+    <div class="BackImageList " [ngStyle]="{'background-image': schduleData.schdlBanner && schduleData.schdlBanner.length > 0 ? 'url(' + schduleData.schdlBanner + ')' : '' }">
+      <div class="GradientColor">
+        <ion-grid class="grid">
+          <ion-row class="row PaddingTitle">
+            <ion-col class="col">
+              <div>
+                <div class="TittleConference">{{schduleData.schdlName }}</div>
+                <p class="CompanyTittle">
+                  {{schduleData.schdlEventName}}
+                  <br>{{schduleData.schdlStartDate | date:'LLLL dd yyyy'}}
+                </p>
+                <p *ngIf='false'>
+                  <button ion-button icon-start round (click)="goChatRoomConference(schduleData.schdlName)">
+                    <ion-icon ios="ios-chatbubbles" md="md-chatbubbles"></ion-icon> Chat conferencia
+                  </button>
+                </p>
+                <span class="thematic" *ngIf="schduleData.schdlThematic">{{schduleData.schdlThematic}}</span>
+
+              </div>
+            </ion-col>
+
+          </ion-row>
+
+        </ion-grid>
+        <ion-grid class="BackColorItems">
+          <ion-row class="row ">
+            <ion-col class="col">
+              <div class="BorderRightItems PaddingItemsLeft">
+                <span class="RowItemsCard" col-12>
+                  <span class="labelIconsTitle text-white">
+                    <ion-icon ios="md-time" md="md-time" role="img" class="icon icon-ios text-white" aria-label="star"></ion-icon>
+                    Fecha de inicio
+                  </span>
+                  <br>
+                  <span class="itemsLabel">{{schduleData.schdlStartDate | date:'h:mm a'}}</span>
+                </span>
+              </div>
+            </ion-col>
+            <ion-col class="col">
+              <div class=" PaddingItemsLeft">
+                <span class="RowItemsCard" col-12>
+                  <span class="labelIconsTitle text-white">
+                    <ion-icon ios="md-time" md="md-time" role="img" class="icon icon-ios text-white" aria-label="star"></ion-icon>
+                    Fecha Final
+                  </span>
+                  <br>
+                  <span class="itemsLabel">{{schduleData.schdlFinishDate | date:'h:mm a'}}</span>
+                </span>
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row class="row ">
+            <ion-col class="col">
+              <div class="BorderRightItems PaddingItemsLeft">
+                <span class="RowItemsCard" col-12>
+                  <span class="labelIconsTitle text-white">
+                    <!-- <ion-icon ios="ios-phone-portrait" md="md-phone-portrait" role="img" class="icon icon-ios text-white" aria-label="star"></ion-icon>-->
+                    Ubicación
+                  </span>
+                  <br>
+                  <span class="itemsLabel">
+                    {{schduleData.schdlEventRoom}}
+                  </span>
+                </span>
+              </div>
+            </ion-col>
+
+            <ion-col class="col">
+              <div class="BorderRightItems PaddingItemsLeft">
+                <span class="RowItemsCard" col-12>
+                  <span class="labelIconsTitle text-white">
+                    <!-- <ion-icon ios="ios-phone-portrait" md="md-phone-portrait" role="img" class="icon icon-ios text-white" aria-label="star"></ion-icon>-->
+                    Disponibilidad
+                  </span>
+                  <br>
+                  <span class="itemsLabel">
+                    {{schduleData.schdlEventRoomCapacity}}
+                  </span>
+
+                </span>
+              </div>
+            </ion-col>
+
+            <ion-col class="col">
+              <div *ngIf="!myConferencia">
+                <div class="col animated flipInX" (click)="addConference()">
+                  <button class="  btnEvent  btnAsistir  btnOnly">
+                    <span class="">
+                      <ion-icon name="md-person-add" role="img" class="icon icon-ios ion-md-person-add" aria-label="person add"
+                        ng-reflect-name="md-person-add"></ion-icon>
+                      {{ 'Asistir' | translate }}
+                    </span>
+                    <div class="button-effect"></div>
+                  </button>
+                </div>
+              </div>
+              <div *ngIf="myConferencia">
+                <div class="col animated flipInX" (click)="removeConference()">
+                  <button class="  btnEvent  btnAsistir  btnOnly">
+                    <span>
+                      {{'Noasistir'| translate}}
+                    </span>
+                    <div class="button-effect"></div>
+                  </button>
+                </div>
+              </div>
+
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+        <ion-grid class="grid paddingLogo">
+          <ion-row class="row ">
+            <ion-col class="col ">
+              <div></div>
+            </ion-col>
+            <ion-col class="col " col-auto="">
+              <div>
+                <div class="col-10 logoImgHome">
+                  <!-- <img class="animated tada " height="120" width="120" src="assets/img/logoImg1.png">   -->
+                  <!-- <img class="animated tada " height="120" width="120" [src]="standData?.standLogo"> -->
+                </div>
+              </div>
+            </ion-col>
+            <ion-col class="col ">
+              <div></div>
+            </ion-col>
+          </ion-row>
+
+
+        </ion-grid>
+
+        <div class="BackColorWhite shadowCards">
+
+          <!-- <ion-fab bottom right class="bottomIcon">
+            <button ion-fab mini class="main-bg-color iconWhite">
+              <ion-icon ios="md-share" md="md-share" class="btnWhite"></ion-icon>
+            </button>
+            <ion-fab-list side="down">
+              <button ion-fab class="colorfacebook shadowIcons">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </button>
+              <button ion-fab class="colortwitter shadowIcons">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </button>
+              <button ion-fab class="colorLinkedin shadowIcons">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </button>
+              <button ion-fab class="colorGoogle shadowIcons">
+                <ion-icon name="logo-googleplus"></ion-icon>
+              </button>
+            </ion-fab-list>
+          </ion-fab>-->
+          <ion-grid class="grid ">
+            <ion-row>
+              <ion-col>
+                <div class="RowDetailCard">
+                  <h4 class="SubTittle main-text-color">{{schduleData.schdlName}}</h4>
+                  <div class="lineCard"></div>
+                  <p class="textCardRow">{{schduleData.schdlDescription}}</p>
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row *ngIf="schduleData.schdlVideo">
+              <ion-col>
+                <div class="RowDetailCard">
+                  <h4 class="SubTittle main-text-color">Video de la conferencia</h4>
+                  <div class="lineCard"></div>
+
+                  <ion-card class="card card-ios  shadowCards heightCards borderCard marginTopCard" (click)="openBrowserVideo(schduleData.schdlVideo)">
+
+                    <ion-item class="item item-block item-ios">
+
+
+                      <ion-grid class="grid">
+                        <ion-row class="row">
+                          <ion-col class="col">
+                            <div class="circleVideo main-bg-Monocromatico">
+                              <ion-icon class="iconCircle icon icon-ios ion-logo-youtube VideoIcon" role="img"
+                                aria-label="logo youtube" ng-reflect-ios="logo-youtube" ng-reflect-md="logo-youtube"></ion-icon>
+                            </div>
+                          </ion-col>
+                          <ion-col class="col">
+
+                            <div class="LongDivDot">
+                              <h2 class="LongTextDot">
+                                Video especial de la conferencia
+                              </h2>
+                              <!--
+                                  <p>Gerente</p> -->
+                            </div>
+                          </ion-col>
+                          <ion-col class="col">
+                            <div class="arrowCard">
+                              <ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>
+                            </div>
+                          </ion-col>
+                        </ion-row>
+
+                      </ion-grid>
+                    </ion-item>
+
+                  </ion-card>
+
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <div class="RowDetailCard">
+                  <h4 class="SubTittle main-text-color">Conferencistas</h4>
+                  <div class="lineCard"></div>
+
+                  <ion-card class="card card-ios  shadowCards heightCards borderCard marginTopCard" *ngFor="let speaker of schduleData.schdlSpeakers"
+                    (click)="goToSpeakerDeatil(speaker.id)">
+
+                    <ion-item class="item item-block item-ios">
+
+
+                      <ion-grid class="grid">
+
+                        <ion-row class="row">
+
+                          <ion-col class="col">
+                            <div>
+                              <div class="avatarCard">
+                                <img [src]="speaker.photo" (error)="errorSpeakerPhoto($event)">
+                              </div>
+                            </div>
+                          </ion-col>
+
+                          <ion-col class="col">
+
+                            <div class="LongDivDot">
+                              <h2 class="LongTextDot">
+                                {{speaker.name}} {{speaker.last_name}}
+                              </h2>
+                              <p>
+                                {{speaker.cargo}}
+                              </p>
+                            </div>
+
+                          </ion-col>
+
+                          <ion-col class="col">
+
+                            <div class="arrowCard">
+
+                              <ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>
+
+                            </div>
+
+                          </ion-col>
+
+                        </ion-row>
+
+                      </ion-grid>
+                    </ion-item>
+                  </ion-card>
+
+                </div>
+              </ion-col>
+            </ion-row>
+
+          </ion-grid>
+        </div>
+
+        <ion-grid>
+          <ion-row>
+            <!-- <ion-col>
+                     <div class="RowDetailCard">
+                        <h4 class="SubTittle main-text-color">Perfil de la empresa</h4>
+                        <div class="lineCard"></div>
+                        <p class="textCardRow">Suspendisse odio tortor, venenatis et tempus sit amet, vehicula at velit. Integer hendrerit libero eu libero molestie congue. Vestibulum et mi odio. Sed mattis malesuada ligula, sed euismod orci. Sed feugiat eu felis eu ornare. Fusce nec finibus neque, sit amet feugiat lectus. Phasellus rhoncus vitae nisi at euismod.</p>
+                      </div>
+                  </ion-col>-->
+          </ion-row>
+
+          <div *ngIf="banDocument > 0">
+            <ion-row>
+              <ion-col>
+                <div class="RowDetailCard">
+                  <h4 class="SubTittle main-text-color">Documentación</h4>
+                  <div class="lineCard"></div>
+                </div>
+                <div class="suggestion paddingSuggestion">
+
+                  <div class="item-det" *ngFor="let document of schduleData.schdlDocuments" (click)="download(document.path)">
+                    <ion-row class="row">
+                      <ion-col class="col">
+                        <div>
+                          <ion-card class="colorCard1Doc">
+
+                            <ion-grid class="grid">
+                              <ion-row class="row">
+                                <ion-col class="col">
+                                  <div></div>
+                                </ion-col>
+                                <ion-col class="col" col-auto="">
+                                  <div>
+                                    <div class="circleDoc {{ document.class }}">
+                                      <!-- <ion-icon ios="ios-folder-open" md="md-folder-open" class="iconCircleDoc"></ion-icon> -->
+                                      <img class="animated tada  PaddingDoc" [src]="'assets/img/'+document.icon">
+                                    </div>
+                                  </div>
+                                </ion-col>
+                                <ion-col class="col">
+                                  <div></div>
+                                </ion-col>
+                              </ion-row>
+                              <ion-row>
+                                <ion-col>
+                                  <div class="card-titleDoc  main-text-colorSecond">{{ document.name }}</div>
+                                </ion-col>
+                              </ion-row>
+
+                            </ion-grid>
+
+                          </ion-card>
+                        </div>
+                      </ion-col>
+
+                    </ion-row>
+                  </div>
+
+                </div>
+              </ion-col>
+            </ion-row>
+          </div>
+
+
+
+        </ion-grid>
+        <ion-grid class="main-bg-color">
+          <ion-row>
+            <ion-col col-12></ion-col>
+          </ion-row>
+        </ion-grid>
+
+
+      </div>
+
+
+    </div>
+
+
+
+  </div>

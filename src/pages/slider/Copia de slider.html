@@ -1,0 +1,121 @@
+<!--
+  Generated template for the SliderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content padding>
+  <video autoplay loop src="assets/video/videoSlide.mp4"></video>
+	<ion-slides pager>
+
+      <ion-slide class="swiper-slide swiper-slide-active slideBackground" style="width: 320px;">
+        <div class="slide-zoom">
+          <ion-toolbar class="toolbar toolbar-ios statusbar-padding">
+            <div class="toolbar-background toolbar-background-ios"></div>
+            <ion-buttons end="" class="bar-buttons bar-buttons-ios">
+              <button color="primary" ion-button="" class="disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-primary"><span class="button-inner">Omitir</span><div class="button-effect"></div></button>
+            </ion-buttons>
+             <div class="toolbar-content toolbar-content-ios">
+            
+          </div>
+        </ion-toolbar>
+          <img class="slide-image animated bounceIn" src="assets/img/slide1.png">
+          <h2 class="slide-title animated fadeInUp tittleWelcome">Bienvenidos!</h2>
+          <div class="lineWhite"></div>
+          <p class="paragraph"><b>Hoteles estelar </b> te da la bienvenida a nuestra Aplicación </p>
+        </div>
+      </ion-slide>
+
+
+      <ion-slide class="swiper-slide swiper-slide-active slideBackground" style="width: 320px;">
+        <div class="slide-zoom">
+          <ion-toolbar class="toolbar toolbar-ios statusbar-padding">
+            <div class="toolbar-background toolbar-background-ios"></div>
+            <ion-buttons end="" class="bar-buttons bar-buttons-ios">
+              <button color="primary" ion-button="" class="disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-primary"><span class="button-inner">Omitir</span><div class="button-effect"></div></button>
+            </ion-buttons>
+             <div class="toolbar-content toolbar-content-ios">
+            
+          </div>
+        </ion-toolbar>
+          <img class="slide-image animated bounceIn" src="assets/img/slide2.png">
+          <h2 class="slide-title animated fadeInUp tittleWelcome">Agenda</h2>
+          <div class="lineWhite"></div>
+          <p class="paragraph"><b>Exclusiva para eventos </b> que te permitiran tener los eventos a tu alcance </p>
+        </div>
+      </ion-slide>
+
+
+      <ion-slide class="swiper-slide swiper-slide-active slideBackground" style="width: 320px;">
+        <div class="slide-zoom">
+          <ion-toolbar class="toolbar toolbar-ios statusbar-padding">
+            <div class="toolbar-background toolbar-background-ios"></div>
+            <ion-buttons end="" class="bar-buttons bar-buttons-ios">
+              <button color="primary" ion-button="" class="disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-primary"><span class="button-inner">Omitir</span><div class="button-effect"></div></button>
+            </ion-buttons>
+             <div class="toolbar-content toolbar-content-ios">
+            
+          </div>
+        </ion-toolbar>
+          <img class="slide-image animated bounceIn" src="assets/img/slide3.png">
+          <h2 class="slide-title animated fadeInUp tittleWelcome">Conferencistas</h2>
+          <div class="lineWhite"></div>
+          <p class="paragraph"><b>Invitados </b> nacionales e internacionales para nuestros eventos </p>
+        </div>
+      </ion-slide>
+      <ion-slide class="swiper-slide swiper-slide-active slideBackground" style="width: 320px;">
+        <div class="slide-zoom">
+
+          <img class="slide-image animated bounceIn" src="assets/img/slide4.png">
+          <h2 class="slide-title animated fadeInUp tittleWelcome">¿Estás listo?</h2>
+          <div class="lineWhite"></div>
+                    <button (click)="goToLogin()" clear="" color="primary" icon-end="" ion-button="" large="" class="disable-hover button button-ios button-clear button-clear-ios button-large button-large-ios button-clear-ios-primary">
+                  <span class="button-inner btnWhite">
+              Continuar
+              <ion-icon name="arrow-forward" role="img" class="icon icon-ios ion-ios-arrow-forward" aria-label="arrow forward"></ion-icon>
+            </span><div class="button-effect"></div>
+          </button>
+        </div>
+      </ion-slide>
+
+</ion-slides>
+
+</ion-content>
+
+
+
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>Slides</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="tutorial-page">
+
+  <ion-slides pager>
+    <ion-slide *ngFor="let slide of slides">
+      <ion-toolbar>
+        <ion-buttons end>
+          <button ion-button color="primary">Skip</button>
+        </ion-buttons>
+      </ion-toolbar>
+      <img [src]="slide.image" class="slide-image"/>
+      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+      <p [innerHTML]="slide.description"></p>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-toolbar>
+      </ion-toolbar>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
+      <h2 class="slide-title">Ready to Play?</h2>
+      <button ion-button large clear icon-end color="primary">
+        Continue
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+  </ion-slides>
+</ion-content> -->

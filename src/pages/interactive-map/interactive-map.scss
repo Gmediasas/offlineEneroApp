@@ -1,0 +1,60 @@
+page-interactive-map {
+
+    #origin-map-interactive{
+		opacity: 0;
+		position: absolute;
+    }
+
+	.BackImageList {
+	    height: -webkit-fill-available;
+	    background: url(../assets/img/cardEvent333.png)no-repeat;
+	    background-size: cover;
+	    position: relative;
+	    // border-bottom: 8px solid $main_bg_color;
+	}
+	.GradientColor{
+		height: -webkit-fill-available;
+		background-color: $main_bg_color_opacity;
+		// background: $main_bg_color;
+	 //    background: -webkit-gradient(left top, left bottom, color-stop(0%, #489cea), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+	 //    background: -webkit-gradient(linear, left top, left bottom, from($main_bg_color), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+	 //    background: linear-gradient(to bottom, $main_bg_color 0%, rgba(255, 255, 255, 0.01) 77%, rgba(255, 255, 255, 0) 78%);
+	 //    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#489cea', endColorstr='#ffffff', GradientType=0 );
+	}
+    .BackgroundColorMap{
+    	Background-color: $main_bg_color !important;
+    }
+    .MapInterac{
+		// margin: 60px 20px 60px 0px;
+		padding: 50px 20px;
+    }
+    .ImgBorder{
+		// border: 7px solid white;
+    }
+    .BackgroundColorTittle{
+    	
+    	Background-color: white;
+		-webkit-box-shadow: 0px 7px 24px 0px rgba(0,0,0,0.47);
+		-moz-box-shadow: 0px 7px 24px 0px rgba(0,0,0,0.47);
+		box-shadow: 0px 7px 24px 0px rgba(0,0,0,0.47);
+    }
+    .textTittleMap{
+    	color: grey;
+    	text-transform: capitalize;
+    }
+    .lineOne{
+    	border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    	margin: 0 5px;
+    	height: 1px;
+
+    }
+    .subTittleMap{
+    	color: grey;
+    }
+    .ImgBack{
+		height: 220px;
+		background: url(../assets/img/cardEvent22.png) no-repeat;
+		background-size: cover;
+		position: relative;
+    }
+}

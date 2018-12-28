@@ -1,0 +1,2839 @@
+{
+  "asn": {
+    "AF": [
+      {
+        "AsnName": "Etisalat Afghan",
+        "Asn": "131284"
+      },
+      {
+        "AsnName": "ROSHAN-AF",
+        "Asn": "45178"
+      },
+      {
+        "AsnName": "MTN Afghanistan",
+        "Asn": "132471"
+      }
+    ],
+    "AX": [],
+    "AL": [
+      {
+        "AsnName": "IPKO Telecommunications LLC",
+        "Asn": "21246"
+      },
+      {
+        "AsnName": "Telekom Albania SH.A",
+        "Asn": "50616"
+      },
+      {
+        "AsnName": "Vodafone Albania Sh.A.",
+        "Asn": "50973"
+      }
+    ],
+    "DZ": [
+      {
+        "AsnName": "Telecom Algeria",
+        "Asn": "36947"
+      },
+      {
+        "AsnName": "Telecom Algeria",
+        "Asn": "327712"
+      },
+      {
+        "AsnName": "Optimum Telecom Algeria",
+        "Asn": "327931"
+      },
+      {
+        "AsnName": "Wataniya Telecom Algerie",
+        "Asn": "33779"
+      },
+      {
+        "AsnName": "Telecom Algeria",
+        "Asn": "33774"
+      }
+    ],
+    "AS": [],
+    "AD": [
+      {
+        "AsnName": "ANDORRA TELECOM SAU",
+        "Asn": "6752"
+      }
+    ],
+    "AO": [
+      {
+        "AsnName": "UNITEL SA",
+        "Asn": "37119"
+      },
+      {
+        "AsnName": "Angola Telecom",
+        "Asn": "11259"
+      },
+      {
+        "AsnName": "Movicel Telecomunicacoes S.A.",
+        "Asn": "37081"
+      }
+    ],
+    "AI": [],
+    "AQ": [],
+    "AG": [
+      {
+        "AsnName": "APUA",
+        "Asn": "11594"
+      },
+      {
+        "AsnName": "Antigua Wireless ventures Ltd",
+        "Asn": "396304"
+      }
+    ],
+    "AR": [
+      {
+        "AsnName": "Telecom Argentina S.A.",
+        "Asn": "7303"
+      },
+      {
+        "AsnName": "AMX Argentina S.A.",
+        "Asn": "19037"
+      },
+      {
+        "AsnName": "Telefonica de Argentina",
+        "Asn": "10834"
+      },
+      {
+        "AsnName": "Telefónica Móviles Argentina, S.A. (Movistar Argentina)",
+        "Asn": "11315"
+      }
+    ],
+    "AM": [
+      {
+        "AsnName": "ArmenTel CJSC",
+        "Asn": "12297"
+      },
+      {
+        "AsnName": "Ucom LLC",
+        "Asn": "44395"
+      },
+      {
+        "AsnName": "MTS Armenia CJSC",
+        "Asn": "43733"
+      },
+      {
+        "AsnName": "MTS Armenia CJSC",
+        "Asn": "33852"
+      }
+    ],
+    "AW": [
+      {
+        "AsnName": "SetarNet",
+        "Asn": "11816"
+      },
+      {
+        "AsnName": "DTH Television and Telecommunication N.V.",
+        "Asn": "52231"
+      },
+      {
+        "AsnName": "NEW MILLENNIUM TELECOM SERVICES N.V.",
+        "Asn": "264645"
+      }
+    ],
+    "AU": [
+      {
+        "AsnName": "Telstra Pty Ltd",
+        "Asn": "1221"
+      },
+      {
+        "AsnName": "Vodafone Australia Pty.",
+        "Asn": "133612"
+      },
+      {
+        "AsnName": "SingTel Optus Pty Ltd",
+        "Asn": "7474"
+      }
+    ],
+    "AT": [
+      {
+        "AsnName": "A1 Telekom Austria AG",
+        "Asn": "8447"
+      },
+      {
+        "AsnName": "Hutchison Drei Austria GmbH",
+        "Asn": "25255"
+      },
+      {
+        "AsnName": "A1 Telekom Austria AG",
+        "Asn": "1901"
+      },
+      {
+        "AsnName": "T-Mobile Austria GmbH",
+        "Asn": "8412"
+      },
+      {
+        "AsnName": "A1 Telekom Austria AG",
+        "Asn": "12793"
+      }
+    ],
+    "AZ": [
+      {
+        "AsnName": "Baktelekom",
+        "Asn": "28787"
+      },
+      {
+        "AsnName": "Azercell Telecom Ltd Azerbaijan-Turkey Joint Venture",
+        "Asn": "31721"
+      }
+    ],
+    "BS": [
+      {
+        "AsnName": "Bahamas Telecommunications Corporation",
+        "Asn": "8014"
+      }
+    ],
+    "BH": [
+      {
+        "AsnName": "Batelco",
+        "Asn": "5416"
+      },
+      {
+        "AsnName": "VIVA Bahrain BSC Closed",
+        "Asn": "51375"
+      }
+    ],
+    "BD": [
+      {
+        "AsnName": "Augere Wireless Broadband Bangladesh Limited",
+        "Asn": "45951"
+      },
+      {
+        "AsnName": "GrameenPhone Ltd.",
+        "Asn": "24389"
+      },
+      {
+        "AsnName": "Grameen Cybernet Ltd. Bangladesh. AS for local peering and transit. Dhaka",
+        "Asn": "17471"
+      }
+    ],
+    "BB": [
+      {
+        "AsnName": "Columbus Telecommunications (Barbados) Limited",
+        "Asn": "14813"
+      },
+      {
+        "AsnName": "Sunbeach Communications Inc.",
+        "Asn": "40398"
+      },
+      {
+        "AsnName": "Digicel Barbados Ltd",
+        "Asn": "35900"
+      }
+    ],
+    "BY": [
+      {
+        "AsnName": "Mobile TeleSystems JLLC",
+        "Asn": "25106"
+      },
+      {
+        "AsnName": "FE VELCOM",
+        "Asn": "42772"
+      }
+    ],
+    "BE": [
+      {
+        "AsnName": "Proximus NV",
+        "Asn": "5432"
+      },
+      {
+        "AsnName": "Telenet BVBA",
+        "Asn": "6848"
+      },
+      {
+        "AsnName": "Orange Belgium SA",
+        "Asn": "47377"
+      },
+      {
+        "AsnName": "Proximus NV",
+        "Asn": "5488"
+      }
+    ],
+    "BZ": [
+      {
+        "AsnName": "Belize Telemedia Limited",
+        "Asn": "10269"
+      },
+      {
+        "AsnName": "Speednet Communications Limited",
+        "Asn": "262239"
+      }
+    ],
+    "BJ": [],
+    "BM": [],
+    "BT": [
+      {
+        "AsnName": "TashiCell Network & AS, Thimphu, Bhutan",
+        "Asn": "38740"
+      }
+    ],
+    "BO": [
+      {
+        "AsnName": "Nuevatel PCS de Bolivia S.A.",
+        "Asn": "28024"
+      },
+      {
+        "AsnName": "Entel S.A. - EntelNet",
+        "Asn": "6568"
+      },
+      {
+        "AsnName": "TelefÃ³nica Celular de Bolivia S.A.",
+        "Asn": "27882"
+      }
+    ],
+    "BQ": [],
+    "BA": [
+      {
+        "AsnName": "BH Telecom d.d. Sarajevo",
+        "Asn": "9146"
+      },
+      {
+        "AsnName": "Telemach d.o.o. Sarajevo",
+        "Asn": "42560"
+      },
+      {
+        "AsnName": "HT d.o.o. Mostar",
+        "Asn": "20875"
+      }
+    ],
+    "BW": [
+      {
+        "AsnName": "Botswana Telecommunications Corporation",
+        "Asn": "14988"
+      },
+      {
+        "AsnName": "Orange Botswana (PTY) Ltd",
+        "Asn": "36963"
+      },
+      {
+        "AsnName": "Mascom Wireless Ltd",
+        "Asn": "37014"
+      }
+    ],
+    "BV": [],
+    "BR": [
+      {
+        "AsnName": "Telefônica Brasil",
+        "Asn": "26599"
+      },
+      {
+        "AsnName": "Tim Celular S.A.",
+        "Asn": "26615"
+      },
+      {
+        "AsnName": "CLARO S.A.",
+        "Asn": "28573"
+      },
+      {
+        "AsnName": "Telefônica Brasil",
+        "Asn": "27699"
+      },
+      {
+        "AsnName": "CLARO S.A.",
+        "Asn": "4230"
+      },
+      {
+        "AsnName": "Claro S/A",
+        "Asn": "22085"
+      },
+      {
+        "AsnName": "Telefonica Data S.A.",
+        "Asn": "10429"
+      },
+      {
+        "AsnName": "NEXTEL TELECOMUNICAÃ‡Ã•ES LTDA",
+        "Asn": "53037"
+      },
+      {
+        "AsnName": "ALGAR TELECOM S/A",
+        "Asn": "53006"
+      },
+      {
+        "AsnName": "ALGAR TELECOM S/A",
+        "Asn": "16735"
+      },
+      {
+        "AsnName": "TELEFÃ”NICA BRASIL S.A",
+        "Asn": "19182"
+      }
+    ],
+    "IO": [
+      {
+        "AsnName": "Sure (Diego Garcia) Limited",
+        "Asn": "17458"
+      }
+    ],
+    "VG": [
+      {
+        "AsnName": "CCT Global Communications",
+        "Asn": "22069"
+      }
+    ],
+    "BN": [
+      {
+        "AsnName": "DST Communications SDN BHD",
+        "Asn": "132395"
+      },
+      {
+        "AsnName": "Progresif Cellular Sdn Bhd",
+        "Asn": "133788"
+      }
+    ],
+    "BG": [
+      {
+        "AsnName": "Bulgarian Telecommunications Company Plc.",
+        "Asn": "8866"
+      },
+      {
+        "AsnName": "Bulsatcom EAD",
+        "Asn": "43205"
+      },
+      {
+        "AsnName": "MOBILTEL EAD",
+        "Asn": "8717"
+      },
+      {
+        "AsnName": "MOBILTEL EAD",
+        "Asn": "35141"
+      },
+      {
+        "AsnName": "MOBILTEL EAD",
+        "Asn": "29580"
+      },
+      {
+        "AsnName": "MOBILTEL EAD",
+        "Asn": "8672"
+      }
+    ],
+    "BF": [
+      {
+        "AsnName": "Orange Burkina Faso",
+        "Asn": "37577"
+      },
+      {
+        "AsnName": "TELECEL FASO",
+        "Asn": "37526"
+      }
+    ],
+    "BI": [
+      {
+        "AsnName": "UCOM Burundi",
+        "Asn": "37336"
+      },
+      {
+        "AsnName": "Econet Wireless Burundi",
+        "Asn": "327734"
+      }
+    ],
+    "KH": [
+      {
+        "AsnName": "Smart Axiata Co., Ltd.",
+        "Asn": "45498"
+      }
+    ],
+    "CM": [],
+    "CA": [
+      {
+        "AsnName": "Bell Canada",
+        "Asn": "577"
+      },
+      {
+        "AsnName": "TELUS Communications Inc.",
+        "Asn": "852"
+      },
+      {
+        "AsnName": "Rogers Communications Canada Inc.",
+        "Asn": "812"
+      },
+      {
+        "AsnName": "Videotron Telecom Ltee",
+        "Asn": "5769"
+      },
+      {
+        "AsnName": "MTS Inc.",
+        "Asn": "7122"
+      },
+      {
+        "AsnName": "Bell Canada",
+        "Asn": "6539"
+      },
+      {
+        "AsnName": "Rogers Communications Canada Inc.",
+        "Asn": "3602"
+      }
+    ],
+    "CV": [
+      {
+        "AsnName": "CV  Multimedia SA",
+        "Asn": "37517"
+      }
+    ],
+    "KY": [
+      {
+        "AsnName": "Cable & Wireless (Cayman Islands) Ltd.",
+        "Asn": "6639"
+      },
+      {
+        "AsnName": "TeleCayman",
+        "Asn": "16705"
+      }
+    ],
+    "CF": [
+      {
+        "AsnName": "Orange Centreafrique",
+        "Asn": "37460"
+      },
+      {
+        "AsnName": "TELECEL CENTRAFRIQUE",
+        "Asn": "328079"
+      }
+    ],
+    "TD": [
+      {
+        "AsnName": "AIRTEL TCHAD",
+        "Asn": "327756"
+      }
+    ],
+    "CL": [],
+    "CN": [
+      {
+        "AsnName": "China Mobile Communications Corporation",
+        "Asn": "9808"
+      },
+      {
+        "AsnName": "China Telecom (Group)",
+        "Asn": "4812"
+      },
+      {
+        "AsnName": "China Mobile Communications Corporation",
+        "Asn": "56041"
+      },
+      {
+        "AsnName": "China Mobile Communications Corporation",
+        "Asn": "56046"
+      },
+      {
+        "AsnName": "China Mobile Communications Corporation",
+        "Asn": "24444"
+      },
+      {
+        "AsnName": "China Mobile Communications Corporation",
+        "Asn": "56040"
+      },
+      {
+        "AsnName": "China Mobile Communications Corporation",
+        "Asn": "24445"
+      }
+    ],
+    "CX": [],
+    "CC": [],
+    "CO": [
+      {
+        "AsnName": "COMCEL S.A.",
+        "Asn": "26611"
+      },
+      {
+        "AsnName": "Telmex Colombia S.A.",
+        "Asn": "10620"
+      },
+      {
+        "AsnName": "COLOMBIA TELECOMUNICACIONES S.A. ESP",
+        "Asn": "3816"
+      },
+      {
+        "AsnName": "Telmex Colombia S.A.",
+        "Asn": "14080"
+      }
+    ],
+    "KM": [
+      {
+        "AsnName": "Comores Telecom",
+        "Asn": "36939"
+      },
+      {
+        "AsnName": "TELECOM COMORES S.A (TELCO S.A)",
+        "Asn": "328061"
+      }
+    ],
+    "CG": [
+      {
+        "AsnName": "Airtel Congo S.A",
+        "Asn": "37550"
+      },
+      {
+        "AsnName": "MTN CONGO",
+        "Asn": "37463"
+      },
+      {
+        "AsnName": "Warid Congo SA",
+        "Asn": "37409"
+      }
+    ],
+    "CD": [
+      {
+        "AsnName": "Vodacom Congo",
+        "Asn": "37453"
+      },
+      {
+        "AsnName": "CELTEL DRC",
+        "Asn": "37020"
+      },
+      {
+        "AsnName": "ORANGE RDC",
+        "Asn": "37483"
+      }
+    ],
+    "CK": [],
+    "CR": [
+      {
+        "AsnName": "Instituto Costarricense de Electricidad y Telecom.",
+        "Asn": "11830"
+      },
+      {
+        "AsnName": "Telefonica de Costa Rica TC, SA",
+        "Asn": "262202"
+      }
+    ],
+    "HR": [
+      {
+        "AsnName": "Hrvatski Telekom d.d.",
+        "Asn": "5391"
+      },
+      {
+        "AsnName": "VIPnet d.o.o.",
+        "Asn": "31012"
+      },
+      {
+        "AsnName": "VIPnet d.o.o.",
+        "Asn": "12810"
+      },
+      {
+        "AsnName": "VIPnet d.o.o.",
+        "Asn": "29485"
+      }
+    ],
+    "CU": [
+      {
+        "AsnName": "Empresa de Telecomunicaciones de Cuba, S.A.",
+        "Asn": "27725"
+      },
+      {
+        "AsnName": "EMPRESA DE TELECOMUNICACIONES DE CUBA S.A. (IXP CUBA)",
+        "Asn": "11960"
+      }
+    ],
+    "CW": [],
+    "CY": [
+      {
+        "AsnName": "Cyprus Telecommunications Authority",
+        "Asn": "6866"
+      },
+      {
+        "AsnName": "Primetel PLC",
+        "Asn": "16229"
+      },
+      {
+        "AsnName": "MTN Cyprus Limited",
+        "Asn": "15805"
+      },
+      {
+        "AsnName": "Primetel PLC",
+        "Asn": "8544"
+      },
+      {
+        "AsnName": "Primetel PLC",
+        "Asn": "5425"
+      }
+    ],
+    "CZ": [
+      {
+        "AsnName": "O2 Czech Republic, a.s.",
+        "Asn": "5610"
+      },
+      {
+        "AsnName": "T-Mobile Czech Republic a.s.",
+        "Asn": "5588"
+      },
+      {
+        "AsnName": "T-Mobile Czech Republic a.s.",
+        "Asn": "13036"
+      },
+      {
+        "AsnName": "Vodafone Czech Republic a.s.",
+        "Asn": "16019"
+      },
+      {
+        "AsnName": "T-Mobile Czech Republic a.s.",
+        "Asn": "12767"
+      }
+    ],
+    "DK": [
+      {
+        "AsnName": "TDC A/S",
+        "Asn": "3292"
+      },
+      {
+        "AsnName": "Telenor A/S",
+        "Asn": "9158"
+      },
+      {
+        "AsnName": "Telia Company AB",
+        "Asn": "3308"
+      },
+      {
+        "AsnName": "TDC A/S",
+        "Asn": "39554"
+      }
+    ],
+    "DJ": [
+      {
+        "AsnName": "DJIBOUTI TELECOM S.A.",
+        "Asn": "30990"
+      }
+    ],
+    "DM": [
+      {
+        "AsnName": "Cable & Wireless Dominica",
+        "Asn": "11139"
+      }
+    ],
+    "DO": [
+      {
+        "AsnName": "Claro República Dominicana",
+        "Asn": "6400"
+      },
+      {
+        "AsnName": "TRICOM",
+        "Asn": "12066"
+      },
+      {
+        "AsnName": "Orange Dominicana",
+        "Asn": "28118"
+      }
+    ],
+    "EC": [
+      {
+        "AsnName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+        "Asn": "14420"
+      },
+      {
+        "AsnName": "Ecuadortelecom S.A.",
+        "Asn": "27738"
+      },
+      {
+        "AsnName": "Otecel S.A.",
+        "Asn": "19114"
+      },
+      {
+        "AsnName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+        "Asn": "28006"
+      }
+    ],
+    "EG": [
+      {
+        "AsnName": "ETISALAT MISR",
+        "Asn": "36992"
+      },
+      {
+        "AsnName": "Vodafone Data",
+        "Asn": "24835"
+      },
+      {
+        "AsnName": "Vodafone Data",
+        "Asn": "36935"
+      }
+    ],
+    "SV": [
+      {
+        "AsnName": "Telefonica Moviles El Salvador S.A. de C.V.",
+        "Asn": "12127"
+      },
+      {
+        "AsnName": "Telemovil El Salvador S.A.",
+        "Asn": "17079"
+      },
+      {
+        "AsnName": "DIGICEL S.A. DE C.V.",
+        "Asn": "27903"
+      }
+    ],
+    "GQ": [
+      {
+        "AsnName": "GETESA (Orange Equatorial Guinea)",
+        "Asn": "37173"
+      }
+    ],
+    "ER": [
+      {
+        "AsnName": "Eritrea Telecommunication Service corporation (EriTel)",
+        "Asn": "30987"
+      }
+    ],
+    "EE": [
+      {
+        "AsnName": "Telia Eesti AS",
+        "Asn": "3249"
+      }
+    ],
+    "ET": [],
+    "FK": [],
+    "FO": [],
+    "FJ": [
+      {
+        "AsnName": "Vodafone Fiji Limited",
+        "Asn": "38442"
+      }
+    ],
+    "FI": [
+      {
+        "AsnName": "DNA Oyj",
+        "Asn": "16086"
+      },
+      {
+        "AsnName": "Elisa Oyj",
+        "Asn": "15527"
+      },
+      {
+        "AsnName": "Telia Finland Oyj",
+        "Asn": "12582"
+      },
+      {
+        "AsnName": "Elisa Oyj",
+        "Asn": "21366"
+      }
+    ],
+    "FR": [
+      {
+        "AsnName": "Orange S.A.",
+        "Asn": "3215"
+      },
+      {
+        "AsnName": "Free SAS",
+        "Asn": "12322"
+      },
+      {
+        "AsnName": "Bouygues Telecom SA",
+        "Asn": "5410"
+      },
+      {
+        "AsnName": "Societe Francaise du Radiotelephone S.A.",
+        "Asn": "8228"
+      },
+      {
+        "AsnName": "Free Mobile SAS",
+        "Asn": "51207"
+      },
+      {
+        "AsnName": "Orange S.A.",
+        "Asn": "5511"
+      },
+      {
+        "AsnName": "Orange S.A.",
+        "Asn": "25186"
+      }
+    ],
+    "GF": [
+      {
+        "AsnName": "GUYACOM",
+        "Asn": "263175"
+      },
+      {
+        "AsnName": "DAUPHIN TELECOM GUYANE",
+        "Asn": "264728"
+      }
+    ],
+    "PF": [
+      {
+        "AsnName": "VINI SAS",
+        "Asn": "9471"
+      },
+      {
+        "AsnName": "VITI",
+        "Asn": "56017"
+      }
+    ],
+    "TF": [],
+    "GA": [
+      {
+        "AsnName": "Gabon Telecom / Office of Posts and Telecommunications of Gabon",
+        "Asn": "16058"
+      },
+      {
+        "AsnName": "Airtel Gabon S.A",
+        "Asn": "37616"
+      }
+    ],
+    "GM": [
+      {
+        "AsnName": "QCell Limited",
+        "Asn": "37309"
+      },
+      {
+        "AsnName": "Africell Gambia",
+        "Asn": "37524"
+      }
+    ],
+    "GE": [
+      {
+        "AsnName": "Magticom Ltd.",
+        "Asn": "16010"
+      },
+      {
+        "AsnName": "Mobitel LLC",
+        "Asn": "41738"
+      },
+      {
+        "AsnName": "Geocell Ltd.",
+        "Asn": "42082"
+      }
+    ],
+    "DE": [
+      {
+        "AsnName": "Deutsche Telekom AG",
+        "Asn": "3320"
+      },
+      {
+        "AsnName": "Deutsche Telekom AG",
+        "Asn": "8204"
+      },
+      {
+        "AsnName": "Telefonica Germany GmbH & Co.OHG",
+        "Asn": "39706"
+      },
+      {
+        "AsnName": "Vodafone GmbH",
+        "Asn": "3209"
+      },
+      {
+        "AsnName": "Vodafone Kabel Deutschland GmbH",
+        "Asn": "31334"
+      },
+      {
+        "AsnName": "Vodafone Group Services GmbH",
+        "Asn": "34419"
+      },
+      {
+        "AsnName": "E-Plus Mobilfunk GmbH",
+        "Asn": "12638"
+      }
+    ],
+    "GH": [
+      {
+        "AsnName": "Bharti Airtel (Ghana) Limited",
+        "Asn": "37140"
+      },
+      {
+        "AsnName": "Ghana Telecommunications Company Limited",
+        "Asn": "29614"
+      },
+      {
+        "AsnName": "GLO MOBILE GHANA LTD",
+        "Asn": "37341"
+      }
+    ],
+    "GI": [
+      {
+        "AsnName": "Gibtelecom Ltd.",
+        "Asn": "8301"
+      }
+    ],
+    "GR": [
+      {
+        "AsnName": "VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA",
+        "Asn": "3329"
+      },
+      {
+        "AsnName": "Cosmote Mobile Telecommunications S.A.",
+        "Asn": "29247"
+      },
+      {
+        "AsnName": "WIND HELLAS TELECOMMUNICATIONS SA",
+        "Asn": "25472"
+      },
+      {
+        "AsnName": "VODAFONE-PANAFON HELLENIC TELECOMMUNICATIONS COMPANY SA",
+        "Asn": "12361"
+      },
+      {
+        "AsnName": "COSMOLINE TELECOMMUNICATION SERVICES S.A.",
+        "Asn": "16022"
+      },
+      {
+        "AsnName": "WIND HELLAS TELECOMMUNICATIONS SA",
+        "Asn": "15617"
+      }
+    ],
+    "GL": [],
+    "GD": [],
+    "GP": [],
+    "GU": [
+      {
+        "AsnName": "IT&E Overseas",
+        "Asn": "7131"
+      },
+      {
+        "AsnName": "DoCoMo Pacific",
+        "Asn": "133071"
+      }
+    ],
+    "GT": [
+      {
+        "AsnName": "Telgua",
+        "Asn": "14754"
+      },
+      {
+        "AsnName": "TELEFONICA MOVILES GUATEMALA S.A.",
+        "Asn": "13682"
+      },
+      {
+        "AsnName": "COMCEL GUATEMALA S.A.",
+        "Asn": "262206"
+      }
+    ],
+    "GG": [
+      {
+        "AsnName": "JT (Guernsey) Limited",
+        "Asn": "43538"
+      }
+    ],
+    "GN": [
+      {
+        "AsnName": "ORANGE GUINEE",
+        "Asn": "37461"
+      },
+      {
+        "AsnName": "AREEBA GUINEE SA",
+        "Asn": "37612"
+      }
+    ],
+    "GW": [
+      {
+        "AsnName": "Spacetel - Guine-Bissau",
+        "Asn": "327769"
+      },
+      {
+        "AsnName": "Orange Bissau",
+        "Asn": "37559"
+      }
+    ],
+    "GY": [
+      {
+        "AsnName": "Guyana Telephone & Telegraph Co.",
+        "Asn": "19863"
+      }
+    ],
+    "HT": [],
+    "HM": [],
+    "VA": [],
+    "HN": [
+      {
+        "AsnName": "Hondutel",
+        "Asn": "7727"
+      }
+    ],
+    "HK": [
+      {
+        "AsnName": "PCCW Limited",
+        "Asn": "4760"
+      },
+      {
+        "AsnName": "PCCW IMSBiz",
+        "Asn": "4515"
+      },
+      {
+        "AsnName": "SmarTone Mobile Communications Ltd",
+        "Asn": "17924"
+      },
+      {
+        "AsnName": "China Mobile International Limited",
+        "Asn": "58453"
+      }
+    ],
+    "HU": [
+      {
+        "AsnName": "Magyar Telekom plc.",
+        "Asn": "5483"
+      },
+      {
+        "AsnName": "Telenor Hungary plc",
+        "Asn": "8448"
+      },
+      {
+        "AsnName": "DIGI Tavkozlesi es Szolgaltato Kft.",
+        "Asn": "20845"
+      },
+      {
+        "AsnName": "Vodafone Hungary Ltd.",
+        "Asn": "21334"
+      },
+      {
+        "AsnName": "PR-TELECOM Rt.",
+        "Asn": "35311"
+      }
+    ],
+    "IS": [
+      {
+        "AsnName": "Fjarskipti ehf",
+        "Asn": "12969"
+      },
+      {
+        "AsnName": "Siminn hf",
+        "Asn": "6677"
+      },
+      {
+        "AsnName": "Nova ehf",
+        "Asn": "43571"
+      }
+    ],
+    "IN": [
+      {
+        "AsnName": "Reliance Jio Infocomm Limited",
+        "Asn": "55836"
+      },
+      {
+        "AsnName": "TATA COMM MAINTAINER",
+        "Asn": "4755"
+      },
+      {
+        "AsnName": "Mahanagar Telephone Nigam Limited",
+        "Asn": "17813"
+      },
+      {
+        "AsnName": "Aircel Ltd.",
+        "Asn": "55831"
+      },
+      {
+        "AsnName": "Vodafone Essar Ltd., Telecommunication - Value Added Services,",
+        "Asn": "38266"
+      },
+      {
+        "AsnName": "TATA COMM MAINTAINER",
+        "Asn": "17908"
+      },
+      {
+        "AsnName": "Reliance Communication Ltd 20060606",
+        "Asn": "18101"
+      },
+      {
+        "AsnName": "TATA TELESERVICES LTD -- CDMA",
+        "Asn": "55740"
+      },
+      {
+        "AsnName": "TATA COMM MAINTAINER",
+        "Asn": "10199"
+      }
+    ],
+    "ID": [
+      {
+        "AsnName": "PT. Telekomunikasi Selular",
+        "Asn": "23693"
+      },
+      {
+        "AsnName": "INDOSAT Internet Network Provider",
+        "Asn": "4761"
+      },
+      {
+        "AsnName": "INDOSATM2 Maintainer",
+        "Asn": "4795"
+      }
+    ],
+    "CI": [
+      {
+        "AsnName": "MTN COTE D'IVOIRE S.A",
+        "Asn": "36974"
+      },
+      {
+        "AsnName": "MTN COTE D'IVOIRE S.A",
+        "Asn": "36995"
+      }
+    ],
+    "IR": [
+      {
+        "AsnName": "Mobile Communication Company of Iran PLC",
+        "Asn": "197207"
+      }
+    ],
+    "IQ": [
+      {
+        "AsnName": "Al Atheer Telecommunication-Iraq Co. Ltd. Incorporated in Cayman Islands",
+        "Asn": "59588"
+      }
+    ],
+    "IE": [
+      {
+        "AsnName": "Vodafone Ireland Limited",
+        "Asn": "15502"
+      },
+      {
+        "AsnName": "Three Ireland (Hutchison) limited",
+        "Asn": "34218"
+      },
+      {
+        "AsnName": "Three Ireland (Hutchison) limited",
+        "Asn": "13280"
+      },
+      {
+        "AsnName": "Meteor",
+        "Asn": "15751"
+      }
+    ],
+    "IM": [],
+    "IL": [
+      {
+        "AsnName": "Golan Telecom Ltd.",
+        "Asn": "198484"
+      },
+      {
+        "AsnName": "013 NetVision Ltd",
+        "Asn": "1680"
+      },
+      {
+        "AsnName": "Partner Communications Ltd.",
+        "Asn": "12400"
+      },
+      {
+        "AsnName": "Pelephone Communications Ltd.",
+        "Asn": "16116"
+      },
+      {
+        "AsnName": "Telzar 019 International Telecommunications Services LTD",
+        "Asn": "51825"
+      },
+      {
+        "AsnName": "HOT Mobile Ltd.",
+        "Asn": "21450"
+      }
+    ],
+    "IT": [
+      {
+        "AsnName": "Telecom Italia S.p.a.",
+        "Asn": "3269"
+      },
+      {
+        "AsnName": "Vodafone Italia S.p.A.",
+        "Asn": "30722"
+      },
+      {
+        "AsnName": "TELECOM ITALIA SPA",
+        "Asn": "16232"
+      },
+      {
+        "AsnName": "Telecom Italia S.p.A.",
+        "Asn": "20959"
+      },
+      {
+        "AsnName": "Vodafone Italia S.p.A.",
+        "Asn": "12663"
+      },
+      {
+        "AsnName": "TELECOM ITALIA SPARKLE S.p.A.",
+        "Asn": "6762"
+      },
+      {
+        "AsnName": "Telecom Italia S.p.A.",
+        "Asn": "20746"
+      }
+    ],
+    "JM": [
+      {
+        "AsnName": "FLOW",
+        "Asn": "30689"
+      },
+      {
+        "AsnName": "Digicel Jamaica",
+        "Asn": "33576"
+      }
+    ],
+    "JP": [
+      {
+        "AsnName": "Softbank BB Corp.",
+        "Asn": "17676"
+      },
+      {
+        "AsnName": "NTT Communications Corporation",
+        "Asn": "4713"
+      },
+      {
+        "AsnName": "KDDI CORPORATION",
+        "Asn": "2516"
+      },
+      {
+        "AsnName": "NTT DOCOMO, INC.",
+        "Asn": "9605"
+      },
+      {
+        "AsnName": "SoftBank Mobile Corp.",
+        "Asn": "4725"
+      },
+      {
+        "AsnName": "NTT PC Communications, Inc.",
+        "Asn": "2514"
+      },
+      {
+        "AsnName": "NTT-ME Corporation",
+        "Asn": "9595"
+      }
+    ],
+    "JE": [
+      {
+        "AsnName": "JT (Jersey) Limited",
+        "Asn": "8681"
+      },
+      {
+        "AsnName": "Jersey Airtel Limited",
+        "Asn": "61143"
+      }
+    ],
+    "JO": [
+      {
+        "AsnName": "Jordan Data Communications Company LLC",
+        "Asn": "8376"
+      },
+      {
+        "AsnName": "Jordan Telecommunications Company",
+        "Asn": "8697"
+      },
+      {
+        "AsnName": "JORDAN TV CABLE & INTERNET SERVICES CO",
+        "Asn": "44702"
+      }
+    ],
+    "KZ": [
+      {
+        "AsnName": "Kcell JSC",
+        "Asn": "29355"
+      },
+      {
+        "AsnName": "JSC Kazakhtelecom",
+        "Asn": "50482"
+      },
+      {
+        "AsnName": "Mobile Telecom-Service LLP",
+        "Asn": "29555"
+      }
+    ],
+    "KE": [
+      {
+        "AsnName": "Safaricom Limited",
+        "Asn": "33771"
+      },
+      {
+        "AsnName": "Airtel Networks Kenya Limited",
+        "Asn": "36926"
+      },
+      {
+        "AsnName": "Safaricom Limited",
+        "Asn": "37061"
+      }
+    ],
+    "KI": [],
+    "KW": [
+      {
+        "AsnName": "Mobile Telecommunications Company",
+        "Asn": "42961"
+      },
+      {
+        "AsnName": "National Mobile Telecommunications Company",
+        "Asn": "29357"
+      },
+      {
+        "AsnName": "Kuwait Telecommunication Company (Under Association)",
+        "Asn": "47589"
+      }
+    ],
+    "KG": [
+      {
+        "AsnName": "Mega-Line Ltd.",
+        "Asn": "41750"
+      }
+    ],
+    "LA": [
+      {
+        "AsnName": "Lao Telecom Communication, LTC",
+        "Asn": "9873"
+      },
+      {
+        "AsnName": "Vimpelcom Lao Co Ltd",
+        "Asn": "55511"
+      }
+    ],
+    "LV": [
+      {
+        "AsnName": "Telia Latvija SIA",
+        "Asn": "5518"
+      },
+      {
+        "AsnName": "Telecom Baltia, sia",
+        "Asn": "43075"
+      },
+      {
+        "AsnName": "Latvian Mobile Telephone Co.",
+        "Asn": "24921"
+      }
+    ],
+    "LB": [
+      {
+        "AsnName": "Mobile Interim Company no.2 sal",
+        "Asn": "38999"
+      }
+    ],
+    "LS": [
+      {
+        "AsnName": "Econet Telecom Lesotho (PTY) LTD",
+        "Asn": "33567"
+      },
+      {
+        "AsnName": "Vodacom Lesotho (Pty) Ltd",
+        "Asn": "37057"
+      },
+      {
+        "AsnName": "Econet Telecom Lesotho (PTY) LTD",
+        "Asn": "33767"
+      }
+    ],
+    "LR": [
+      {
+        "AsnName": "Lonestar Communications Corporation",
+        "Asn": "37410"
+      },
+      {
+        "AsnName": "Cellcom Telecommunications Inc.",
+        "Asn": "37094"
+      },
+      {
+        "AsnName": "NOVAFONE Inc",
+        "Asn": "37557"
+      },
+      {
+        "AsnName": "Liberia Internet Exchange Point Association",
+        "Asn": "37715"
+      },
+      {
+        "AsnName": "Liberia Internet Exchange Point Association",
+        "Asn": "327887"
+      }
+    ],
+    "LY": [],
+    "LI": [
+      {
+        "AsnName": "Telecom Liechtenstein AG",
+        "Asn": "20634"
+      }
+    ],
+    "LT": [
+      {
+        "AsnName": "Telia Lietuva, AB",
+        "Asn": "8764"
+      },
+      {
+        "AsnName": "Telia Lietuva, AB",
+        "Asn": "5522"
+      }
+    ],
+    "LU": [
+      {
+        "AsnName": "POST Luxembourg",
+        "Asn": "6661"
+      },
+      {
+        "AsnName": "Tango S.A.",
+        "Asn": "48526"
+      },
+      {
+        "AsnName": "Lux Green Technologies Sarl",
+        "Asn": "41589"
+      }
+    ],
+    "MO": [
+      {
+        "AsnName": "Companhia de Telecomunicacoes de Macau SARL",
+        "Asn": "4609"
+      },
+      {
+        "AsnName": "SmarTone Mobile Communications (Macau) Limited",
+        "Asn": "45918"
+      }
+    ],
+    "MK": [
+      {
+        "AsnName": "Makedonski Telekom AD-Skopje",
+        "Asn": "6821"
+      },
+      {
+        "AsnName": "Company for communications services ONE.VIP DOO Skopje",
+        "Asn": "16333"
+      },
+      {
+        "AsnName": "Company for communications services ONE.VIP DOO Skopje",
+        "Asn": "43612"
+      },
+      {
+        "AsnName": "Company for communications services ONE.VIP DOO Skopje",
+        "Asn": "57374"
+      },
+      {
+        "AsnName": "Company for communications services ONE.VIP DOO Skopje",
+        "Asn": "43494"
+      }
+    ],
+    "MG": [
+      {
+        "AsnName": "TELMA Global Net",
+        "Asn": "37054"
+      },
+      {
+        "AsnName": "Airtel Madagascar",
+        "Asn": "37303"
+      },
+      {
+        "AsnName": "Airtel Madagascar",
+        "Asn": "327699"
+      }
+    ],
+    "MW": [
+      {
+        "AsnName": "Malawi Telecommunications Limited",
+        "Asn": "36969"
+      },
+      {
+        "AsnName": "TELEKOM NETWORKS MALAWI LTD",
+        "Asn": "36913"
+      },
+      {
+        "AsnName": "TELEKOM NETWORKS MALAWI LTD",
+        "Asn": "37294"
+      },
+      {
+        "AsnName": "Airtel Malawi Ltd",
+        "Asn": "37440"
+      }
+    ],
+    "MY": [
+      {
+        "AsnName": "Maxis Broadband Sdn Bhd",
+        "Asn": "9534"
+      },
+      {
+        "AsnName": "DiGi Telecom Maintainer Contact",
+        "Asn": "4818"
+      },
+      {
+        "AsnName": "DiGi Telecom Maintainer Contact",
+        "Asn": "10081"
+      },
+      {
+        "AsnName": "Celcom",
+        "Asn": "10030"
+      }
+    ],
+    "MV": [
+      {
+        "AsnName": "Focus Infocom Private Limited",
+        "Asn": "24016"
+      }
+    ],
+    "ML": [
+      {
+        "AsnName": "Orange Mali SA",
+        "Asn": "30985"
+      }
+    ],
+    "MT": [
+      {
+        "AsnName": "Melita plc.",
+        "Asn": "12709"
+      },
+      {
+        "AsnName": "GO p.l.c.",
+        "Asn": "15735"
+      },
+      {
+        "AsnName": "Vodafone Malta Limited",
+        "Asn": "33874"
+      },
+      {
+        "AsnName": "GO p.l.c.",
+        "Asn": "5532"
+      },
+      {
+        "AsnName": "Melita plc.",
+        "Asn": "200805"
+      }
+    ],
+    "MH": [
+      {
+        "AsnName": "MARSHALL ISLANDS NTA ISP AS",
+        "Asn": "24439"
+      }
+    ],
+    "MQ": [],
+    "MR": [
+      {
+        "AsnName": "Mauritanian Telecommunication Company",
+        "Asn": "29544"
+      },
+      {
+        "AsnName": "Chinguitel S.A",
+        "Asn": "37541"
+      },
+      {
+        "AsnName": "MATTEL",
+        "Asn": "37508"
+      }
+    ],
+    "MU": [
+      {
+        "AsnName": "Mauritius Telecom Ltd",
+        "Asn": "23889"
+      },
+      {
+        "AsnName": "EMTEL LIMITED",
+        "Asn": "30999"
+      },
+      {
+        "AsnName": "Mahanagar Telephone (Mauritius) Ltd",
+        "Asn": "37622"
+      }
+    ],
+    "YT": [],
+    "MX": [
+      {
+        "AsnName": "Telefonos del Noroeste, S.A. de C.V.",
+        "Asn": "6332"
+      }
+    ],
+    "FM": [
+      {
+        "AsnName": "FSM Telecommunications Corporation",
+        "Asn": "10130"
+      },
+      {
+        "AsnName": "FSM Telecommunications Corporation",
+        "Asn": "38875"
+      },
+      {
+        "AsnName": "FSM Telecommunications Corporation",
+        "Asn": "45193"
+      },
+      {
+        "AsnName": "FSM Telecommunications Corporation",
+        "Asn": "58524"
+      }
+    ],
+    "MD": [
+      {
+        "AsnName": "Moldtelecom SA",
+        "Asn": "8926"
+      },
+      {
+        "AsnName": "ORANGE MOLDOVA S.A.",
+        "Asn": "25454"
+      },
+      {
+        "AsnName": "MOLDCELL S.A.",
+        "Asn": "43925"
+      }
+    ],
+    "MC": [
+      {
+        "AsnName": "Monaco Telecom",
+        "Asn": "6758"
+      }
+    ],
+    "MN": [
+      {
+        "AsnName": "SKY C&C LLC",
+        "Asn": "10219"
+      },
+      {
+        "AsnName": "Skynetworks LLC",
+        "Asn": "38869"
+      },
+      {
+        "AsnName": "G-Mobile Corporation",
+        "Asn": "24559"
+      }
+    ],
+    "ME": [
+      {
+        "AsnName": "Crnogorski Telekom a.d.Podgorica",
+        "Asn": "8585"
+      },
+      {
+        "AsnName": "Drustvo za telekomunikacije MTEL DOO",
+        "Asn": "43940"
+      },
+      {
+        "AsnName": "Telenor d.o.o. Podgorica",
+        "Asn": "15397"
+      },
+      {
+        "AsnName": "Drustvo za telekomunikacije, promet roba i usluga, export-import IPMONT d.o.o. Podgorica",
+        "Asn": "62301"
+      }
+    ],
+    "MS": [],
+    "MA": [
+      {
+        "AsnName": "MEDITELECOM",
+        "Asn": "36925"
+      },
+      {
+        "AsnName": "Wana Corporate",
+        "Asn": "36884"
+      }
+    ],
+    "MZ": [
+      {
+        "AsnName": "Movitel, SA",
+        "Asn": "37342"
+      },
+      {
+        "AsnName": "VM  S.A",
+        "Asn": "37223"
+      },
+      {
+        "AsnName": "Mocambique Celular, SARL",
+        "Asn": "37042"
+      }
+    ],
+    "MM": [
+      {
+        "AsnName": "Myanma Posts and Telecommunications",
+        "Asn": "9988"
+      },
+      {
+        "AsnName": "Telenor Myanmar",
+        "Asn": "133385"
+      },
+      {
+        "AsnName": "Ooredoo Myanmar Limited",
+        "Asn": "132167"
+      }
+    ],
+    "NA": [
+      {
+        "AsnName": "Telecom Namibia",
+        "Asn": "36996"
+      },
+      {
+        "AsnName": "MTC - Mobile Telecommunications, Ltd.",
+        "Asn": "37009"
+      },
+      {
+        "AsnName": "Telecom Namibia",
+        "Asn": "36999"
+      },
+      {
+        "AsnName": "Telecom Namibia",
+        "Asn": "20459"
+      }
+    ],
+    "NR": [
+      {
+        "AsnName": "Digicel Nauru",
+        "Asn": "55723"
+      }
+    ],
+    "NP": [
+      {
+        "AsnName": "Ncell Pvt. Ltd.",
+        "Asn": "38565"
+      },
+      {
+        "AsnName": "Nepal Telecom",
+        "Asn": "23752"
+      }
+    ],
+    "NL": [
+      {
+        "AsnName": "Tele 2 Nederland B.V.",
+        "Asn": "13127"
+      },
+      {
+        "AsnName": "T-mobile Netherlands bv.",
+        "Asn": "31615"
+      },
+      {
+        "AsnName": "Vodafone-Libertel NV",
+        "Asn": "15480"
+      },
+      {
+        "AsnName": "KPN B.V.",
+        "Asn": "5615"
+      },
+      {
+        "AsnName": "KPN B.V.",
+        "Asn": "8737"
+      },
+      {
+        "AsnName": "T-Mobile Thuis BV",
+        "Asn": "50266"
+      },
+      {
+        "AsnName": "KPN Corporate Market B.V.",
+        "Asn": "21286"
+      },
+      {
+        "AsnName": "KPN B.V.",
+        "Asn": "286"
+      },
+      {
+        "AsnName": "Tele 2 Nederland B.V.",
+        "Asn": "15670"
+      },
+      {
+        "AsnName": "Vodafone Libertel B.V.",
+        "Asn": "33915"
+      }
+    ],
+    "NC": [],
+    "NZ": [
+      {
+        "AsnName": "Spark New Zealand Trading Ltd",
+        "Asn": "4771"
+      },
+      {
+        "AsnName": "Vodafone NZ Maintainer Object",
+        "Asn": "9500"
+      },
+      {
+        "AsnName": "TelstraClear Ltd",
+        "Asn": "4768"
+      },
+      {
+        "AsnName": "Vodafone Next Generation Services Limited",
+        "Asn": "17435"
+      },
+      {
+        "AsnName": "Two Degrees Mobile Limited",
+        "Asn": "38793"
+      },
+      {
+        "AsnName": "Spark New Zealand Trading Ltd",
+        "Asn": "4648"
+      },
+      {
+        "AsnName": "Spark New Zealand Trading Ltd",
+        "Asn": "2570"
+      }
+    ],
+    "NI": [
+      {
+        "AsnName": "Telefonia Celular de Nicaragua SA.",
+        "Asn": "28036"
+      }
+    ],
+    "NE": [
+      {
+        "AsnName": "Societe Nigerienne des Telecommunications (SONITEL)",
+        "Asn": "37385"
+      },
+      {
+        "AsnName": "Orange NIGER",
+        "Asn": "37233"
+      },
+      {
+        "AsnName": "Airtel Niger",
+        "Asn": "37531"
+      },
+      {
+        "AsnName": "Airtel Niger",
+        "Asn": "327711"
+      }
+    ],
+    "NG": [
+      {
+        "AsnName": "MTN NIGERIA Communication limited",
+        "Asn": "29465"
+      },
+      {
+        "AsnName": "Airtel Networks Limited",
+        "Asn": "36873"
+      },
+      {
+        "AsnName": "Globacom Limited",
+        "Asn": "37148"
+      }
+    ],
+    "NU": [],
+    "NF": [
+      {
+        "AsnName": "Norfolk Telecom",
+        "Asn": "45168"
+      }
+    ],
+    "KP": [],
+    "MP": [],
+    "NO": [
+      {
+        "AsnName": "Telenor Norge AS",
+        "Asn": "2119"
+      },
+      {
+        "AsnName": "TELIA NORGE AS",
+        "Asn": "12929"
+      }
+    ],
+    "OM": [],
+    "PK": [],
+    "PW": [],
+    "PS": [
+      {
+        "AsnName": "Palestine Telecommunications Company (PALTEL)",
+        "Asn": "12975"
+      }
+    ],
+    "PA": [
+      {
+        "AsnName": "Cable & Wireless Panama",
+        "Asn": "11556"
+      },
+      {
+        "AsnName": "Claro PanamÃ¡ S.A.",
+        "Asn": "262227"
+      },
+      {
+        "AsnName": "Telefonica Moviles Panama S.A.",
+        "Asn": "14709"
+      },
+      {
+        "AsnName": "Digicel (Panama), S.A",
+        "Asn": "28005"
+      }
+    ],
+    "PG": [
+      {
+        "AsnName": "Telikom PNG Satellite Tier 1 AS Internet Service",
+        "Asn": "38009"
+      },
+      {
+        "AsnName": "Digicel (PNG) Ltd",
+        "Asn": "58460"
+      },
+      {
+        "AsnName": "Telikom PNG Ltd",
+        "Asn": "135571"
+      }
+    ],
+    "PY": [
+      {
+        "AsnName": "Telecel S.A.",
+        "Asn": "23201"
+      },
+      {
+        "AsnName": "CO.PA.CO.",
+        "Asn": "27866"
+      },
+      {
+        "AsnName": "CO.PA.CO.",
+        "Asn": "27768"
+      }
+    ],
+    "PE": [
+      {
+        "AsnName": "Telefonica del Peru S.A.A.",
+        "Asn": "6147"
+      },
+      {
+        "AsnName": "America Movil Peru S.A.C.",
+        "Asn": "12252"
+      },
+      {
+        "AsnName": "ENTEL PERU S.A.",
+        "Asn": "21575"
+      },
+      {
+        "AsnName": "VIETTEL PERÚ S.A.C",
+        "Asn": "262210"
+      }
+    ],
+    "PH": [
+      {
+        "AsnName": "Globe Telecoms",
+        "Asn": "4775"
+      },
+      {
+        "AsnName": "Globe Telecom Inc.",
+        "Asn": "132199"
+      },
+      {
+        "AsnName": "Smart Broadband, Inc.",
+        "Asn": "10139"
+      }
+    ],
+    "PN": [],
+    "PL": [
+      {
+        "AsnName": "Orange Polska Spolka Akcyjna",
+        "Asn": "5617"
+      },
+      {
+        "AsnName": "Polkomtel Sp. z o.o.",
+        "Asn": "8374"
+      },
+      {
+        "AsnName": "T-MOBILE POLSKA SPOLKA AKCYJNA",
+        "Asn": "12912"
+      },
+      {
+        "AsnName": "P4 Sp. z o.o.",
+        "Asn": "39603"
+      },
+      {
+        "AsnName": "P4 Sp. z o.o.",
+        "Asn": "201019"
+      }
+    ],
+    "PT": [
+      {
+        "AsnName": "NOS COMUNICACOES, S.A.",
+        "Asn": "2860"
+      },
+      {
+        "AsnName": "MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.",
+        "Asn": "3243"
+      },
+      {
+        "AsnName": "Vodafone Portugal - Communicacoes Pessoais S.A.",
+        "Asn": "12353"
+      },
+      {
+        "AsnName": "MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.",
+        "Asn": "42863"
+      },
+      {
+        "AsnName": "MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.",
+        "Asn": "15525"
+      },
+      {
+        "AsnName": "NOS Madeira Comunicacoes, S.A.",
+        "Asn": "15457"
+      },
+      {
+        "AsnName": "MEO - SERVICOS DE COMUNICACOES E MULTIMEDIA S.A.",
+        "Asn": "8657"
+      },
+      {
+        "AsnName": "NOS ACORES COMUNICACOES, S.A.",
+        "Asn": "42580"
+      }
+    ],
+    "PR": [
+      {
+        "AsnName": "AT&T Mobility Puerto Rico",
+        "Asn": "11992"
+      },
+      {
+        "AsnName": "AT&T Mobility Puerto Rico",
+        "Asn": "10937"
+      }
+    ],
+    "QA": [
+      {
+        "AsnName": "Ooredoo Q.S.C.",
+        "Asn": "8781"
+      },
+      {
+        "AsnName": "Ooredoo Q.S.C.",
+        "Asn": "42298"
+      },
+      {
+        "AsnName": "Vodafone Qatar Q.S.C.",
+        "Asn": "48728"
+      },
+      {
+        "AsnName": "Ooredoo Q.S.C.",
+        "Asn": "59966"
+      },
+      {
+        "AsnName": "Ooredoo Q.S.C.",
+        "Asn": "34796"
+      }
+    ],
+    "XK": [],
+    "RE": [],
+    "RO": [
+      {
+        "AsnName": "RCS & RDS SA",
+        "Asn": "8708"
+      },
+      {
+        "AsnName": "TELEKOM ROMANIA COMMUNICATION S.A",
+        "Asn": "9050"
+      },
+      {
+        "AsnName": "Orange Romania S.A.",
+        "Asn": "8953"
+      },
+      {
+        "AsnName": "Vodafone Romania S.A.",
+        "Asn": "12302"
+      }
+    ],
+    "RU": [
+      {
+        "AsnName": "PJSC Rostelecom",
+        "Asn": "12389"
+      },
+      {
+        "AsnName": "OJSC Vimpelcom",
+        "Asn": "8402"
+      },
+      {
+        "AsnName": "PJSC Rostelecom",
+        "Asn": "8997"
+      },
+      {
+        "AsnName": "MTS PJSC",
+        "Asn": "8359"
+      },
+      {
+        "AsnName": "PJSC Vimpelcom",
+        "Asn": "3216"
+      },
+      {
+        "AsnName": "PJSC Rostelecom",
+        "Asn": "42610"
+      },
+      {
+        "AsnName": "OJSC OAO TATTELECOM",
+        "Asn": "28840"
+      },
+      {
+        "AsnName": "PJSC Rostelecom",
+        "Asn": "12332"
+      },
+      {
+        "AsnName": "PJSC MegaFon",
+        "Asn": "20632"
+      },
+      {
+        "AsnName": "T2 Mobile LLC",
+        "Asn": "12958"
+      }
+    ],
+    "RW": [
+      {
+        "AsnName": "MTN Rwandacell",
+        "Asn": "36890"
+      },
+      {
+        "AsnName": "Rwanda Ministry of Education",
+        "Asn": "37654"
+      },
+      {
+        "AsnName": "Airtel Rwanda Ltd.",
+        "Asn": "327707"
+      },
+      {
+        "AsnName": "TIGO RWANDA S.A",
+        "Asn": "37124"
+      },
+      {
+        "AsnName": "Airtel Rwanda Ltd.",
+        "Asn": "327708"
+      }
+    ],
+    "BL": [],
+    "SH": [],
+    "KN": [],
+    "LC": [
+      {
+        "AsnName": "Digicel Caribbean Limited",
+        "Asn": "394469"
+      }
+    ],
+    "MF": [
+      {
+        "AsnName": "Dauphin Telecom",
+        "Asn": "33392"
+      }
+    ],
+    "PM": [],
+    "VC": [],
+    "WS": [
+      {
+        "AsnName": "Digicel Samoa Ltd",
+        "Asn": "38800"
+      }
+    ],
+    "SM": [
+      {
+        "AsnName": "Telecom Italia San Marino S.p.A",
+        "Asn": "15433"
+      },
+      {
+        "AsnName": "S.P.A. San Marino Telecom",
+        "Asn": "49159"
+      }
+    ],
+    "ST": [],
+    "SA": [
+      {
+        "AsnName": "Saudi Telecom Company JSC",
+        "Asn": "25019"
+      },
+      {
+        "AsnName": "Etihad Etisalat, a joint stock company",
+        "Asn": "34400"
+      },
+      {
+        "AsnName": "Saudi Telecom Company JSC",
+        "Asn": "39891"
+      },
+      {
+        "AsnName": "Saudi Telecom Company JSC",
+        "Asn": "39386"
+      },
+      {
+        "AsnName": "Saudi Telecom Company JSC",
+        "Asn": "44614"
+      }
+    ],
+    "SN": [
+      {
+        "AsnName": "Sudatel Senegal",
+        "Asn": "37196"
+      },
+      {
+        "AsnName": "Tigo Senegal",
+        "Asn": "37649"
+      },
+      {
+        "AsnName": "HAYO SA",
+        "Asn": "328099"
+      }
+    ],
+    "RS": [
+      {
+        "AsnName": "TELEKOM SRBIJA a.d.",
+        "Asn": "8400"
+      },
+      {
+        "AsnName": "Telenor d.o.o. Beograd",
+        "Asn": "15958"
+      }
+    ],
+    "SC": [
+      {
+        "AsnName": "Cable & Wireless (Seychelles) Ltd",
+        "Asn": "36958"
+      }
+    ],
+    "SL": [
+      {
+        "AsnName": "AIrtel (SL) Limited",
+        "Asn": "37164"
+      },
+      {
+        "AsnName": "Sierra Leone Telecommunications Co Ltd",
+        "Asn": "36928"
+      },
+      {
+        "AsnName": "Africell - Lintel (SL)",
+        "Asn": "36988"
+      }
+    ],
+    "SG": [
+      {
+        "AsnName": "SingTel Magix Hostmaster",
+        "Asn": "9506"
+      },
+      {
+        "AsnName": "Starhub Internet, Singapore",
+        "Asn": "55430"
+      },
+      {
+        "AsnName": "StarHub Cable Vision Ltd",
+        "Asn": "10091"
+      },
+      {
+        "AsnName": "MobileOne Ltd",
+        "Asn": "4773"
+      },
+      {
+        "AsnName": "Starhub Internet, Singapore",
+        "Asn": "4657"
+      },
+      {
+        "AsnName": "Starhub Internet, Singapore",
+        "Asn": "9874"
+      },
+      {
+        "AsnName": "M1 NET LTD",
+        "Asn": "17547"
+      },
+      {
+        "AsnName": "SingTel Internet Exchange",
+        "Asn": "7473"
+      }
+    ],
+    "SX": [],
+    "SK": [
+      {
+        "AsnName": "Slovak Telecom, a. s.",
+        "Asn": "6855"
+      },
+      {
+        "AsnName": "Orange Slovensko a.s.",
+        "Asn": "15962"
+      },
+      {
+        "AsnName": "SWAN, a.s.",
+        "Asn": "16160"
+      },
+      {
+        "AsnName": "Slovak Telecom, a. s.",
+        "Asn": "5628"
+      },
+      {
+        "AsnName": "O2 Business Services, a.s",
+        "Asn": "28952"
+      }
+    ],
+    "SI": [
+      {
+        "AsnName": "A1 Slovenija telekomunikacijske storitve,d.d.",
+        "Asn": "21283"
+      },
+      {
+        "AsnName": "T-2, d.o.o.",
+        "Asn": "34779"
+      },
+      {
+        "AsnName": "Telemach Rotovz d.d.",
+        "Asn": "3212"
+      },
+      {
+        "AsnName": "A1 Slovenija telekomunikacijske storitve,d.d.",
+        "Asn": "8591"
+      },
+      {
+        "AsnName": "Telemach d.o.o.",
+        "Asn": "12644"
+      },
+      {
+        "AsnName": "Telemach d.o.o.",
+        "Asn": "42613"
+      },
+      {
+        "AsnName": "Telemach d.o.o.",
+        "Asn": "16016"
+      },
+      {
+        "AsnName": "Telemach d.o.o.",
+        "Asn": "33929"
+      }
+    ],
+    "SB": [
+      {
+        "AsnName": "Solomon Telekom Company Ltd.",
+        "Asn": "45891"
+      },
+      {
+        "AsnName": "Solomon Telekom Company Ltd.",
+        "Asn": "134525"
+      }
+    ],
+    "SO": [
+      {
+        "AsnName": "Telesom",
+        "Asn": "37473"
+      },
+      {
+        "AsnName": "Hormuud Telecom Somalia INC",
+        "Asn": "37371"
+      },
+      {
+        "AsnName": "SOMTEL INTERNATIONAL Ltd",
+        "Asn": "37563"
+      }
+    ],
+    "ZA": [
+      {
+        "AsnName": "MTN SA",
+        "Asn": "16637"
+      },
+      {
+        "AsnName": "MTN SA",
+        "Asn": "2905"
+      },
+      {
+        "AsnName": "Cell C (Pty) Ltd",
+        "Asn": "37168"
+      },
+      {
+        "AsnName": "Vodacom",
+        "Asn": "29975"
+      },
+      {
+        "AsnName": "Telkom SA Ltd.",
+        "Asn": "5713"
+      },
+      {
+        "AsnName": "Telkom SA Ltd.",
+        "Asn": "37457"
+      },
+      {
+        "AsnName": "Vodacom",
+        "Asn": "36994"
+      }
+    ],
+    "GS": [],
+    "KR": [
+      {
+        "AsnName": "SK Broadband Co Ltd",
+        "Asn": "9318"
+      },
+      {
+        "AsnName": "LG POWERCOMM",
+        "Asn": "17858"
+      },
+      {
+        "AsnName": "LG DACOM Corporation",
+        "Asn": "3786"
+      },
+      {
+        "AsnName": "SK Telecom",
+        "Asn": "9644"
+      },
+      {
+        "AsnName": "SK Telecom",
+        "Asn": "18302"
+      }
+    ],
+    "SS": [],
+    "ES": [
+      {
+        "AsnName": "Orange Espagne SA",
+        "Asn": "12479"
+      },
+      {
+        "AsnName": "VODAFONE ESPANA S.A.U.",
+        "Asn": "12430"
+      },
+      {
+        "AsnName": "VODAFONE ONO, S.A.",
+        "Asn": "6739"
+      },
+      {
+        "AsnName": "Orange Espagne S.A.U.",
+        "Asn": "12715"
+      },
+      {
+        "AsnName": "VODAFONE ESPANA S.A.U.",
+        "Asn": "12357"
+      },
+      {
+        "AsnName": "Orange Espagne SA",
+        "Asn": "20921"
+      }
+    ],
+    "LK": [
+      {
+        "AsnName": "Sri Lanka Telecom Internet",
+        "Asn": "9329"
+      },
+      {
+        "AsnName": "Dialog Telekom Ltd",
+        "Asn": "18001"
+      },
+      {
+        "AsnName": "Etisalat Lanka (Pvt) Ltd.",
+        "Asn": "17470"
+      }
+    ],
+    "SD": [
+      {
+        "AsnName": "Sudanese Mobile Telephone (ZAIN) Co Ltd",
+        "Asn": "36998"
+      },
+      {
+        "AsnName": "Sudatel (Sudan Telecom Co. Ltd)",
+        "Asn": "15706"
+      },
+      {
+        "AsnName": "Kanar Telecommunication (Canar Telecom Co.Ltd)",
+        "Asn": "33788"
+      },
+      {
+        "AsnName": "MTN SUDAN",
+        "Asn": "36972"
+      }
+    ],
+    "SR": [
+      {
+        "AsnName": "Digicel Suriname NV",
+        "Asn": "52398"
+      }
+    ],
+    "SJ": [],
+    "SZ": [],
+    "SE": [
+      {
+        "AsnName": "Telia Company AB",
+        "Asn": "3301"
+      },
+      {
+        "AsnName": "Hi3G Access AB",
+        "Asn": "44034"
+      },
+      {
+        "AsnName": "AllTele Allmanna Svenska Telefonaktiebolaget",
+        "Asn": "44581"
+      }
+    ],
+    "CH": [
+      {
+        "AsnName": "Swisscom (Switzerland) Ltd",
+        "Asn": "3303"
+      },
+      {
+        "AsnName": "Sunrise Communications AG",
+        "Asn": "6730"
+      }
+    ],
+    "SY": [
+      {
+        "AsnName": "Syrian Telecom",
+        "Asn": "29256"
+      },
+      {
+        "AsnName": "Syriatel Mobile Telecom",
+        "Asn": "48065"
+      },
+      {
+        "AsnName": "Syrian Telecom",
+        "Asn": "201550"
+      },
+      {
+        "AsnName": "Syrian Telecom",
+        "Asn": "29386"
+      },
+      {
+        "AsnName": "MTN Syria",
+        "Asn": "52209"
+      }
+    ],
+    "TW": [
+      {
+        "AsnName": "Far EastTone Telecommunication Co., Ltd.",
+        "Asn": "9674"
+      },
+      {
+        "AsnName": "Taiwan Mobile Co., Ltd.",
+        "Asn": "24158"
+      }
+    ],
+    "TJ": [
+      {
+        "AsnName": "Tacom",
+        "Asn": "34557"
+      }
+    ],
+    "TZ": [
+      {
+        "AsnName": "Airtel Tanzania",
+        "Asn": "37133"
+      },
+      {
+        "AsnName": "Vodacom Tanzania Ltd",
+        "Asn": "36908"
+      }
+    ],
+    "TH": [
+      {
+        "AsnName": "TRUE INTERNET CO., LTD.",
+        "Asn": "17552"
+      },
+      {
+        "AsnName": "TRUE INTERNET CO., LTD.",
+        "Asn": "7470"
+      },
+      {
+        "AsnName": "TOT Public Company Limited",
+        "Asn": "9737"
+      },
+      {
+        "AsnName": "TOT Public Company Limited",
+        "Asn": "23969"
+      },
+      {
+        "AsnName": "CAT TELECOM Public Company Ltd,CAT",
+        "Asn": "131090"
+      },
+      {
+        "AsnName": "TOT Public Company Limited",
+        "Asn": "131293"
+      }
+    ],
+    "TL": [
+      {
+        "AsnName": "Viettel Timor Leste",
+        "Asn": "133606"
+      },
+      {
+        "AsnName": "Timor Telecom",
+        "Asn": "38077"
+      }
+    ],
+    "TG": [
+      {
+        "AsnName": "TogoTelecom, Togo",
+        "Asn": "24691"
+      }
+    ],
+    "TK": [
+      {
+        "AsnName": "Telecommunications Tokelau Corporation - Teletok",
+        "Asn": "55523"
+      }
+    ],
+    "TO": [
+      {
+        "AsnName": "Digicel Tonga Ltd",
+        "Asn": "38198"
+      }
+    ],
+    "TT": [
+      {
+        "AsnName": "Digicel Trinidad and Tobago Ltd.",
+        "Asn": "27800"
+      }
+    ],
+    "TN": [
+      {
+        "AsnName": "OOREDOO TUNISIE SA",
+        "Asn": "37693"
+      },
+      {
+        "AsnName": "Orange Tunisie",
+        "Asn": "37492"
+      }
+    ],
+    "TR": [
+      {
+        "AsnName": "TURKCELL ILETISIM HIZMETLERI A.S.",
+        "Asn": "16135"
+      },
+      {
+        "AsnName": "AVEA Iletisim Hizmetleri A.S.",
+        "Asn": "20978"
+      },
+      {
+        "AsnName": "Vodafone Telekomunikasyon A.S.",
+        "Asn": "15897"
+      },
+      {
+        "AsnName": "VODAFONE NET ILETISIM HIZMETLERI ANONIM SIRKETI",
+        "Asn": "8386"
+      },
+      {
+        "AsnName": "VODAFONE NET ILETISIM HIZMETLERI ANONIM SIRKETI",
+        "Asn": "15924"
+      }
+    ],
+    "TM": [
+      {
+        "AsnName": "Altyn Asyr CJSC",
+        "Asn": "59974"
+      }
+    ],
+    "TC": [
+      {
+        "AsnName": "Digicel Turks and Caicos Ltd",
+        "Asn": "394311"
+      }
+    ],
+    "TV": [],
+    "UG": [
+      {
+        "AsnName": "Uganda Telecom",
+        "Asn": "21491"
+      },
+      {
+        "AsnName": "MTN Uganda",
+        "Asn": "20294"
+      },
+      {
+        "AsnName": "Africell Uganda Limited",
+        "Asn": "36991"
+      },
+      {
+        "AsnName": "Airtel Uganda Limited",
+        "Asn": "37075"
+      },
+      {
+        "AsnName": "Airtel Uganda Limited",
+        "Asn": "36977"
+      }
+    ],
+    "UA": [
+      {
+        "AsnName": "Kyivstar PJSC",
+        "Asn": "15895"
+      },
+      {
+        "AsnName": "Kyivstar PJSC",
+        "Asn": "12530"
+      }
+    ],
+    "AE": [
+      {
+        "AsnName": "Emirates Telecommunications Corporation",
+        "Asn": "5384"
+      },
+      {
+        "AsnName": "Emirates Integrated Telecommunications Company PJSC (EITC-DU)",
+        "Asn": "15802"
+      },
+      {
+        "AsnName": "Emirates Telecommunications Corporation",
+        "Asn": "8966"
+      }
+    ],
+    "GB": [
+      {
+        "AsnName": "Virgin Media Limited",
+        "Asn": "5089"
+      },
+      {
+        "AsnName": "Sky UK Limited",
+        "Asn": "5607"
+      },
+      {
+        "AsnName": "EE Limited",
+        "Asn": "12576"
+      },
+      {
+        "AsnName": "Telefonica UK Limited",
+        "Asn": "35228"
+      },
+      {
+        "AsnName": "Hutchison 3G UK Limited",
+        "Asn": "60339"
+      }
+    ],
+    "US": [
+      {
+        "AsnName": "AT&T Mobility LLC",
+        "Asn": "20057"
+      },
+      {
+        "AsnName": "AT&T Services, Inc.",
+        "Asn": "7018"
+      },
+      {
+        "AsnName": "Sprint",
+        "Asn": "1239"
+      },
+      {
+        "AsnName": "AT&T Global Network Services, LLC",
+        "Asn": "2686"
+      },
+      {
+        "AsnName": "Sprint",
+        "Asn": "3651"
+      },
+      {
+        "AsnName": "Cellco Partnership DBA Verizon Wireless",
+        "Asn": "22394"
+      },
+      {
+        "AsnName": "T-Mobile USA, Inc.",
+        "Asn": "21928"
+      }
+    ],
+    "UM": [],
+    "VI": [],
+    "UY": [
+      {
+        "AsnName": "Telefonica Moviles del Uruguay SA",
+        "Asn": "19422"
+      },
+      {
+        "AsnName": "Telstar S.A.",
+        "Asn": "20002"
+      }
+    ],
+    "UZ": [
+      {
+        "AsnName": "Uzbektelekom Joint Stock Company",
+        "Asn": "8193"
+      },
+      {
+        "AsnName": "Uzbektelecom Joint-Stock Company",
+        "Asn": "34250"
+      },
+      {
+        "AsnName": "Uzbektelecom Joint-Stock Company",
+        "Asn": "197486"
+      },
+      {
+        "AsnName": "UNITEL LLC",
+        "Asn": "41202"
+      }
+    ],
+    "VU": [
+      {
+        "AsnName": "Telecom Vanuatu Limited",
+        "Asn": "9249"
+      },
+      {
+        "AsnName": "Wantok Network Limited",
+        "Asn": "131166"
+      },
+      {
+        "AsnName": "Digicel Vanuatu Ltd",
+        "Asn": "132429"
+      }
+    ],
+    "VE": [
+      {
+        "AsnName": "CANTV Servicios, Venezuela",
+        "Asn": "8048"
+      },
+      {
+        "AsnName": "TELEFONICA VENEZOLANA, C.A.",
+        "Asn": "6306"
+      }
+    ],
+    "VN": [],
+    "WF": [],
+    "EH": [],
+    "YE": [
+      {
+        "AsnName": "Yemen Mobile Company, Public Yemeni Joint-Stock Company",
+        "Asn": "201051"
+      },
+      {
+        "AsnName": "MTN Yemen CJSC",
+        "Asn": "51140"
+      },
+      {
+        "AsnName": "Yemen Co. for Mobile Telephony (Sabafon) CJSC",
+        "Asn": "44543"
+      }
+    ],
+    "ZM": [
+      {
+        "AsnName": "Zain Zambia PLC",
+        "Asn": "37287"
+      },
+      {
+        "AsnName": "MTN Zambia",
+        "Asn": "36962"
+      }
+    ],
+    "ZW": [
+      {
+        "AsnName": "Telecel Zimbabwe",
+        "Asn": "327770"
+      }
+    ]
+  }
+}

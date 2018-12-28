@@ -1,0 +1,81 @@
+page-home {
+
+}
+
+// header
+    .toolbar{
+        .toolbar-background{
+            background: none;
+        }
+    }
+
+//menu
+
+    .md .menu-inner {
+
+        background: none;
+
+        .content-md{
+            background: none;
+            width: 200px;
+            min-width: 200px;
+        }
+    
+    }
+
+    .item-content {
+        background: none;
+        color: #fff;
+        font-size: 14px;
+        padding: 7px 8px;
+        min-height: 35px;
+    }
+
+    .item-md.item-block .item-inner {
+    border: none;
+    }
+
+//tabs
+
+    .tabbar{
+
+        white-space: nowrap; //join in line
+        overflow: auto;
+
+        //Hide scroll bar
+            &::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+                display: none;
+            }
+
+        .tab-button {
+            min-width: 100px!important;
+            width: auto!important;
+          
+        }
+
+    }
+
+//suggestion
+    .suggestion{
+
+        display: flex; //display horizontal
+        white-space: nowrap; //join in line
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            // width: 0;
+            // height: 0;
+            // display: none;
+        }
+
+        .item-det {
+            min-width: 144px;
+            margin-top: 15px;
+        }
+
+    }
+        
+
+   

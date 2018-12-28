@@ -1,0 +1,251 @@
+<!--
+  Generated template for the ProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <!--  <ion-icon ios="ios-arrow-dropleft-outline" md="md-arrow-back"></ion-icon> -->
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center"> </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+
+  <div>
+    <div class="BackImageList ">
+      <div class="GradientColor shadowCards">
+
+        <ion-grid class="grid paddingLogo">
+          <ion-row class="row ">
+            <ion-col class="col ">
+              <div></div>
+            </ion-col>
+            <ion-col class="col " col-auto="">
+              <div>
+                <div class="col-10 logoImgHome">
+
+                  <img class="animated tada" height="120" width="120" [src]="profile?.photo" (error)="errorProfilePhoto($event)">
+
+                </div>
+              </div>
+            </ion-col>
+            <ion-col class="col ">
+              <div></div>
+            </ion-col>
+          </ion-row>
+
+
+        </ion-grid>
+
+        <div class="BackColorWhite ">
+
+          <!--           <ion-fab bottom right class="bottomIcon">
+            <button ion-fab mini class="main-bg-color iconWhite">
+              <ion-icon ios="md-share" md="md-share" class="btnWhite"></ion-icon>
+            </button>
+            <ion-fab-list side="down">
+              <button ion-fab class="colorfacebook shadowIcons">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </button>
+              <button ion-fab class="colortwitter shadowIcons" >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </button>
+              <button ion-fab class="colorLinkedin shadowIcons">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </button>
+              <button ion-fab class="colorGoogle shadowIcons" >
+                <ion-icon name="logo-googleplus"></ion-icon>
+              </button>
+            </ion-fab-list>
+          </ion-fab> -->
+          <ion-grid class="grid ">
+
+            <ion-row class="row">
+
+              <ion-col class="col">
+                <div></div>
+              </ion-col>
+
+              <ion-col class="col" col-auto="" (click)="goToProfileDetail()">
+                <div class="text-center">
+
+                  <h2 class="TittleDetailCard">
+                    {{profile?.nombres}} {{profile?.apellidos}}
+                  </h2>
+
+                  <span class=" CompanyText">{{ 'verperfil' | translate }}
+                  </span>
+
+                </div>
+              </ion-col>
+
+              <ion-col class="col">
+                <div></div>
+              </ion-col>
+
+            </ion-row>
+
+            <ion-row class="row paddingTop10">
+              <!--  <ion-col class="col">
+                <div (click)="goToNotification()">
+                  <span class="RowItemsCard" col-auto>
+
+                    <div class="iconwidth text-center">
+                      <div class="dothRed"></div>
+                      <i class="demo-icon  icon-geventsbell IconMenuWhite">&#xe812;</i> 
+                      <div class="labelIcons1">Notificaciones</div>
+                    </div>
+                  
+                  </span>
+
+                </div>
+              </ion-col>-->
+              <ion-col class="col paddingTop10">
+                <div>
+                  <span class="RowItemsCard" col-auto>
+
+                    <div class="iconwidth text-center">
+                      <div class="dothRed"></div>
+                      <i class="demo-icon  icon-geventscredit-card IconMenuWhite">&#xe862;</i>
+                      <div class="labelIcons1">{{ 'Metodospago' | translate }}</div>
+                    </div>
+
+                  </span>
+
+                </div>
+              </ion-col>
+              <ion-col class="col BorderLeftGrey">
+                <div (click)="goToSettings()">
+                  <span class="RowItemsCard" col-auto>
+
+                    <div class="iconwidth text-center">
+                      <i class="demo-icon  icon-geventscog-alt IconMenuWhite">&#xe82f;</i>
+                      <div class="labelIcons1">{{ 'Configuración' | translate }}</div>
+                    </div>
+
+                  </span>
+
+                </div>
+              </ion-col>
+
+
+            </ion-row>
+
+          </ion-grid>
+        </div>
+        <ion-grid>
+
+          <br>
+          <div *ngIf="false">
+            <ion-row>
+              <ion-col (click)="goToTickets()">
+                <div class="paddingList">
+                  <div class="ListTittle">
+                    <i class="demo-icon   icon-geventsticket-1 ListIcon">&#xe94d;</i>{{ 'MisBoletas' | translate }}</div>
+                </div>
+              </ion-col>
+
+            </ion-row>
+          </div>
+          <ion-row>
+            <ion-col (click)="goToSurvey()">
+              <div class="paddingList">
+                <div class="ListTittle">
+                  <i class="demo-icon    icon-geventsnewspaper-1 ListIcon">&#xe8d6;</i>{{ 'MisEncuestas' | translate }}</div>
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row>
+            <ion-col (click)="goToTerms()">
+              <div class="paddingList">
+                <div class="ListTittle">
+                  <i class="demo-icon   icon-geventsnewspaper-1 ListIcon">&#xe8d6;</i>{{ 'Términos' | translate }}</div>
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row>
+            <ion-col (click)="goToTermsPrivacy()">
+              <div class="paddingList">
+                <div class="ListTittle">
+                  <i class="demo-icon   icon-geventsdoc-text-1 ListIcon">&#xe8d7;</i>{{ 'Políticas' | translate }}</div>
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row>
+            <ion-col (click)="goToTermsHelp()">
+              <div class="paddingList">
+                <div class="ListTittle">
+                  <i class="demo-icon  icon-geventshelp-circled-1 ListIcon">&#xe8e3;</i> {{ 'Ayuda' | translate }}</div>
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row>
+            <ion-col (click)="goChatBot()">
+              <div class="paddingList">
+                <div class="ListTittle">
+                  <i class="demo-icon  icon-geventswechat ListIcon">&#xf1d7;</i> ChatBot</div>
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <div>
+
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <div>
+                <button (click)="logout()" class="button button-clear button-block main-btn BtnLogout borderXs button-md button-default button-default-md button-full button-full-md"
+                  full="" ion-button="" type="submit" ng-reflect-full="">
+                  <span class="button-inner">
+                    {{ 'Cerrar' | translate }}</span>
+                  <div class="button-effect"></div>
+                </button>
+              </div>
+            </ion-col>
+
+          </ion-row>
+
+        </ion-grid>
+
+        <!--         <ion-grid class="main-bg-color">
+          <ion-row>
+            <ion-col col-12></ion-col>
+          </ion-row>
+        </ion-grid> -->
+
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</ion-content>

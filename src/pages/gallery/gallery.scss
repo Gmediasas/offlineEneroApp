@@ -1,0 +1,104 @@
+page-gallery {
+    .backgroundGrey1{
+        background-color: #f5f5f5 !important;
+    }
+    .BackImageList {
+        height: 180px;
+        background: url(../assets/img/det-img4.png)no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .GradientColor{
+        height: 200px;
+        background: $main_bg_color;
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, #489cea), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+        background: -webkit-gradient(linear, left top, left bottom, from($main_bg_color), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+        background: linear-gradient(to bottom, $main_bg_color 0%, rgba(255, 255, 255, 0.01) 77%, rgba(255, 255, 255, 0) 78%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#489cea', endColorstr='#ffffff', GradientType=0 );
+    }
+    .opacidadColor{
+        height: 200px;
+        background: $main_color_with_opacity_90;
+    }
+    .logoEventoGallery img {
+
+        border-radius: 50%;
+        border: 3px solid white;
+        // background-color: white;
+        
+    }
+    .paddingTopXs{
+        padding-top: 30px;
+    }
+
+    // segment IOS
+    .segment-ios .segment-button{
+        border-color: transparent !important;
+        color: rgba(255, 255, 255, 0.36);
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .segment-ios .segment-button.segment-activated{
+        border-color: transparent !important;
+        color: rgba(255, 255, 255, 1);
+        background-color: transparent !important;
+        border-bottom: 2px solid $secondary_color !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    // segment ANDROID
+    .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated{
+        border-color: transparent !important;
+        color: rgba(255, 255, 255, 1);
+        background-color: transparent !important;
+        border-bottom: 2px solid $secondary_color !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .segment-md .segment-button{
+        border-color: transparent !important;
+        color: rgba(255, 255, 255, 0.36);
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+
+
+
+    // modulos galeria
+	.image-container {
+        min-height: 200px;
+        background-size: cover;
+        border-radius: 5px;
+        // border: 4px solid white;
+
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24);
+    }
+ 
+    @media (min-width: 0px) {
+        .images {
+            column-count: 2;
+        }
+    }
+ 
+    @media (min-width: 420px) {
+        .images {
+            column-count: 3;
+        }
+    }
+ 
+    @media (min-width: 720px) {
+        .images {
+            column-count: 4;
+        }
+    }
+ 
+    .one-image {
+        margin: 2px;
+    }
+    ion-content{
+        background-color: rgba(241, 241, 241, 1) !important;
+    }
+}

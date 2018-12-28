@@ -1,0 +1,29 @@
+page-forgot {
+	.register-content .app-form .item-input {
+    width: 412px !important;
+    }
+    ion-content {
+		background-image: url('../assets/img/poster.png');
+		//-webkit-background-image: url('../assets/img/poster.png');
+		-webkit-box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+		box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+		
+		background-size: cover;
+      }
+      .app-form{
+        bottom: auto !important;
+      }
+}
+
+#forgot-header{
+    .text-white div{
+        color: white;
+    }
+}
+.PadddingTop{
+	padding-top: 0px;
+}
+.arrowForgot{
+	font-size: 30px;
+    font-weight: 900;
+}

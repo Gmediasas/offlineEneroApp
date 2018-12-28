@@ -1,0 +1,48 @@
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <!--  <ion-icon ios="ios-arrow-dropleft-outline" md="md-arrow-back"></ion-icon> -->
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+
+    <ion-title class="text-white text-center">Turismo</ion-title>
+
+    <div *ngIf="false">
+      <ion-buttons class="bar-buttons bar-buttons-ios" end>
+        <button color="royal" icon-only="" ion-button="" showwhen="ios,windows" class="text-white disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-royal">
+          <span class="button-inner">
+            <ion-icon name="search" role="img" class="icon icon-ios ion-ios-search" aria-label="search"></ion-icon>
+          </span>
+          <div class="button-effect"></div>
+        </button>
+
+        <button color="light" hidewhen="ios,windows" icon-only="" ion-button="" class="disable-hover bar-button bar-button-ios bar-button-default bar-button-default-ios bar-button-ios-light hidden-hide-when">
+          <span class="button-inner">
+            <ion-icon name="search" role="img" class="icon icon-ios ion-ios-search" aria-label="search"></ion-icon>
+          </span>
+          <div class="button-effect"></div>
+        </button>
+      </ion-buttons>
+    </div>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <div *ngFor="let touCiu of TouristCiudades" (click)="goToDeatil(touCiu.id)">
+    <ion-card>
+      <img src="{{touCiu.banner}}" />
+      <!--<div class="card-title">{{touCiu.name}}</div>-->
+      <div class="card-subtitle">{{touCiu.titulo}}</div>
+    </ion-card>
+  </div>
+
+
+
+</ion-content>

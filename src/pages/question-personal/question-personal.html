@@ -1,0 +1,74 @@
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+      </button>
+  </ion-buttons>
+    <ion-title class="text-white text-center">Pregunta detalle</ion-title>
+
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+<div class="BackImageList ">
+    <div class="GradientColor">
+        <ion-card class="shadowViewNotes">
+          <ion-card-content>
+            <ion-card-title class="text-center TextTitleNote">
+
+              <div class="TextConference text-center">
+                {{conferencia}}
+              </div>
+
+              Pregunta
+            </ion-card-title>
+
+            <hr/>
+
+            <div class="TextNote text-center">
+              {{question}}
+            </div>
+
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="shadowViewNotes">
+          <ion-card-content>
+            <hr/>
+            <ion-card-title class="text-center TextTitleNote" *ngIf="answer">Respuesta</ion-card-title>
+
+              <div class="TextNote" *ngIf="answer">{{answer}}</div>
+
+              <div class="TextNote" *ngIf="!answer">
+
+                <h1 class="text-center TextUps">
+                  <strong>Uppss!</strong>
+                </h1>
+
+                <hr>
+
+                <p class="text-center">
+
+                  Lo sentimos, aun no han respondio tu pregunta.
+                  <br>
+                  <small>Debes esperar un tiempo prudente para que la pregunta que realizaste sea procesada.</small>
+                </p>
+                
+              </div>
+
+            </ion-card-content>
+        </ion-card>
+    </div>
+</div>
+
+</ion-content>
+
+<ion-footer>
+
+<!--  <button  class="button button-clear button-block borderXs disable-hover main-btn button-ios button-default button-default-ios button-full button-full-ios BtnSave btnColorDelete" ion-button type="submit" (click)="deleteNote(note)">  Eliminar</button>
+</ion-footer>
+ -->

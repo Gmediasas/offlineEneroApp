@@ -1,0 +1,46 @@
+<!--
+  Generated template for the ViewNotePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+    <button ion-button navPop icon-only class="text-white">
+      <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+    </button>
+  </ion-buttons>
+    <ion-title class="text-white text-center">Nueva nota</ion-title>
+
+
+  </ion-navbar>
+
+</ion-header> 
+
+
+<ion-content >
+<div class="BackImageList ">
+    <div class="GradientColor">
+        <ion-card class="shadowViewNotes">
+          <ion-card-content>
+            <ion-card-title class="text-center TextTitleNote">
+              {{ note.title }}
+            </ion-card-title>
+            <hr />
+            <div class="TextNote">{{ note.content }}</div>
+          </ion-card-content>
+        </ion-card>
+    </div>
+</div>
+
+</ion-content>
+
+<ion-footer>
+
+ <button  class="button button-clear button-block borderXs disable-hover main-btn button-ios button-default button-default-ios button-full button-full-ios BtnSave btnColorDelete" ion-button type="submit" (click)="deleteNote(note)">  Eliminar</button>
+</ion-footer>
+
+
+ 

@@ -1,0 +1,351 @@
+page-conference-detail {
+	.backgroundGrey1{
+	   background-color: #f5f5f5 !important;
+	 }
+		 .BackImageList {
+		   height: 390px ;
+		   background: url(../assets/img/cardEvent22.png)no-repeat;
+		   background-size: cover;
+		   position: relative;
+		   // border-bottom: 8px solid $main_bg_color;
+	   }
+	   .searchbar-ios{
+		   border-bottom: 0.55px solid transparent;
+		   background: transparent;
+	   }
+	   .GradientColor{
+		   height: 500px;
+		   background: $main_bg_color;
+		   background: -webkit-gradient(left top, left bottom, color-stop(0%, #489cea), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+		   background: -webkit-gradient(linear, left top, left bottom, from($main_bg_color), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+		   background: linear-gradient(to bottom, $main_bg_color 0%, rgba(255, 255, 255, 0.01) 77%, rgba(255, 255, 255, 0) 78%);
+		   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#489cea', endColorstr='#ffffff', GradientType=0 );
+	   }
+	   .BackColorWhite{
+		   background-color: rgb(255, 255, 255);
+		   border-radius: 2px;
+		   margin: 20px;
+		   height: auto;
+		   margin-top: -54px;
+		   /* padding-top: 23px; */
+	   }
+	   .shadowCards{
+		   -webkit-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+		   -moz-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+		   box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+	   }
+	   .TittleDetailCard{
+   
+		   font-size: 20px;
+		   text-align: center;
+		   font-weight: 500;
+		   color: $main_bg_color_opacity;
+	   }
+	   .labelIcons{
+			// padding-left: 13px;
+			color: #676565;
+				padding-left: 20px;
+   
+	   }
+	   .labelIconsTitle{
+		   font-weight: bold;
+   
+	   }
+	   .RowItemsCard{
+		   padding-left: 15px;
+		   // display: initial;
+		   display: -webkit-box;
+		   /* display: -webkit-flex; */
+		   display: -ms-flexbox;
+		   /* display: flex; */
+		   -webkit-box-orient: horizontal;
+		   -webkit-box-direction: normal;
+		   -webkit-flex-flow: row nowrap;
+		   -ms-flex-flow: row nowrap;
+		   flex-flow: row nowrap;
+		   -webkit-flex-shrink: 0;
+		   -ms-flex-negative: 0;
+		   flex-shrink: 0;
+		   -webkit-box-align: center;
+		   -webkit-align-items: center;
+		   -ms-flex-align: center;
+		   align-items: center;
+		   -webkit-box-pack: inherit;
+		   -webkit-justify-content: center;
+		   -ms-flex-pack: center;
+		   justify-content: center;
+		   width: 100%;
+		   height: 100%;
+		   line-height: 21px;
+	   }
+	   .RowDetailCard{
+		   padding: 5px 10px;
+	   }
+	   .SubTittle{
+		   font-size: 18px;
+		   font-weight: bold;
+		   margin: 20px 0;
+		   /* text-align: center; */
+	   }
+	   .textCardRow{
+		   color: gray;
+			 text-align: justify;
+	   }
+	   .lineCard{
+		   margin: 0 35px;
+		   border-bottom: 0.5px solid #9a9a9a;
+	   }
+	   .shadowIcons{
+		   -webkit-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.23);
+		   -moz-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.23);
+		   box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.23);
+	   }
+   
+	 
+	   .colorCard1Doc{
+		   background-image: url(../assets/img/cardEvent1.png);
+		   background-size: cover;
+		   background-repeat: no-repeat;
+		   width: 100%;
+	   }
+		.card-titleDoc {
+		   // position: absolute;
+		  height: 59px;
+		   bottom: 20%;
+		   /* top: 55%; */
+		   /* font-family: inherit; */
+		   font-size: 19px;
+		   width: 85%;
+		   line-height: 19px;
+		   font-weight: 500;
+		   text-align: center;
+		   padding: 10px 10px;
+		   // color: white !important;
+		   width: 100%;
+		   // text-shadow: 4px 1px 7px rgba(72, 72, 72, 0.28);
+	   }
+   
+	   .card-subtitleDoc {
+		   font-size: 1.0em;
+		   position: absolute;
+		   top: 52%;
+		   width: 100%;
+		   color: #fff;
+	   }
+	   .iconCardDoc{
+			   font-size: 3.5em;
+			   position: absolute;
+			   top: 21%;
+			   width: 85%;
+			   text-align: center;
+			  color: #33c5d3;
+			   text-shadow: 4px 1px 7px rgba(72, 72, 72, 0.12);
+	   }
+	   .circleDoc{
+		   height:80px;
+		   width: 80px;
+		   border-radius: 50%;
+   
+		   // background-color: blue;
+	   }	    
+	   .iconCircleDoc{
+		   color: white;
+		   font-size: 50px;
+		   padding: 15px;
+	   }
+	   .lineCard {
+		   margin: 0 5px;
+		   border-bottom: 0.5px solid #9a9a9a !important;
+		   height: 1px;
+	   }
+	   .paddingLogo{
+			   padding-top: 54px;
+	   }
+	   .paddingSuggestion{
+		   padding: 2px 20px;
+	   }
+	   .CompanyText{
+		   color: rgb(117, 117, 117);
+	   }
+   
+	   .BorderLeftGrey{
+		   border-left: 1px solid rgb(220, 220, 220);
+	   }
+	   .bottomIcon{
+		   bottom: 50px;
+	   }
+	   .PaddingDoc{
+		   padding: 15px;
+	   }
+	   .ColorDoc1 {
+	    // PDF Rojo
+	    background-color: rgba(197, 7, 7, 1) !important;
+	  }
+	  .ColorDoc2 {
+	        background-color: rgb(53, 152, 220) !important;
+	    // WORD azul 
+
+	  }
+	  .ColorDoc3 {
+	            background-color: rgba(243, 88, 11, 1) !important;
+	    // POWER POINT Rojo
+
+	  }
+	  .ColorDoc4 {
+	    background-color: rgba(42, 185, 155, 1) !important;
+	    // EXCEL  verde
+
+	  }
+	   .colorCard1Doc{
+		   // background-image: url(../assets/img/cardEvent1.png);
+		   background-size: cover;
+		   background-repeat: no-repeat;
+		   width: 100%;
+		   // background-color: rgb(253, 253, 253);
+		   background: rgba(245,245,245,1);
+		   background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(254,254,254,1) 55%, rgba(254,254,254,1) 100%);
+		   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(55%, rgba(254,254,254,1)), color-stop(100%, rgba(254,254,254,1)));
+		   background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(254,254,254,1) 55%, rgba(254,254,254,1) 100%);
+		   background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(254,254,254,1) 55%, rgba(254,254,254,1) 100%);
+		   background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(254,254,254,1) 55%, rgba(254,254,254,1) 100%);
+		   background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(254,254,254,1) 55%, rgba(254,254,254,1) 100%);
+		   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#fefefe', GradientType=0 );
+	   }
+		.card-titleDoc {
+		   // position: absolute;
+		  height: 42px;
+		   bottom: 20%;
+		   /* top: 55%; */
+		   /* font-family: inherit; */
+		   font-size: 15px;
+		   width: 85%;
+		   line-height: 19px;
+		   font-weight: 400;
+		   text-align: center;
+		   padding: 2px 5px;
+		   // color: white !important;
+		   width: 100%;
+		   // text-shadow: 4px 1px 7px rgba(72, 72, 72, 0.28);
+		   white-space: initial !important;
+		   overflow: hidden;
+	   }
+	   .TittleConference{
+		   color: white;
+		   text-transform: capitalize;
+		   font-size: 15px;
+	   }
+	   .CompanyTittle{
+		   color: white;
+		   -webkit-margin-before: 2px;
+		   -webkit-margin-after: 1px;
+		   text-transform: capitalize;
+   
+	   }
+	   .thematic{
+		   color: rgb(255, 255, 255);
+		   background-color: rgba(255, 255, 255, 0.3);
+		   padding: 2px 9px;
+		   border-radius: 14px;
+		   margin-top: 2px;
+	   }
+	   .BackColorItems{
+		   background: rgba(0, 0, 0, 0.6);
+		   
+	   }
+	   .PaddingTitle{
+		   padding: 20px;
+	   }
+	   .BorderRightItems{
+		   border-right: 1px solid rgba(255, 255, 255, 0.52);
+	   }
+	   .itemsLabel{
+		   color: rgb(193, 193, 193);
+		   padding-left: 2px;
+	   }
+	   .PaddingItemsLeft{
+		   padding-left: 13px;
+   
+	   }
+	   .avatarCard{
+		   // min-width: 36px;
+	 //  		min-height: 36px;
+			  img {
+			   border-radius: 50%;
+			   overflow: hidden;
+			   width: 50px;
+			   height: 50px;
+			  }
+	   }
+	   .arrowCard{
+		   font-size: 30px;
+		   font-weight: lighter;
+		   color: grey;
+		   float: right;
+		   padding: 5px;
+	   }
+	   .marginBottomCard{
+		   margin-bottom: 43px !important;
+	   }
+	// .LongDivDot{
+	// 	    left: 0;
+	// 	    top: 0;
+	// 	    padding: 2px 90px;
+	// 	    position: fixed;
+	// 	    width: 100%;
+	// 	    height: 50px;
+	// 	    -webkit-transform: translateZ(0);
+	// 	    transform: translateZ(0);
+	// 	    pointer-events: none;
+	// }
+
+	// .LongTextDot{
+	//     display: block;
+	//     overflow: hidden;
+	//     width: 100%;
+	//     text-overflow: ellipsis;
+	//     white-space: nowrap;
+
+	// }
+
+	.LongDivDot{
+		left: 0;
+		/* top: 0; */
+		padding: 2px 10px 2px 7px;
+		position: absolute;
+		width: 100%;
+		height: 50px;
+		text-align: left;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		pointer-events: none;
+	}
+
+	.LongTextDot{
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+
+	}
+	   .circleVideo{
+		   display: inline-block;
+		   width: 40px;
+		   height: 40px;
+		   line-height: 35px;
+		   text-align: center;
+		   background: #fff;
+		   border-radius: 50%;
+		   padding: 5px;
+	   }
+	   .VideoIcon{
+		   color: white;
+		   font-size: 20px !important;	
+	   }
+	   .iconHElP{
+		font-size: 20px !important;
+	}
+   
+   
+   }
+   

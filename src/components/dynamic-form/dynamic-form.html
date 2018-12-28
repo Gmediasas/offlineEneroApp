@@ -1,0 +1,94 @@
+<!-- Generated template for the DynamicFormComponent component -->
+
+
+<form (ngSubmit)="onSubmit(form.value)" [formGroup]="form" >
+
+  <!-- {{ survey_answers | json }} -->
+  <div class="RowDetailCard" *ngFor="let question of survey?.questions; let i = index ">
+
+    <h4 class="SubTittle main-text-color">
+      {{i+1}}.
+      <div class="QuestionText">
+        {{question.title}}
+      </div>
+    </h4>
+
+    <!-- Preguntas cerradas -->
+    <div  *ngIf="question.type == 'radio'">
+
+        <ion-list 
+          radio-group 
+          [formControlName]="question.key"
+          [(ngModel)]="question.response" >
+
+          <ion-item *ngFor="let option of question.options">
+
+              <ion-label>
+                {{option.label}} 
+              </ion-label>
+    
+              <ion-radio
+                [value]="option.value"
+                > 
+                </ion-radio>
+          
+          </ion-item >
+
+        </ion-list>
+
+    </div>
+
+    <!-- Preguntas abiertas -->
+    <div  *ngIf="question.type == 'checkbox'">
+
+        <ion-item class="labelAnswer"  *ngFor="let option of question.options">
+
+            <ion-label> {{option.label}} </ion-label>
+
+            <ion-checkbox 
+              [checked]="option.checked"
+              (ionChange)="onChangeCheck( question.key, option.value, $event )"
+              color="light"></ion-checkbox>
+
+
+        </ion-item>
+
+
+    </div>
+
+    <div  *ngIf="question.type == 'text'">
+
+        <ion-item class="backgroundGrey">
+
+          <ion-label [attr.for]="question.key" class="labelAnswer" floating >
+            Respuesta
+          </ion-label>
+          
+          <ion-textarea 
+            [formControlName]="question.key"
+            [(ngModel)]="question.response"
+            [id]="question.key" 
+            [type]="question.type" 
+            class="ColorArea" 
+            rows="9"
+            maxLength="1000"></ion-textarea>
+    
+        </ion-item>
+
+    </div>
+
+  </div>
+
+  <button class="button button-clear button-block main-btn main-bg-color BtnLogout borderXs button-md button-default button-default-md button-full button-full-md disable-hover button-ios button-default-ios button-full-ios"
+    full="" ion-button="" ng-reflect-full="" type="submit">
+    <span class="button-inner">
+      <span class="button-inner">
+        Enviar</span>
+      <div class="button-effect"></div>
+    </span>
+    <div class="button-effect"></div>
+  </button>
+
+</form>
+
+<hr>

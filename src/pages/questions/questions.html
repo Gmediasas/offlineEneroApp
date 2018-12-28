@@ -1,0 +1,129 @@
+<!--
+  Generated template for the QuestionsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="main-bg-color">
+  <ion-navbar hideBackButton="true">
+    <ion-buttons left>
+      <button ion-button navPop icon-only class="text-white">
+        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 11px;">&#xe84f;</i>
+      </button>
+    </ion-buttons>
+    <ion-title class="text-white text-center"> Preguntas </ion-title>
+    <ion-buttons end (click)='goToQuestionAdd()'>
+      <button ion-button icon-only class="text-white">
+        <i class="demo-icon  icon-geventsplus placeholder-icon " style="padding-top: 11px;">&#xe807;</i>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="backgroundGrey1">
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <div class="BackImageList ">
+    <div class="GradientColor">
+
+      <ion-grid class="paddingSearch"></ion-grid>
+
+      <ion-grid>
+        <!--         <ion-row class="row">
+          <ion-col class="col">
+            <div></div>
+          </ion-col>
+          <ion-col class="col text-center" col-6="">
+            <div class="CategoriasBtn" (click)='goToQuestionAdd()'>
+              <span>Agregar
+                <i class="demo-icon icon-geventsplus placeholder-icon" style="padding-top: 8px;">&#xe807;</i>
+              </span>
+            </div>
+          </ion-col>
+          <ion-col class="col">
+          <div>
+
+            <button ion-button round (click)='resetFilter()'>
+               <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 11px;">&#xe84f;</i>
+             </button>
+          </div>
+          </ion-col>
+        </ion-row> -->
+        <ion-row class="row">
+          <ion-col class="col" col-1>
+            <div></div>
+          </ion-col>
+          <ion-col class="col text-center" col-8="">
+            <div class="CategoriasBtn text-white">
+              <ion-item class="SelectStyle">
+                <ion-label>Conferencia</ion-label>
+                <ion-select [(ngModel)]="listConferences" class="text-white" (ionChange)="selectConference($event)" placeholder="Select conference"
+                  multiple="false">
+                  <ion-option *ngFor="let conference of dataConference" value="{{conference.schdlUID}}">{{conference.schdlName}}</ion-option>
+                </ion-select>
+              </ion-item>
+            </div>
+          </ion-col>
+          <ion-col class="col">
+            <div>
+              <button ion-button round (click)='resetFilter()' class="btnCircle">
+                <i class="demo-icon  icon-geventsspin3 placeholder-icon ">&#xe832;</i>
+              </button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <!--       <ion-item>
+          <ion-label>Conferencia</ion-label>
+          <ion-select [(ngModel)]="listConferences" (ionChange)="selectConference($event)" placeholder="Select conference" multiple="false">
+              <ion-option *ngFor="let conference of dataConference" value="{{conference.schdlUID}}">{{conference.schdlName}}</ion-option>
+          </ion-select>
+      </ion-item>
+ -->
+    </div>
+  </div>
+  <!-- CARD ORIGINAL -->
+  <ion-card class="card card-ios  shadowCards heightCards borderCard marginTopCard" *ngFor="let question of dataQuestions">
+    <ion-item class="item item-block item-ios">
+      <ion-grid class="grid">
+        <ion-row class="row" (click)='goToQuestionsPersonal(question)'>
+          <ion-col class="col">
+            <div>
+              <div class="avatarCard">
+                <div class="Circle1">
+                  <i class="demo-icon   icon-geventsmegaphone-1  placeholder-icon IconLeft" style="padding-top: 10px;">&#xe8a9;</i>
+                </div>
+              </div>
+            </div>
+          </ion-col>
+          <ion-col class="col">
+            <div class="LongDivDot">
+
+              <h2 class="LongTextDot QuestionText">
+                {{question.pregunta}}
+              </h2>
+              
+              <div class="LongTextDot QuestionText2">
+                {{question.conferencia}}
+              </div>
+
+              <!-- <p class="LongTextDot">Nulla ullamcorper rhoncus vestibulum. Etiam tincidunt facilisis ligula, ut pharetra dui vehicula nec. Aliquam erat volutpat. Quisque suscipit gravida ultrices</p> -->
+              <div class="status">{{(question.respuesta == "" ) ? 'Pendiente': 'Resuelta'}}</div>
+
+            </div>
+          </ion-col>
+          <ion-col class="col">
+            <div class="arrowCard">
+              <i class="demo-icon   icon-geventsright-open placeholder-icon " style="padding-top: 8px;">&#xe850;</i>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,121 @@
+<ion-content class="login-content ">
+  <ion-header>
+
+    <ion-navbar hideBackButton="true" class="bg-opacity overlayBgVideo1">
+      <!-- class="bg-opacity" -->
+      <ion-buttons left>
+        <button ion-button navPop icon-only class="text-white">
+          <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
+          <!--  <ion-icon ios="ios-arrow-dropleft-outline" md="md-arrow-back"></ion-icon> -->
+        </button>
+      </ion-buttons>
+      <!-- <ion-title class="text-white text-center">Ingresar</ion-title> -->
+    </ion-navbar>
+
+  </ion-header>
+     <!--<video autoplay loop>
+      <source src="assets/video/video1.mp4" type="video/mp4">
+    </video>-->
+    <div class="">
+      <form (ngSubmit)="login()" #registerForm="ngForm" class="app-form text-center animated fadeInUp ">
+
+
+        <div class="logo " style="display: -webkit-box;">
+
+          <img class="animated bounceInLeft" [src]="app_instance?.logo">
+
+        </div>
+
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <!--    <h2 class="slide-title animated fadeInUp tittleLogin text-center">Nuestros eventos</h2> -->
+              <div class="lineWhite"></div>
+              <p class="paragraphLogin text-center">Ingresa para ver nuestro evento </p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <!-- Login -->
+
+        <ion-grid class="grid">
+          <ion-row class="row">
+            <ion-col class="col">
+              <div class="list list-inset padding borderXs">
+
+                <!-- email -->
+                <label class="item item-input" style="display: -webkit-box;" style="display: -webkit-box;height: 40px;">
+                  <i class="demo-icon  icon-geventsmail placeholder-icon " style="padding-top: 8px;">&#xe800;</i>
+                  <!-- <ion-icon ios="ios-mail-outline" md="md-mail" class="placeholder-icon" style="padding-top: 8px;"></ion-icon> -->
+                  <ion-input type="text" (keyup)="minus()" placeholder="{{ 'Correo' | translate }}" name="email" [(ngModel)]="registerCredentials.email" required></ion-input>
+                </label>
+
+
+
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row class="row">
+            <ion-col class="col">
+              <div class="list list-inset padding borderXs">
+
+                <!-- password -->
+                <label class="item item-input" style="display: -webkit-box;" style="display: -webkit-box;height: 40px;">
+                  <i class="demo-icon  icon-geventslock-1 placeholder-icon " style="padding-top: 8px;">&#xe872;</i>
+                  <!--    <ion-icon ios="ios-lock" md="md-lock" class="placeholder-icon" style="padding-top: 8px;"></ion-icon> -->
+                  <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>
+                </label>
+
+              </div>
+            </ion-col>
+
+          </ion-row>
+          <ion-row class="row">
+
+            <ion-col class="col">
+              <div>
+                <ion-item>
+                  <ion-label>Recordarme</ion-label>
+                  <ion-checkbox [(ngModel)]="remember" color="light" name="remember"></ion-checkbox>
+                </ion-item>
+                <br>
+                <br>
+                <button type="submit" ion-button class="button button-clear button-block main-btn main-bg-color borderXs" [disabled]="!registerForm.form.valid"
+                  full>
+                  Iniciar Sesión 
+                </button>
+
+
+
+
+              </div>
+            </ion-col>
+
+
+          </ion-row>
+          <ion-row>
+            <ion-col class="col">
+              <span class=" textWhite borderXs" (click)="goToForgotPage()">
+                ¿Olvidé mi contraseña?
+              </span>
+            </ion-col>
+
+          </ion-row>
+        </ion-grid>
+        <!--             <ion-grid class="grid">
+              <ion-row class="row">
+                <ion-col class="col">
+                  <span class="new-reg main-text-color borderXs" (click)="goToForgotPage()">
+                    ¿Olvidé mi contraseña?
+                    <button class="main-bg-color button-clear main-btn">
+                      si
+                    </button>
+                  </span>
+                </ion-col>
+              </ion-row>
+            </ion-grid> -->
+
+
+      </form>
+    </div>
+</ion-content>

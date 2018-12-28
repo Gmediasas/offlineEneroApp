@@ -1,0 +1,11 @@
+{
+     "android": {
+         "release": {
+             "keystore": "keystore/gmediasas-key.keystore",
+             "storePassword": "67upUtmHpdEnLubP",
+             "alias": "gmediasas",
+             "password" : "67upUtmHpdEnLubP",
+             "keystoreType": ""
+         }
+     }
+ }

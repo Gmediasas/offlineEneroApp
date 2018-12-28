@@ -1,0 +1,96 @@
+page-profile-detail { 
+	.detailsimgSpeaker{
+		height: 310px;
+		width: 100%;
+	    background: url(../assets/img/avatar-default.jpg) no-repeat;
+	    background-size: cover;
+	    position: initial;
+	}
+	.backgroundGrey1{
+		background-color: rgb(245, 245, 245) !important;
+	}
+  	.BackImageList {
+	    height: 152px;
+	    background: url(../assets/img/cardEvent2.png)no-repeat;
+	    background-size: cover;
+	    position: relative;
+	}
+	.searchbar-ios{
+		border-bottom: 0.55px solid transparent;
+	    background: transparent;
+	}
+	.GradientColor{
+		height: 200px;
+		background: $main_bg_color;
+	    background: -webkit-gradient(left top, left bottom, color-stop(0%, #489cea), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+	    background: -webkit-gradient(linear, left top, left bottom, from($main_bg_color), color-stop(77%, rgba(255, 255, 255, 0.01)), color-stop(78%, rgba(255, 255, 255, 0)));
+	    background: linear-gradient(to bottom, $main_bg_color 0%, rgba(255, 255, 255, 0.01) 77%, rgba(255, 255, 255, 0) 78%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#489cea', endColorstr='#ffffff', GradientType=0 );
+	}
+	.shadowCards{
+		-webkit-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+		-moz-box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+		box-shadow: 0px 9px 45px -5px rgba(0,0,0,0.36);
+	}
+	.textFront{
+	    position: absolute;
+	    z-index: 400;
+	    background-color: grey;
+	    width: 100%;
+	    height: 314px;
+	    background: linear-gradient(to top, rgba(25, 24, 24, 1) 0%, rgba(255, 255, 255, 0.01) 77%, rgba(255, 255, 255, 0) 78%);
+	    background-blend-mode: multiply;
+	}
+	.TitleName{
+	    bottom: 0; 
+	    position: absolute;
+    	color: white;
+	}
+	.paddingName{
+		padding:30px 10px 30px 20px;
+		width: max-content;
+	}
+	.tittleCategory{
+		font-size: 20px;
+		font-weight: 400;
+		color: grey;
+		text-align: center;
+		padding: 10px 16px;
+		margin-top: 31px;
+		text-transform: capitalize;
+	}
+
+   .textCardRow{
+   	    font-size: 15px;
+	    font-weight: 400;
+	    color: rgb(160, 160, 160);
+	    text-align: justify;
+   }
+   .RowDetailCard{
+   		padding: 10px 10px;
+   }
+   .lineCard1{
+	    margin: 0px 10px 0px 0px;
+	    border-bottom: 0.2px solid rgba(220, 220, 220, 1);
+	    height:1px;
+	}
+   .SinceText{
+   		color: rgb(210, 208, 208);
+   		font-weight: 300;
+   		font-size: 18px;
+   }
+   .ContryText{
+		color: rgb(191, 191, 191);
+		font-weight: 400;
+		font-size: 15px;
+   }
+   .RowProfilePadding{
+   	padding: 3px 10px;
+   }
+   .padding10{
+   	    padding: 10px 0px;
+   }
+   	ion-content {
+		background-color: rgba(239, 239, 239, 1) !important;
+	}
+}

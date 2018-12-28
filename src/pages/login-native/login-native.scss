@@ -1,0 +1,64 @@
+page-login-native {
+	
+
+	ion-item{
+		padding-left: 16px;
+	    padding-left: 16px;
+	    border-radius: 0;
+	    position: relative;
+	    border-radius: 8px !important;
+	    font-size: 1.7rem;
+	    color: rgba(230, 230, 230, 1) !important;
+	    background-color: rgba(255, 255, 255, 0.15) !important;
+	    -webkit-transition: background-color 200ms linear;
+	    transition: background-color 200ms linear;
+
+	}
+	.item-ios.item-block .item-inner{
+		border-bottom: 0.55px solid transparent !important;
+
+	}
+	.placeholder-icon{
+		font-size: 21px !important;
+		padding: 9px 10px !important;
+		margin-right: 20px !important;
+	}
+
+
+	ion-content {
+		background-image: url('../assets/img/poster.png');
+		//-webkit-background-image: url('../assets/img/poster.png');
+		-webkit-box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+		box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+		
+		background-size: cover;
+	  }
+}
+.textWhite{
+	color:#fff !important;
+}
+.app-form .main-btn.button-clear.button-clear {
+    margin-bottom: 0px;
+}
+
+.overlayBgVideo{
+    //background: $main_color_with_opacity_50;
+   
+    -webkit-box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+    box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+    background: transparent url(../assets/img/poster.png) no-repeat;
+    height: -webkit-fill-available;
+    background-size: cover;
+    position: relative;
+}
+.overlayBgVideo1{
+    //background: $main_color_with_opacity_50;
+   
+    -webkit-box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+    box-shadow: inset 0 0 0 1000px  $main_color_with_opacity_50;
+    background: transparent url(../assets/img/poster.png) no-repeat;
+    height: auto;
+    background-size: cover;
+    position: relative;
+}
+
