@@ -10,11 +10,11 @@
           "/resources": [
             {
               "xml": "<string name=\"fb_app_id\">145441642789426</string>",
-              "count": 11
+              "count": 12
             },
             {
               "xml": "<string name=\"fb_app_name\">gevents</string>",
-              "count": 11
+              "count": 12
             }
           ]
         }

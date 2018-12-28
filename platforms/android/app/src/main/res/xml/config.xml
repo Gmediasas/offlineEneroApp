@@ -74,6 +74,9 @@
     <feature name="LaunchNavigator">
         <param name="android-package" value="uk.co.workingedge.phonegap.plugin.LaunchNavigator" />
     </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
     <feature name="Keyboard">
         <param name="android-package" onload="true" value="io.ionic.keyboard.IonicKeyboard" />
     </feature>
@@ -160,7 +163,4 @@
     <preference name="loadUrlTimeoutValue" value="700000" />
     <preference name="TwitterConsumerKey" value="jiZRFAYrcbx1O5fdaMouVgNOK" />
     <preference name="TwitterConsumerSecret" value="zg404IDPsLBDnkVvJL87uqdPgbiePvZ12rb2oW4xhBbUkpd8Kl" />
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-    </feature>
 </widget>

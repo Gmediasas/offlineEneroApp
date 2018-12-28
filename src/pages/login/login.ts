@@ -1,5 +1,8 @@
 import { Component } from '@angular/core'
-import { IonicPage, NavController, NavParams } from 'ionic-angular'
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular'
+import { Network } from '@ionic-native/network';
+
+
 //pages
   import { RegisterPage } from '../../pages/register/register'
   import { ForgotPage } from '../../pages/forgot/forgot'
@@ -31,13 +34,32 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular'
 export class LoginPage {
 
   app_instance:AppInstance
-
+  estadoConexion:string
+  
   constructor(public navCtrl: NavController, 
-    public navParams: NavParams, 
+    public navParams: NavParams,
+    public toast :  ToastController,
+    private network : Network,
     public eventProvider: EventProvider,
     private database: DatabaseProvider) {
 
     this.app_instance = appAppearance
+
+    this.network.onConnect().subscribe(()=>{
+      this.estadoConexion = "Conectado a internet";
+      console.log("heyyy");
+      this.toast.create({
+        message: 'Conectado a internet',
+        duration: 3000
+      }).present();
+    });
+
+    this.network.onDisconnect().subscribe(()=>{
+      this.toast.create({
+        message: 'Desconectado a internet',
+        duration: 3000
+      }).present();
+    });
     
   }
 

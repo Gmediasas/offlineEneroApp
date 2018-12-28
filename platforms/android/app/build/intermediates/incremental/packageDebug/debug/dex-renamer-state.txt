@@ -1,4 +1,4 @@
-#Fri Dec 28 10:02:32 COT 2018
+#Fri Dec 28 11:11:51 COT 2018
 base.0=/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

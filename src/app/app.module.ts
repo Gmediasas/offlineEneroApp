@@ -190,6 +190,9 @@ import { AgenteProvider } from '../providers/agente/agente';
 import { SQLite } from '@ionic-native/sqlite';
 import { DatabaseProvider } from '../providers/database/database';
 
+//network state
+import { Network } from '@ionic-native/network';
+
 
 registerLocaleData(es)
 
@@ -402,6 +405,7 @@ registerLocaleData(es)
     { provide: LOCALE_ID, useValue: 'es' },
     //Plugins
     SQLite,
+    Network,
     Camera,
     Diagnostic,
     Facebook,
