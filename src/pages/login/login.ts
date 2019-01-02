@@ -10,8 +10,6 @@ import { Network } from '@ionic-native/network';
 
 //services
   import { EventProvider } from '../../providers/event/event';
-  import { DatabaseProvider } from '../../providers/database/database';
-
 
 //Models
   import { AppInstance } from '../../models/app_instance'
@@ -41,7 +39,7 @@ export class LoginPage {
     public toast :  ToastController,
     private network : Network,
     public eventProvider: EventProvider,
-    private database: DatabaseProvider) {
+    ) {
 
     this.app_instance = appAppearance
     
