@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Dec 28 11:11:51 COT 2018
+#Fri Dec 28 15:18:29 COT 2018
 20.base=/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/build/intermediates/assets/debug
 143.base=/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/platforms/android/app/build/intermediates/assets/debug
 237.path=www/build/72.js.map

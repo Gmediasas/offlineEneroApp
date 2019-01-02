@@ -34,7 +34,7 @@ import { Network } from '@ionic-native/network';
 export class LoginPage {
 
   app_instance:AppInstance
-  estadoConexion:string
+  estadoConexion:any = 'nada';
   
   constructor(public navCtrl: NavController, 
     public navParams: NavParams,
@@ -44,23 +44,17 @@ export class LoginPage {
     private database: DatabaseProvider) {
 
     this.app_instance = appAppearance
-
-    this.network.onConnect().subscribe(()=>{
-      this.estadoConexion = "Conectado a internet";
-      console.log("heyyy");
-      this.toast.create({
-        message: 'Conectado a internet',
-        duration: 3000
-      }).present();
-    });
-
-    this.network.onDisconnect().subscribe(()=>{
-      this.toast.create({
-        message: 'Desconectado a internet',
-        duration: 3000
-      }).present();
-    });
     
+  }
+
+  ionViewDidEnter(){
+    this.network.onConnect().subscribe(data => {
+      console.log(data);
+    }, error => console.error(error));
+    
+    this.network.onDisconnect().subscribe(data =>{
+      console.log(data);
+    }, error => console.error(error));
   }
 
   goToLoginNative(){
@@ -83,7 +77,7 @@ export class LoginPage {
 
   ionViewDidLoad() {
 
-    console.log('ionViewDidLoad LoginPage')
+    console.log('ionViewDidLoad LoginPage');
 
   }
 
