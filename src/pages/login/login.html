@@ -1,13 +1,5 @@
-<!--
-  Generated template for the LoginPage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-content class="login-content  ">
-
-
- 
     <div class="">
       <div class="logo " style="display: -webkit-box;">
         <img class="animated bounceInLeft" [src]="app_instance?.logo">
@@ -24,6 +16,9 @@
           </ion-col>
         </ion-row>
       </ion-grid>
+
+      
+      <!-- div oculto con el login de facebook y twitter -->
       <div *ngIf="false">
         <ion-grid class="grid">
           <ion-row class="row">
@@ -33,7 +28,6 @@
                   <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios colorFacebook">
                     <span class="button-inner">
                       <i class="demo-icon icon-geventsfacebook-1  ">&#xe959;</i>
-                      <!--      <ion-icon is-active="false" name="logo-facebook" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->
                       <p class="logosIcon"> Facebook </p>
                     </span>
                     <div class="button-effect"></div>
@@ -47,7 +41,6 @@
                   <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios colorTwitter">
                     <span class="button-inner">
                       <i class="demo-icon icon-geventstwitter-1  ">&#xf309;</i>
-                      <!--  <ion-icon is-active="false" name="logo-twitter" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->
                       <p class="logosIcon"> Twitter</p>
                     </span>
                     <div class="button-effect"></div>
@@ -106,56 +99,30 @@
             </ion-grid> -->
 
       <ion-grid class="grid" style="margin-top: -26px;">
-        <!--               <ion-row class="row">
-                <ion-col class="col">
-
-
-          
-                  <span class="new-reg main-text-color borderXs" (click)="goToForgotPage()">
-                    ¿Olvidé mi contraseña?
-                    <button class="main-bg-color button-clear main-btn">
-                      si
-                    </button>
-                  </span>
-
-
-                </ion-col>
-
-              </ion-row> -->
         <ion-row class="row">
-
-
           <ion-col class="col">
             <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios btnLogin "
               (click)="goToLoginNative()">
               <span class="button-inner">
                 <i class="demo-icon icon-geventsuser-circle-o  ">&#xf2be;</i>
-
-                <!--  <ion-icon is-active="false" ios="ios-contact" md="md-contact" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->
                 <p class="logosIcon"> Login</p>
               </span>
               <div class="button-effect"></div>
             </button>
           </ion-col>
-
         </ion-row>
         <ion-row class="row">
-
-
           <ion-col class="col" style="margin-top: -13px;">
             <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios btnLogin "
               (click)="goToRegisterPage()">
               <span class="button-inner">
                 <i class="demo-icon icon-geventsmail ">&#xe800;</i>
-                <!-- <ion-icon is-active="false" ios="ios-mail-outline" md="md-mail" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->
                 <p class="logosIcon"> Regístrate</p>
               </span>
               <div class="button-effect"></div>
             </button>
           </ion-col>
-
         </ion-row>
-
       </ion-grid>
       <div *ngIf="false">
         <ion-grid style="margin-top: -14px;">
@@ -167,6 +134,5 @@
           </ion-row>
         </ion-grid>
       </div>
-
     </div>
 </ion-content>

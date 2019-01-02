@@ -13328,7 +13328,7 @@ var map = {
 		68
 	],
 	"../pages/code-qr-detail/code-qr-detail.module": [
-		1182,
+		1181,
 		67
 	],
 	"../pages/code-qr/code-qr.module": [
@@ -13336,15 +13336,15 @@ var map = {
 		66
 	],
 	"../pages/conference-detail/conference-detail.module": [
-		1181,
+		1182,
 		65
 	],
 	"../pages/conference-personal/conference-personal.module": [
-		1184,
+		1183,
 		64
 	],
 	"../pages/conferences/conferences.module": [
-		1183,
+		1184,
 		63
 	],
 	"../pages/contacts/contacts.module": [
@@ -13448,63 +13448,63 @@ var map = {
 		38
 	],
 	"../pages/photo-library/photo-library.module": [
-		1221,
+		1210,
 		37
 	],
 	"../pages/profile-contact/profile-contact.module": [
-		1210,
+		1211,
 		36
 	],
 	"../pages/profile-detail/profile-detail.module": [
-		1211,
+		1212,
 		35
 	],
 	"../pages/profile-edit/profile-edit.module": [
-		1212,
+		1213,
 		34
 	],
 	"../pages/profile/profile.module": [
-		1213,
+		1214,
 		33
 	],
 	"../pages/question-add/question-add.module": [
-		1214,
+		1215,
 		32
 	],
 	"../pages/question-personal/question-personal.module": [
-		1215,
+		1216,
 		31
 	],
 	"../pages/questions/questions.module": [
-		1216,
+		1217,
 		30
 	],
 	"../pages/register/register.module": [
-		1217,
+		1218,
 		29
 	],
 	"../pages/room-conference/room-conference.module": [
-		1218,
+		1219,
 		28
 	],
 	"../pages/room/room.module": [
-		1219,
+		1220,
 		27
 	],
 	"../pages/search-modal/search-modal.module": [
-		1224,
+		1221,
 		26
 	],
 	"../pages/setting-modal/setting-modal.module": [
-		1220,
+		1222,
 		25
 	],
 	"../pages/settings/settings.module": [
-		1222,
+		1223,
 		24
 	],
 	"../pages/single-event-more/single-event-more.module": [
-		1223,
+		1224,
 		23
 	],
 	"../pages/single-event/single-event.module": [
@@ -13576,19 +13576,19 @@ var map = {
 		6
 	],
 	"../pages/terms-privacy/terms-privacy.module": [
-		1247,
+		1242,
 		5
 	],
 	"../pages/terms/terms.module": [
-		1242,
+		1243,
 		4
 	],
 	"../pages/tickets/tickets.module": [
-		1243,
+		1244,
 		3
 	],
 	"../pages/video/video.module": [
-		1244,
+		1245,
 		2
 	],
 	"../pages/view-note/view-note.module": [
@@ -13596,7 +13596,7 @@ var map = {
 		1
 	],
 	"../pages/web-view/web-view.module": [
-		1245,
+		1247,
 		0
 	]
 };
@@ -16494,10 +16494,10 @@ var AppModule = (function () {
                         { loadChildren: '../pages/city-tours/city-tours.module#CityToursPageModule', name: 'CityToursPage', segment: 'city-tours', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/code-qr-card/code-qr-card.module#CodeQrCardPageModule', name: 'CodeQrCardPage', segment: 'code-qr-card', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/code-qr/code-qr.module#CodeQrPageModule', name: 'CodeQrPage', segment: 'code-qr', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/conference-detail/conference-detail.module#ConferenceDetailPageModule', name: 'ConferenceDetailPage', segment: 'conference-detail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/code-qr-detail/code-qr-detail.module#CodeQrDetailPageModule', name: 'CodeQrDetailPage', segment: 'code-qr-detail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/conferences/conferences.module#ConferencesPageModule', name: 'ConferencesPage', segment: 'conferences', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/conference-detail/conference-detail.module#ConferenceDetailPageModule', name: 'ConferenceDetailPage', segment: 'conference-detail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/conference-personal/conference-personal.module#ConferencePersonalPageModule', name: 'ConferencePersonalPage', segment: 'conference-personal', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/conferences/conferences.module#ConferencesPageModule', name: 'ConferencesPage', segment: 'conferences', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contacts/contacts.module#ContactsPageModule', name: 'ContactsPage', segment: 'contacts', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/details/details.module#DetailsPageModule', name: 'DetailsPage', segment: 'details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/document-detail/document-detail.module#DocumentDetailPageModule', name: 'DocumentDetailPage', segment: 'document-detail', priority: 'low', defaultHistory: [] },
@@ -16523,6 +16523,7 @@ var AppModule = (function () {
                         { loadChildren: '../pages/news/news.module#NewsPageModule', name: 'NewsPage', segment: 'news', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/notification/notification.module#NotificationPageModule', name: 'NotificationPage', segment: 'notification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pagelist/pagelist.module#PagelistPageModule', name: 'PagelistPage', segment: 'pagelist', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/photo-library/photo-library.module#PhotoLibraryPageModule', name: 'PhotoLibraryPage', segment: 'photo-library', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile-contact/profile-contact.module#ProfileContactPageModule', name: 'ProfileContactPage', segment: 'profile-contact', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile-detail/profile-detail.module#ProfileDetailPageModule', name: 'ProfileDetailPage', segment: 'profile-detail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile-edit/profile-edit.module#ProfileEditPageModule', name: 'ProfileEditPage', segment: 'profile-edit', priority: 'low', defaultHistory: [] },
@@ -16533,11 +16534,10 @@ var AppModule = (function () {
                         { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/room-conference/room-conference.module#RoomConferencePageModule', name: 'RoomConferencePage', segment: 'room-conference', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/room/room.module#RoomPageModule', name: 'RoomPage', segment: 'room', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/search-modal/search-modal.module#SearchModalPageModule', name: 'SearchModalPage', segment: 'search-modal', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/setting-modal/setting-modal.module#SettingModalPageModule', name: 'SettingModalPage', segment: 'setting-modal', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/photo-library/photo-library.module#PhotoLibraryPageModule', name: 'PhotoLibraryPage', segment: 'photo-library', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/single-event-more/single-event-more.module#SingleEventMorePageModule', name: 'SingleEventMorePage', segment: 'single-event-more', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/search-modal/search-modal.module#SearchModalPageModule', name: 'SearchModalPage', segment: 'search-modal', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/single-event/single-event.module#SingleEventPageModule', name: 'SingleEventPage', segment: 'single-event', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/slider/slider.module#SliderPageModule', name: 'SliderPage', segment: 'slider', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/social-network-detail/social-network-detail.module#SocialNetworkDetailPageModule', name: 'SocialNetworkDetailPage', segment: 'social-network-detail', priority: 'low', defaultHistory: [] },
@@ -16555,12 +16555,12 @@ var AppModule = (function () {
                         { loadChildren: '../pages/survey/survey.module#SurveyPageModule', name: 'SurveyPage', segment: 'survey', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/terms-help/terms-help.module#TermsHelpPageModule', name: 'TermsHelpPage', segment: 'terms-help', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/terms-privacy/terms-privacy.module#TermsPrivacyPageModule', name: 'TermsPrivacyPage', segment: 'terms-privacy', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/terms/terms.module#TermsPageModule', name: 'TermsPage', segment: 'terms', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tickets/tickets.module#TicketsPageModule', name: 'TicketsPage', segment: 'tickets', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/video/video.module#VideoPageModule', name: 'VideoPage', segment: 'video', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/web-view/web-view.module#WebViewPageModule', name: 'WebViewPage', segment: 'web-view', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/view-note/view-note.module#ViewNotePageModule', name: 'ViewNotePage', segment: 'view-note', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/terms-privacy/terms-privacy.module#TermsPrivacyPageModule', name: 'TermsPrivacyPage', segment: 'terms-privacy', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/web-view/web-view.module#WebViewPageModule', name: 'WebViewPage', segment: 'web-view', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_11__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
@@ -17278,7 +17278,7 @@ var LoginPage = (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/src/pages/login/login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content class="login-content  ">\n\n\n\n\n\n \n\n    <div class="">\n\n      <div class="logo " style="display: -webkit-box;">\n\n        <img class="animated bounceInLeft" [src]="app_instance?.logo">\n\n      </div>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col>\n\n            <h2></h2>\n\n            <h2 class="slide-title animated fadeInUp tittleLogin text-center">Nuestro evento {{estadoConexion}}</h2>\n\n            <div class="lineWhite"></div>\n\n            <p class="paragraphLogin text-center">\n\n              Accede a todas nuestras conferencias\n\n              <br>en la agenda. </p>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n      <div *ngIf="false">\n\n        <ion-grid class="grid">\n\n          <ion-row class="row">\n\n            <ion-col class="col">\n\n              <div>\n\n                <p>\n\n                  <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios colorFacebook">\n\n                    <span class="button-inner">\n\n                      <i class="demo-icon icon-geventsfacebook-1  ">&#xe959;</i>\n\n                      <!--      <ion-icon is-active="false" name="logo-facebook" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->\n\n                      <p class="logosIcon"> Facebook </p>\n\n                    </span>\n\n                    <div class="button-effect"></div>\n\n                  </button>\n\n                </p>\n\n              </div>\n\n            </ion-col>\n\n            <ion-col class="col">\n\n              <div>\n\n                <p>\n\n                  <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios colorTwitter">\n\n                    <span class="button-inner">\n\n                      <i class="demo-icon icon-geventstwitter-1  ">&#xf309;</i>\n\n                      <!--  <ion-icon is-active="false" name="logo-twitter" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->\n\n                      <p class="logosIcon"> Twitter</p>\n\n                    </span>\n\n                    <div class="button-effect"></div>\n\n                  </button>\n\n                </p>\n\n              </div>\n\n            </ion-col>\n\n          </ion-row>\n\n        </ion-grid>\n\n      </div>\n\n\n\n      <!-- Login -->\n\n\n\n      <!--    <ion-grid class="grid">\n\n              <ion-row class="row">\n\n                <ion-col class="col">\n\n                    <div class="list list-inset padding borderXs">\n\n\n\n                      <label class="item item-input" style="display: -webkit-box;" style="display: -webkit-box;height: 40px;">\n\n                        <ion-icon ios="ios-mail-outline" md="md-mail" class="placeholder-icon" style="padding-top: 8px;"></ion-icon>\n\n                        <ion-input type="text" placeholder="Correo" name="email" [(ngModel)]="registerCredentials.email" required></ion-input>\n\n                      </label>\n\n\n\n                 \n\n\n\n                    </div>\n\n                </ion-col>\n\n\n\n              </ion-row>\n\n              <ion-row class="row">\n\n                <ion-col class="col">\n\n                    <div class="list list-inset padding borderXs">\n\n\n\n                 \n\n\n\n                      <label class="item item-input" style="display: -webkit-box;" style="display: -webkit-box;height: 40px;">\n\n                        <ion-icon ios="ios-lock" md="md-lock" class="placeholder-icon" style="padding-top: 8px;"></ion-icon>\n\n                        <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>\n\n                      </label>\n\n\n\n                    </div>\n\n                </ion-col>\n\n\n\n              </ion-row>\n\n              <ion-row class="row">\n\n                <ion-col class="col">\n\n                    <div>\n\n                    \n\n                        <button ion-button class="button button-clear button-block main-btn main-bg-color borderXs" full type="submit" [disabled]="!registerForm.form.valid">\n\n                        Inicia sección</button>\n\n\n\n                    </div>\n\n                </ion-col>\n\n\n\n              </ion-row>\n\n            </ion-grid> -->\n\n\n\n      <ion-grid class="grid" style="margin-top: -26px;">\n\n        <!--               <ion-row class="row">\n\n                <ion-col class="col">\n\n\n\n\n\n          \n\n                  <span class="new-reg main-text-color borderXs" (click)="goToForgotPage()">\n\n                    ¿Olvidé mi contraseña?\n\n                    <button class="main-bg-color button-clear main-btn">\n\n                      si\n\n                    </button>\n\n                  </span>\n\n\n\n\n\n                </ion-col>\n\n\n\n              </ion-row> -->\n\n        <ion-row class="row">\n\n\n\n\n\n          <ion-col class="col">\n\n            <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios btnLogin "\n\n              (click)="goToLoginNative()">\n\n              <span class="button-inner">\n\n                <i class="demo-icon icon-geventsuser-circle-o  ">&#xf2be;</i>\n\n\n\n                <!--  <ion-icon is-active="false" ios="ios-contact" md="md-contact" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->\n\n                <p class="logosIcon"> Login</p>\n\n              </span>\n\n              <div class="button-effect"></div>\n\n            </button>\n\n          </ion-col>\n\n\n\n        </ion-row>\n\n        <ion-row class="row">\n\n\n\n\n\n          <ion-col class="col" style="margin-top: -13px;">\n\n            <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios btnLogin "\n\n              (click)="goToRegisterPage()">\n\n              <span class="button-inner">\n\n                <i class="demo-icon icon-geventsmail ">&#xe800;</i>\n\n                <!-- <ion-icon is-active="false" ios="ios-mail-outline" md="md-mail" role="img" class="icon icon-ios ion-ios-construct" aria-label="construct"></ion-icon> -->\n\n                <p class="logosIcon"> Regístrate</p>\n\n              </span>\n\n              <div class="button-effect"></div>\n\n            </button>\n\n          </ion-col>\n\n\n\n        </ion-row>\n\n\n\n      </ion-grid>\n\n      <div *ngIf="false">\n\n        <ion-grid style="margin-top: -14px;">\n\n          <ion-row>\n\n            <ion-col>\n\n              <div class="lineTerms"></div>\n\n              <p class="paragraphTerms text-center" style=" margin-top: -5px;"> Ver los Términos y Condiciones 2018</p>\n\n            </ion-col>\n\n          </ion-row>\n\n        </ion-grid>\n\n      </div>\n\n\n\n    </div>\n\n</ion-content>'/*ion-inline-end:"/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/src/pages/login/login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/src/pages/login/login.html"*/'\n\n<ion-content class="login-content  ">\n\n    <div class="">\n\n      <div class="logo " style="display: -webkit-box;">\n\n        <img class="animated bounceInLeft" [src]="app_instance?.logo">\n\n      </div>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col>\n\n            <h2></h2>\n\n            <h2 class="slide-title animated fadeInUp tittleLogin text-center">Nuestro evento {{estadoConexion}}</h2>\n\n            <div class="lineWhite"></div>\n\n            <p class="paragraphLogin text-center">\n\n              Accede a todas nuestras conferencias\n\n              <br>en la agenda. </p>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n\n\n      \n\n      <!-- div oculto con el login de facebook y twitter -->\n\n      <div *ngIf="false">\n\n        <ion-grid class="grid">\n\n          <ion-row class="row">\n\n            <ion-col class="col">\n\n              <div>\n\n                <p>\n\n                  <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios colorFacebook">\n\n                    <span class="button-inner">\n\n                      <i class="demo-icon icon-geventsfacebook-1  ">&#xe959;</i>\n\n                      <p class="logosIcon"> Facebook </p>\n\n                    </span>\n\n                    <div class="button-effect"></div>\n\n                  </button>\n\n                </p>\n\n              </div>\n\n            </ion-col>\n\n            <ion-col class="col">\n\n              <div>\n\n                <p>\n\n                  <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios colorTwitter">\n\n                    <span class="button-inner">\n\n                      <i class="demo-icon icon-geventstwitter-1  ">&#xf309;</i>\n\n                      <p class="logosIcon"> Twitter</p>\n\n                    </span>\n\n                    <div class="button-effect"></div>\n\n                  </button>\n\n                </p>\n\n              </div>\n\n            </ion-col>\n\n          </ion-row>\n\n        </ion-grid>\n\n      </div>\n\n\n\n      <!-- Login -->\n\n\n\n      <!--    <ion-grid class="grid">\n\n              <ion-row class="row">\n\n                <ion-col class="col">\n\n                    <div class="list list-inset padding borderXs">\n\n\n\n                      <label class="item item-input" style="display: -webkit-box;" style="display: -webkit-box;height: 40px;">\n\n                        <ion-icon ios="ios-mail-outline" md="md-mail" class="placeholder-icon" style="padding-top: 8px;"></ion-icon>\n\n                        <ion-input type="text" placeholder="Correo" name="email" [(ngModel)]="registerCredentials.email" required></ion-input>\n\n                      </label>\n\n\n\n                 \n\n\n\n                    </div>\n\n                </ion-col>\n\n\n\n              </ion-row>\n\n              <ion-row class="row">\n\n                <ion-col class="col">\n\n                    <div class="list list-inset padding borderXs">\n\n\n\n                 \n\n\n\n                      <label class="item item-input" style="display: -webkit-box;" style="display: -webkit-box;height: 40px;">\n\n                        <ion-icon ios="ios-lock" md="md-lock" class="placeholder-icon" style="padding-top: 8px;"></ion-icon>\n\n                        <ion-input type="password" placeholder="Password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>\n\n                      </label>\n\n\n\n                    </div>\n\n                </ion-col>\n\n\n\n              </ion-row>\n\n              <ion-row class="row">\n\n                <ion-col class="col">\n\n                    <div>\n\n                    \n\n                        <button ion-button class="button button-clear button-block main-btn main-bg-color borderXs" full type="submit" [disabled]="!registerForm.form.valid">\n\n                        Inicia sección</button>\n\n\n\n                    </div>\n\n                </ion-col>\n\n\n\n              </ion-row>\n\n            </ion-grid> -->\n\n\n\n      <ion-grid class="grid" style="margin-top: -26px;">\n\n        <ion-row class="row">\n\n          <ion-col class="col">\n\n            <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios btnLogin "\n\n              (click)="goToLoginNative()">\n\n              <span class="button-inner">\n\n                <i class="demo-icon icon-geventsuser-circle-o  ">&#xf2be;</i>\n\n                <p class="logosIcon"> Login</p>\n\n              </span>\n\n              <div class="button-effect"></div>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n        <ion-row class="row">\n\n          <ion-col class="col" style="margin-top: -13px;">\n\n            <button block="" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios btnLogin "\n\n              (click)="goToRegisterPage()">\n\n              <span class="button-inner">\n\n                <i class="demo-icon icon-geventsmail ">&#xe800;</i>\n\n                <p class="logosIcon"> Regístrate</p>\n\n              </span>\n\n              <div class="button-effect"></div>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n      <div *ngIf="false">\n\n        <ion-grid style="margin-top: -14px;">\n\n          <ion-row>\n\n            <ion-col>\n\n              <div class="lineTerms"></div>\n\n              <p class="paragraphTerms text-center" style=" margin-top: -5px;"> Ver los Términos y Condiciones 2018</p>\n\n            </ion-col>\n\n          </ion-row>\n\n        </ion-grid>\n\n      </div>\n\n    </div>\n\n</ion-content>'/*ion-inline-end:"/home/desarrollo/Escritorio/gevents/appPrueba/geventsapplication/src/pages/login/login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavParams */],
