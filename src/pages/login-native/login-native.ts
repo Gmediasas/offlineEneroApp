@@ -15,6 +15,8 @@ import { AuthServiceProvider } from '../../providers/auth-service/auth-service'
 import { EventProvider } from '../../providers/event/event'
 import { FirebaseTokenProvider } from '../../providers/firebase-token/firebase-token'
 import { EventAppearanceProvider } from '../../providers/event-appearance/event-appearance'
+import { DatabaseProvider } from '../../providers/database/database';
+
 //Models
 import { AppInstance } from '../../models/app_instance'
 
@@ -59,6 +61,7 @@ export class LoginNativePage {
     public loadingCtrl: LoadingController,
     public eventProvider: EventProvider,
     private auth: AuthServiceProvider,
+    private database: DatabaseProvider, 
     public storage: Storage) {
 
     this.device = eventAppearance.getDevice()
@@ -74,7 +77,6 @@ export class LoginNativePage {
 
   }
 
-
   public login() {
 
     console.log(`(login-native.ts) gevents>> Credenciales: email = ${this.registerCredentials.email} pass = ${this.registerCredentials.password}`)
@@ -83,6 +85,11 @@ export class LoginNativePage {
       console.log("`(login-native.ts) gevents>> Data server ===>", data);
       if (data.success !== null && data.success !== undefined) {
         console.log(`(login-native.ts) gevents>> user token ${data.success.token}`)
+        this.database.CreateUserLogin(1).then( (data) => {
+          console.log(data);
+        }, (error) => {
+          console.log(error);
+        })
         //Remenber user token
         this.storage.set('access_token', data.success.token);
         //Remenber my account

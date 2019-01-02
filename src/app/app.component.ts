@@ -24,8 +24,6 @@ import { AuthServiceProvider } from '../providers/auth-service/auth-service'
 import { FirebaseTokenProvider } from '../providers/firebase-token/firebase-token'
 import { EventProvider } from '../providers/event/event'
 import { AppAppearanceProvider } from '../providers/app-appearance/app-appearance'
-import { DatabaseProvider } from '../providers/database/database';
-
 
 //Models
 import { AppInstance } from '../models/app_instance'
@@ -75,7 +73,6 @@ export class MyApp {
     private firebaseTokenService: FirebaseTokenProvider,
     public appAppearanceProvider: AppAppearanceProvider,
     public eventProvider: EventProvider,
-    private database: DatabaseProvider,
   ) {
 
     // this.initializeApp()

@@ -20,13 +20,25 @@ export class DatabaseProvider {
       this.storage = new SQLite();
       this.storage.create({ name: "data.db", location: "default" }).then((db: SQLiteObject) => {
         this.db = db;
-        db.executeSql("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, identification INTEGER, name TEXT, lastname text)", []);
+        db.executeSql("CREATE TABLE IF NOT EXISTS usersLogin (id INTEGER PRIMARY KEY AUTOINCREMENT, estado INTEGER)", []);
         this.isOpen = true;
         console.log("siii funciona");
       }).catch((error) => {
         console.log(error);
       })
     }
+  }
+
+  CreateUserLogin(estado: number){
+    return new Promise ((resolve, reject) => {
+      let sql = "INSERT INTO usersLogin (estado) VALUES (?)";
+      this.db.executeSql(sql, [estado]).then((data) =>{
+        resolve(data);
+        console.log("guardado login");
+      }, (error) => {
+        reject(error);
+      });
+    });
   }
 
 }
