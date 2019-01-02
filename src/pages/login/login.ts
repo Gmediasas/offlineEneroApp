@@ -58,9 +58,7 @@ export class LoginPage {
   }
 
   goToLoginNative(){
-
     this.navCtrl.push(LoginNativePage)
-
   }
 
   goToRegisterPage(){

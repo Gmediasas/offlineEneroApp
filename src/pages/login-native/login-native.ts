@@ -78,103 +78,67 @@ export class LoginNativePage {
   public login() {
 
     console.log(`(login-native.ts) gevents>> Credenciales: email = ${this.registerCredentials.email} pass = ${this.registerCredentials.password}`)
-
     this.presentLoading()
-
-
     this.auth.login(this.registerCredentials).subscribe(data => {
-
       console.log("`(login-native.ts) gevents>> Data server ===>", data);
-
       if (data.success !== null && data.success !== undefined) {
-
         console.log(`(login-native.ts) gevents>> user token ${data.success.token}`)
-
         //Remenber user token
         this.storage.set('access_token', data.success.token);
-
         //Remenber my account
         this.remenberMe()
-
         //Firebase
         if (this.device == 'android' || this.device == 'ios')
           this.fcmConnect()
-
         this.data_user = { 'firstNameUser': data.success.nombres, 'lastNameUser': data.success.apellidos };
         this.id_app = appId
-
         this.eventProvider.getAllEvents(this.id_app).subscribe(data => {
-
           this.loader.dismiss() //hide loader
-
           //App: multi-event
           if (data.length > 1) {
-
             //Go to events
             this.navCtrl.push(MultiEventPage, {
               id_app: this.id_app,
               data_user: this.data_user
             });
-
           } else if (data.length == 1) {
-
             //App: One event
-
             //Go to event
             this.navCtrl.push(SingleEventPage, {
               event_id: data[0].evntUID,
               data_user: this.data_user
             });
-
           } else {
-
             this.loader.dismiss() //hide loader
             alert(`No hay eventos asociados a esta aplicacion`)
-
           }
-
         })
-
       } else {
-
         this.loader.dismiss() //hide loader
         alert("acceso denegado")
-
       }
-
     },
       error => {
-
         let error_text = ''
-
         switch (error.status) {
-
           case 401:
             error_text = "Usuario o contraseña incorrecta"
             break
-
           case 500:
             error_text = "Hubo un problema de nuestro lado Inténtelo mas tarde"
             break
-
           default:
             error_text = "Hubo un problema inténtelo mas tarde"
             break
-
         }
-
         this.loader.dismiss() //hide loader
-
         let alert = this.alertCtrl.create({
           title: 'Error',
           subTitle: error_text,
           buttons: ['OK'],
           cssClass: 'alertPersonalizada'
-
         })
-
         alert.present()
-
       })
 
   }
