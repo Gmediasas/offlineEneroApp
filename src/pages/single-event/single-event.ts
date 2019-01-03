@@ -790,8 +790,8 @@ export class SingleEventPage {
   }
 
   goToTickets() {
-    /*this.navCtrl.push(TicketsPage, {
-    })*/
+    this.navCtrl.push(TicketsPage, {
+    })
 
   }
 

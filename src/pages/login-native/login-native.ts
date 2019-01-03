@@ -85,6 +85,7 @@ export class LoginNativePage {
       console.log("`(login-native.ts) gevents>> Data server ===>", data);
       if (data.success !== null && data.success !== undefined) {
         console.log(`(login-native.ts) gevents>> user token ${data.success.token}`)
+        //si el login es correcto se registran en sqlite
         this.database.CreateUserLogin(1).then( (data) => {
           console.log(data);
         }, (error) => {
