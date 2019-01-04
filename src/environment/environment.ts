@@ -92,12 +92,12 @@ export const environment = {
 
 
     //Token and id
-    appToken: "sYncjwg6ad86VOg5g9q35ydO4K6adItMFMS6WUl4pvRWRLSe0NdVgGvTWvaA",//no
-    appId: "41812",
+    appToken: "BsSx1gtWoX1VbABg6jc5aA1kkosA594hID7I4nrYZFWv0NZ9thjMlMINOGSX",//no
+    appId: "42861",
     default_language: "es",
 
     //evento
-    nidevento: "41813",
+    nidevento: "42864",
 
     //Appearance
     appAppearance: {

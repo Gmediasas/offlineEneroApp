@@ -16,8 +16,10 @@ page-single-event {
     }
     .logoImgMenu img {
         border-radius: 50%;
-        border: 2px solid $white;
-        background-color: $white;
+        border: 2px solid white;
+        background-color: white;
+        width: 26px;
+        height: 26px;
     }
     .IconMap{
         font-size:28px;
@@ -293,7 +295,7 @@ page-single-event {
 
     }
     .LabelTabs{
-        color: grey;
+        color: white;
         font-size: 9px;
         padding-top: 6px;
         font-weight: bold;

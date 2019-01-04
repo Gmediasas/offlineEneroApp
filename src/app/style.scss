@@ -296,7 +296,25 @@
 
         .bar.bar-stable {
             border: none !important;
-            background-image: none !important
+            background-image: none !important;
+            height: 5vh;
+        }
+        .toolbar-md{
+            height: 5vh;
+            min-height: 6vh;
+        }
+
+        .toolbar-ios{
+            padding: 0;
+            padding-left: 4px;
+            padding-right: 4px;
+            min-height: 38px;
+        }
+
+
+        .toolbar-title-ios, .toolbar-title-md {
+            font-size: 1.4rem;
+            font-weight: 300;
         }
 
         .bar.bar-stable .title {
