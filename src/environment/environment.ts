@@ -85,7 +85,6 @@ export const environment = {
 
     production: false,
 
-
     //Domain:
     apiUrl: "https://admin.gevents.com.co",
     //apiMiddleUrl: "http://52.183.252.65/public",
@@ -102,24 +101,24 @@ export const environment = {
 
     //Appearance
     appAppearance: {
-        name: "Feria Internacional de Seguridad E+S+S 2018",
-        logo: "http://admin.gevents.com.co/sites/default/files/documentsupload/abc123/1534181940000_Icono3.png",
+        name: "Fenalco",
+        logo: "assets/img/login.png",
         main_color: {
-            hex: "#1f264a",
-            rgb: [31, 38, 74],
-            rgb_opacity_50: [31, 38, 74, 0.50],
-            rgb_opacity_90: [31, 38, 74, 0.90]
+            hex: "#008c63",
+            rgb: [0, 140, 99],
+            rgb_opacity_50: [0, 140, 99, 0.50],
+            rgb_opacity_90: [0, 140, 99, 0.90]
         },
         monochromatic_main_color: {
             darkest_shade: [0, 0, 0],
-            dark_shade: [16, 20, 38],
-            light_tint: [46, 56, 110],
-            lighter_tint: [61, 75, 146],
-            lightest_tint: [77, 94, 181],
+            dark_shade: [0, 102, 72],
+            light_tint: [0, 204, 144],
+            lighter_tint: [51, 255, 195],
+            lightest_tint: [153, 255, 225],
         },
         secondary_color: {
-            hex: "#f3920b",
-            rgb: [243, 146, 11]
+            hex: "#ffffff",
+            rgb: [255, 255, 255]
         },
     },
 
