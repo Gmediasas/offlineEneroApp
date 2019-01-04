@@ -1,130 +1,34 @@
-<!--
-  Generated template for the SingleEventPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header class="bar-stable main-bg-color bar bar-header disable-user-behavior">
   <ion-toolbar>
 
     <ion-buttons end>
       <button ion-button icon-only (click)='goToProfilePage()'>
-        <!--   <img src="assets/img/menu.png"> -->
-        <!--   <ion-icon name="menu" class="text-white"></ion-icon> -->
-        <!-- <ion-icon ios="ios-menu" md="md-menu" class="text-white"></ion-icon> -->
         <div class="logoImgMenu">
-
             <img class="animated fadeInLeft" 
             [height]="35" 
             [width]="35"
             [src]="profile?.photo"
             (error)="errorProfilePhoto($event)">
-
-          <!-- <thumbnail-photo-profile [width]="35" [height]="35">
-          </thumbnail-photo-profile>-->
-
         </div>
       </button>
     </ion-buttons>
-    <!-- <ion-buttons left>
-      <button ion-button navPop icon-only class="text-white">
-        <i class="demo-icon  icon-geventsleft-open placeholder-icon " style="padding-top: 8px;">&#xe84f;</i>
-        <ion-icon ios="ios-arrow-dropleft-outline" md="md-arrow-back"></ion-icon>
-      </button>
-    </ion-buttons>-->
-    <!--     <ion-buttons left>
-      <button ion-button icon-only (click)='openAppMenu()'>
-     
-        <ion-badge class="notifications-badge main-text-color" color="secondary">
-          <ion-icon name="notifications"></ion-icon>
-        </ion-badge>
-      </button>
-    </ion-buttons> -->
 
-    <!--   <ion-title class="text-white" text-center>Eventos</ion-title> -->
     <ion-grid>
       <div>
-
-        <ion-searchbar class="searchbar searchbar-ios searchbar-left-aligned" *ngIf="false">
-          <div class="searchbar-input-container">
-            <button class="searchbar-md-cancel disable-hover button button-md button-clear button-clear-md button-clear-md-light" clear=""
-              color="light" ion-button="" mode="md" type="button">
-              <span class="button-inner">
-
-                <ion-icon name="md-arrow-back" role="img" class="icon icon-ios ion-md-arrow-back" aria-label="arrow white"></ion-icon>
-              </span>
-              <div class="button-effect"></div>
-            </button>
-            <div class="searchbar-search-icon"></div>
-            <input class="searchbar-input" dir="auto" placeholder="Buscar" type="search" autocomplete="off" autocorrect="off" spellcheck="false">
-            <button class="searchbar-clear-icon disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button=""
-              type="button">
-              <span class="button-inner"></span>
-              <div class="button-effect"></div>
-            </button>
-          </div>
-          <button class="searchbar-ios-cancel disable-hover button button-ios button-clear button-clear-ios" clear="" ion-button=""
-            mode="ios" type="button" tabindex="-1">
-            <span class="button-inner">Cancel</span>
-            <div class="button-effect"></div>
-          </button>
-        </ion-searchbar>
-
-        <!-- <span style="color:white;"> {{event.evntName | uppercase }} </span> -->
-
         <ion-title class="text-white text-center">{{ 'Evento' | translate }}</ion-title>
       </div>
-
     </ion-grid>
-
-
-
-    <!-- 
-    <ion-buttons end>
-      <button ion-button icon-only (click)="openSearchModal()">
-          <i class="demo-icon  icon-geventslocation-3 IconMap text-white">&#xe97b;</i>
-         <ion-icon ios="ios-search" md="md-search" class="text-white"></ion-icon>
-        <page-btn-menu-modal></page-btn-menu-modal>
-
-      </button>
-    </ion-buttons> -->
 
   </ion-toolbar>
 </ion-header>
 
-
-<!-- <page-btn-menu-modal></page-btn-menu-modal> -->
-
 <ion-content id="single-event" class="action-sheets-basic-page">
-
-
 
   <ion-refresher (ionRefresh)="doRefresh($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
 
   <div class="details-img" #banner id="banner">
-
-    <ion-fab bottom right>
-      <button ion-fab mini class="main-bg-color iconWhite">
-
-        <i class="demo-icon icon-geventsshare btnWhite">&#xf1e0;</i>
-      </button>
-      <ion-fab-list side="left">
-        <button *ngIf="event.android_setup?.facebook" ion-fab class="colorfacebook  shadowIcons" (click)="openLink(event.android_setup.facebook)">
-          <ion-icon name="logo-facebook"></ion-icon>
-        </button>
-        <button *ngIf="event.android_setup?.linkedin" ion-fab class="colorLinkedin  shadowIcons" (click)="openLink(event.android_setup.linkedin)">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </button>
-        <button *ngIf="event.android_setup?.twitter" ion-fab class="colortwitter  shadowIcons" (click)="openLink(event.android_setup.twitter)">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </button>
-        <button *ngIf="event.android_setup?.google" ion-fab class="colorGoogle  shadowIcons" (click)="openLink(event.android_setup.google)">
-          <ion-icon name="logo-googleplus"></ion-icon>
-        </button>
-      </ion-fab-list>
-    </ion-fab>
     <div class="row">
       <br>
       <br>
@@ -136,9 +40,6 @@
         <img class="animated fadeInLeft sombraLogo" height="100" width="100" [src]=" getIcon(event) " onError="'assets/img/logo-dummy1.jpg'">
       </div>
 
-      <div class="col-30 ">
-        <h4 class="news-title-card-events text-right colorTitleW"></h4>
-      </div>
     </div>
   </div>
 
@@ -153,178 +54,35 @@
     </div>
   </div>
 
-  <div class=" details-writer">
-    <ion-grid>
-      <ion-row class="row">
-        <ion-col class="lineRight">
-          <div>
-            <i class="demo-icon  icon-geventscalendar icon100">&#xe849;</i>
-            <div class="date1 text-center">
-
-
-              {{event.evntStartDate | date}}
-              <!-- <br>
-                  8:00 Am (Quemado) -->
-            </div>
-          </div>
-        </ion-col>
-        <ion-col class="lineRight">
-          <div>
-            <i class="demo-icon   icon-geventsclock-3 icon100">&#xe9ef;</i>
-            <div class="date1 text-center">
-
-              {{event.evntStartDate | date:'HH:mm a'}}
-              <!-- <br>
-                  8:00 Am (Quemado) -->
-            </div>
-          </div>
-        </ion-col>
-        <ion-col class="lineRight">
-          <div (click)="goToMapPage()">
-            <i class="demo-icon   icon-geventslocation-3 icon100">&#xe97b;</i>
-            <div class="date1 text-center">
-
-
-              {{event.evntPlace?.placeName}}
-            </div>
-          </div>
-        </ion-col>
-        <ion-col class="">
-          <div (click)="goToChatGeneral()">
-            <i class="demo-icon    icon-geventschat icon100">&#xe805;</i>
-            <div class="date1 text-center">
-
-
-              {{ 'Chat' | translate }}
-
-            </div>
-          </div>
-        </ion-col>
-        <div *ngIf="false">
-          <ion-col class="">
-            <div (click)="goToModalAdsPage()">
-              <i class="demo-icon    icon-geventsuser-add-1 icon100 IconAsistir">&#xe9d8;</i>
-              <div class="date1 text-center">
-
-
-                {{ 'Asistir' | translate }}
-              </div>
-            </div>
-          </ion-col>
-        </div>
-        <!--             <ion-col class="col" col-2>
-              <div>
-                <button class="btnAsistirIcon" block right >
-                 
-                <i class="demo-icon  icon-geventsuser-add-1 IconAsistir">&#xe9d8;</i>
-                </button>
-
-              </div>
-            </ion-col> -->
-
-      </ion-row>
-
-      <!-- <ion-row class="row lineTopAsistir" *ngIf="true"> -->
-
-
-      <div *ngIf="assistants.length > 0">
-        <ion-row class="row lineTopAsistir" (click)="goToAttendantPage()">
-          <ion-col class="col">
-            <div class="asistentesTittle">
-
-              <i class="demo-icon  icon-geventscheck IconAsistir">&#xe861;</i>
-              {{assistants.length}} {{ 'personasasistirán' | translate }} 
-
-            </div>
-
-
-          </ion-col>
-          <ion-col class="col">
-
-            <div class=" logoImgPeople paddingPhoto">
-
-              <img class="animated fadeInLeft" height="35" width="35" *ngFor="let assistant of assistants.slice(0, 3); let i = index" [src]="assistant.photo"
-                (error)="errorProfilePhoto($event)">
-
-              <!-- <img class="animated fadeInLeft" height="35" src="assets/img/avatar2.png" width="35">
-              <img class="animated fadeInLeft" height="35" src="assets/img/avatar4.png" width="35"> -->
-              <img class="animated fadeInLeft" height="35" src="assets/img/avatar6.png" width="35">
-
-            </div>
-
-          </ion-col>
-          <!--             <ion-col>
-              <div class="col animated flipInX">
-                <button class="  btnEvent  btnAsistir  btnOnly">
-                  <span class="">
-                   <i class="demo-icon  icon-geventsuser-add-1 IconAsistir">&#xe9d8;</i>
-                
-                  </span>
-                  <div class="button-effect"></div>
-                </button>
-              </div>
-            </ion-col> -->
-
-        </ion-row>
-      </div>
-
-    </ion-grid>
-
-  </div>
-
-  <!--   <div class="row details-writer ">
-    <div class="col col-50 writer-det">
-      <h4>{{event.evntLugarEvento}}</h4>
-      <p class="main-text-color laber">{{event.evntDireccion}}</p>
+ <ion-row>
+  <ion-col class="col">
+    <div>
+      <div class=" ModuleTittle "> Módulos del evento</div>
     </div>
-    <div class="col col-40 label1 text-right">
-      <span>
-        <ion-icon name="checkmark-circle-outline"></ion-icon>
-        10 personas asistiran</span>
-    </div>
-  </div> -->
+  </ion-col>
 
-
-  <!-- MAPAAAAAAAA de JULIAN NO TOCAR
-  <div id="map_canvas"></div>
-
-  <button ion-button (click)="openLaunchNavigator()" class="color-secundary">
-    <ion-icon name="car"></ion-icon>
-    Cómo llegaroptions
-  </button> -->
-
-  <!-- <ion-row class="row">
-    <ion-col class="col">
-      <div>
-        <div class=" ModuleTittle "> Módulos del evento</div>
-      </div>
-    </ion-col>
     <ion-col class="col" (click)='goToSingleEventMorePage()'>
       <div class="seeMoreGrey">
       {{ 'VerMas' | translate }}
       </div>
     </ion-col>
-  </ion-row> -->
+  </ion-row>
 
   <div class="suggestion paddingSuggestion">
-
     <div *ngFor="let option of options">
-
       <div class="item-det" *ngIf="option.active === true" (click)="goToPage(option.page)">
-
         <ion-row class="row">
-          <ion-col class="col ">
+          <ion-col class="col">
             <div>
-              <ion-card class="{{option.image_bg}} card card-md">
 
+              <ion-card class="{{option.image_bg}} card card-md">
                 <ion-grid class="grid ">
+
                   <ion-row class="row ">
                     <ion-col class="col " col-auto="">
                       <div>
                         <div class="circleDoc  text-center">
                           <i class="{{option.icon.ios}}" [innerHTML]="option.icon.code"></i>
-
-                          <!-- <i class="demo-icon  icon-geventscalendar iconModule">&#xe849;</i> -->
                         </div>
                       </div>
                     </ion-col>
@@ -333,81 +91,24 @@
                     </ion-col>
 
                   </ion-row>
+
                   <ion-row class="row">
                     <ion-col class="col">
                       <div class="card-titleDoc  main-text-colorSecond">{{option.text}}</div>
-                      <!-- <div class="card-titleDoc  main-text-colorSecond">Agenda</div> -->
-
                     </ion-col>
                   </ion-row>
 
                 </ion-grid>
-
               </ion-card>
             </div>
           </ion-col>
-
         </ion-row>
-
       </div>
-
     </div>
-
-
   </div>
 
-
-  <!--   <ion-content class="card-background-page">
-
-    <div class="line"></div>
-
-    <ion-grid class="grid backgroundGrey1">
-
-        <ion-row class="row" >
-
-          <ion-col class="col" col-6  *ngFor="let option of options" (click)="goToPage(option.page)">
-            <div>
-              <ion-card class="{{option.class}}">
-
-                <ion-grid class="grid">
-
-                  <ion-row class="row">
-                      <ion-col class="col">
-                        <div></div>
-                      </ion-col>
-                      
-                      <ion-col class="col" col-auto="">
-                          <div>
-                            <div class="circle main-bg-Monocromatico " >
-                              <i class="{{option.icon.ios}}" [innerHTML]="option.icon.code"></i>
-                           
-                            </div>
-                          </div>
-                      </ion-col>
-
-                    <ion-col class="col">
-                      <div></div>
-                    </ion-col>
-
-                  </ion-row>
-
-              </ion-grid>
-
-              <div class="card-title  main-text-colorSecond">{{option.text}}</div>
-
-            </ion-card>
-
-          </div>
-
-        </ion-col>
-
-      </ion-row>
-
-    </ion-grid>
-
-  </ion-content> -->
   <div class="det-padding PaddingDescription">
-    <h4 class="sub-heading main-text-color">{{ 'Sobreevento' | translate }}</h4>
+    <h4 class="sub-heading main-text-color" >{{ 'Sobreevento' | translate }}</h4>
 
     <p class="ColorGreyText">{{event.evntDescription}}</p>
   </div>
@@ -417,13 +118,13 @@
 <ion-footer class="comment-footer sec-main-bg animated slideInUp">
   <ion-grid class="grid">
     <ion-row class="row">
-      <!--  <ion-col class="col LineRight">
+      <ion-col class="col LineRight">
         <div class="contentIconTab" (click)="goToTickets()">
           <i class="demo-icon   icon-geventsticket-1 icontabs text-center">&#xe94d;</i>
 
           <div class="LabelTabs text-center">{{ 'Boletas' | translate }}</div>
         </div>
-      </ion-col>-->
+      </ion-col>
       <ion-col class="col LineRight">
         <div class="contentIconTab" (click)="goToSingleEventMorePage()">
           <i class="demo-icon  icon-geventsplus-circled  icontabs text-center">&#xe80b;</i>
@@ -447,40 +148,6 @@
           <div class="LabelTabs text-center">{{ 'Miagenda' | translate }}</div>
         </div>
       </ion-col>
-      <!-- <ion-col class="col">
-        <div class="contentIconTab" (click)="goToChatGeneral()">
-         
-        <div class="contentIconTab" (click)="goToQuestionsPage()"> 
-          <i class="demo-icon   icon-geventscomment-1 icontabs text-center">&#xe877;</i>
-          <div class="LabelTabs text-center">Chat</div>
-        </div>
-      </ion-col> -->
     </ion-row>
   </ion-grid>
-  <!--   <ion-grid class="grid">
-    <ion-row class="row">
-      <ion-col class="col">
-        <div class="iconTikets">
-          <ion-icon ios="ios-pricetags" md="md-pricetags"></ion-icon>
-        </div>
-      </ion-col>
-      <ion-col class="col" col-6="">
-        <div class="labelTikets"> {{ 'Boletas' | translate }} </div>
-      </ion-col>
-      <ion-col class="col">
-        <div class="btnTikets"> {{ 'VerMas' | translate }} </div>
-      </ion-col>
-    </ion-row>
-  </ion-grid> -->
 </ion-footer>
-
-
-<!--<ion-menu [content]="mycontent">
-  <ion-content>
-    <ion-list>
-      <p>some menu content, could be list items</p>
-    </ion-list>
-  </ion-content>
-</ion-menu>-->
-
-<ion-nav #mycontent [root]="rootPage"></ion-nav>
