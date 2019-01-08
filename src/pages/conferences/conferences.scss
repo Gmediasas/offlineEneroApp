@@ -1,5 +1,9 @@
 page-conferences {
 
+	.fondoNuevo{
+		background: rgba(0, 140, 99, 0.90);
+	}
+
 	.toolbar-background {
 	  background: #fff;
 	  border-color: transparent;
@@ -138,7 +142,7 @@ page-conferences {
 		//   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 	  }
 	  .ArrowConference{
-		  padding: 58px 0px;
+		  padding: 42px 0px;
 		  font-size: 40px;
 		  color: rgba(255, 255, 255, 0.58);
 	  }

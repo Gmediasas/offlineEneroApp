@@ -84,38 +84,24 @@ export class ConferencesPage {
     this.search_key = 'dateStartSchdl_UNIX' //Name field default sort
     this.direction = 1 //Default direcion in sort
 
-
-
   }
 
-
   ionViewDidEnter() {
-
-    this.storage.get(`access_token`).then((access_token) => {
-
+      this.storage.get(`access_token`).then((access_token) => {
       this.access_token = access_token
-
       //Get storage
       this.storage.get('current_event').then((current_event) => {
-
         //No exist item storage
         if (event !== null) {
-
           this.evento_id = current_event
           this.current_event = current_event
           this.getConferenceDetail()
-
         } else {
-
           this.loader.dismiss() //hide loader
           alert("el evento no existe")
-
         }
-
       })
-
     })
-
   }
 
   //Get all Schedule in server or storage
@@ -123,47 +109,31 @@ export class ConferencesPage {
 
     //Get storage
     this.storage.get(`schedules_${this.evento_id}`).then((Schdls) => {
-
       //No exist item storage
       if (Schdls === null) {
-
         //Server request
-
         this.getConferences()
-
       } else {
-
         console.log(`Storage request: all conferences in event(${this.evento_id}) ...`)
         this.scheduleDataDay = Schdls
         this.getPersonalConferences(this.scheduleDataDay)
         //this.countdata = Schdls.length
-
-
         console.log(`schelude in storage: `, Schdls)
         if (this.scheduleDataDay.length > 0) {
-
           this.scheduleDataInfo = this.scheduleDataDay[this.currentIndex].dataSchedls
           this.storage.set(`schedules_${this.evento_id}`, this.scheduleDataDay)
-
         }
-
         console.log(`Conferences(storage): `, this.scheduleDataDay)
-
         this.loader.dismiss() //hide loader
-
         //Pull refresher
         if (this.refresher !== undefined) {
-
           console.log(`Refresher complete...`)
           this.refresher.complete()
           this.refresher = null
-
         }
-
       }
       //this.getMyConferences()
     })
-
   }
 
   //Get all Sponsors in server
@@ -294,7 +264,6 @@ export class ConferencesPage {
 
   }
 
-
   alertPresent(title, subTitle) {
 
     let alert = this.alertCtrl.create({
@@ -347,7 +316,6 @@ export class ConferencesPage {
     this.loader.present()
 
   }
-
 
   goToConferencePersonal() {
     this.navCtrl.push(ConferencePersonalPage, {})
@@ -512,7 +480,6 @@ export class ConferencesPage {
       //tokenUser: this.token_app
     })
   }
-
 
   counter: number = 0
   viewBackColor(): String {
