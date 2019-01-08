@@ -301,7 +301,7 @@
         }
         .toolbar-md{
             height: 5vh;
-            min-height: 6vh;
+            min-height: 5vh;
         }
 
         .toolbar-ios{
@@ -311,6 +311,9 @@
             min-height: 38px;
         }
 
+        ion-buttons .logoImgMenu{
+            margin-top: 15%;
+        }
 
         .toolbar-title-ios, .toolbar-title-md {
             font-size: 1.4rem;

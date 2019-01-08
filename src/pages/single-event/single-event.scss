@@ -7,6 +7,10 @@ ion-app._gmaps_cdv_ .nav-decor{
   
 page-single-event {
 
+    .toolbar-title-ios, .toolbar-title-md {
+        padding-left: 8%;
+    }
+
     #map_canvas{
         display: block;
         // height: 40%;
@@ -18,8 +22,8 @@ page-single-event {
         border-radius: 50%;
         border: 2px solid white;
         background-color: white;
-        width: 26px;
-        height: 26px;
+        width: 3.5vh;
+        height: 3.5vh;
     }
     .IconMap{
         font-size:28px;
