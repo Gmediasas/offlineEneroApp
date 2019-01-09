@@ -68,13 +68,17 @@ export class LoginNativePage {
     this.app_instance = appAppearance
 
     console.log(`(login-native.ts) gevents>> ${this.device}`)
-
+    console.log(
+      storage.get('remember_account').then((val) => {
+        console.log('Your name is', val);
+      })
+    );
   }
 
+  // 1. evento
   ionViewDidLoad() {
     this.remember = false
     this.isRememberedAccount()
-
   }
 
   public login() {
@@ -151,8 +155,9 @@ export class LoginNativePage {
 
   }
 
+  // 2. evento
   public isRememberedAccount() {
-
+    console.log("ssdasd");
     //Get storage
     this.storage.get('remember_account').then(remember_account => {
       console.log("Remenber", remember_account);
@@ -162,35 +167,22 @@ export class LoginNativePage {
 
       if (cred !== null) {
         console.log("estas son las credenciales recuperadas", cred);
-
         this.registerCredentials.email = cred.email
         this.registerCredentials.password = cred.password
         this.remember = true
-
       }
-
     })
-
+    
   }
 
   public remenberMe() {
-
-
-
-
     if (this.remember === true) {
-
       //Save account
       this.storage.set('remember_account', JSON.stringify(this.registerCredentials))
-
-
     } else {
-
       //Delete remembered account
       this.storage.set('remember_account', null)
-
     }
-
   }
 
   fcmConnect() {
@@ -312,10 +304,6 @@ export class LoginNativePage {
 
   }
 
-
-   /**
-   * Metodo Correo minúscula
-   */
   minus() {
     this.registerCredentials.email = this.registerCredentials.email.toLowerCase();
   }

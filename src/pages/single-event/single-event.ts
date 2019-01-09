@@ -48,17 +48,7 @@ import { CodeQrCardPage } from '../code-qr-card/code-qr-card';
 import { ModalAdsPage } from '../modal-ads/modal-ads'
 
 import { GoogleMapPage } from '../google-map/google-map';
-/*
-  Conferencia: ConferencesPage
-  Expositores: SpeakersPage
-  Patrocinadores: SponsorsPage
-  Stands: StandsPage
-  Mapa estático: StaticMapPage
-  Mapa interactivo multiple: InteractiveMapMultiplePage
-  Noticias: NewsPage
-  Redes sociales: SocialNetworksPage
-  Documentos: DocumentsPage
-*/
+
 
 /**
  * Generated class for the SingleEventPage page.
@@ -109,60 +99,27 @@ export class SingleEventPage {
     public utilitiesComponent: UtilitiesComponent,
     public profileProvider: ProfileProvider
   ) {
-
-
-
     this.device = eventAppearance.getDevice()
-
-    //Sidemenu
-    // menuCtrl.enable(true)
-    // menuCtrl.enable(false);
-
-    // let data_user = navParams.get('data_user')
-    // this.storage.set('data_user', data_user )
-    // this.data_user = data_user
-    //this.storage.set('data_user', this.data_user )
-
     this.getDataUser();
-
-    //console.log(`(single-event.ts) gevents>> Data User: `,data_user)
-
     let id_evento_param = navParams.get('event_id')
-
     if (id_evento_param !== null || id_evento_param !== undefined) {
-
       this.id_event = id_evento_param
-
       //Save event like current
       this.storage.set('current_event', this.id_event)
-
     } else {
-
       //Get storage
       this.storage.get('current_event').then((current_event) => {
-
         //No exist item storage
         if (current_event !== null || current_event !== undefined) {
-
           //Server request
           this.id_event = current_event
-
         }
-
       })
-
     }
 
     console.log(`(single-event.ts) gevents>> Event(id):  ${this.id_event}`)
-
-
-
-    // Menu optio(164): Sobre el evento
-    // Menu optio(171): Web view    
-
     this.options = [
       {
-        // Menu option in dahsboard Gevents(id => 162): Agenda
         id: '162',
         class: 'colorCard1',
         img: "assets/img/card1.png",
@@ -743,33 +700,23 @@ export class SingleEventPage {
 
   }
 
-  /*openAppMenu() {
-    this.menuCtrl.toggle()
-  }*/
-
-
-
   errorProfilePhoto(event) {
-
     event.target.src = default_image.user
-
   }
-
 
   returnMultiEvent() {
-
     this.navCtrl.push(MultiEventPage, {})
-
   }
+
   goToProfilePage() {
     this.navCtrl.push(ProfilePage)
 
   }
+
   goToNotification() {
-
     this.navCtrl.push(NotificationPage)
-
   }
+
   goToSurvey() {
 
     this.navCtrl.push(SurveyPage)
@@ -781,10 +728,12 @@ export class SingleEventPage {
     this.navCtrl.push(CodeQrPage)
 
   }
+
   goToConferencePersonal() {
     this.navCtrl.push(ConferencePersonalPage, {
     })
   }
+
   goCardQr() {
     this.navCtrl.push(CodeQrCardPage);
   }
@@ -806,11 +755,13 @@ export class SingleEventPage {
     })
 
   }
+
   goToAttendantPage() {
 
     this.navCtrl.push(AttendantPage)
 
   }
+
   goToMapPage() {
 
     this.navCtrl.push(GoogleMapPage, {
@@ -819,11 +770,13 @@ export class SingleEventPage {
 
 
   }
+
   goToModalAdsPage() {
 
     this.navCtrl.push(ModalAdsPage)
 
   }
+
   goToFastNotesPage() {
 
     this.navCtrl.push(FastNotesPage)

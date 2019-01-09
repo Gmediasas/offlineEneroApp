@@ -92,7 +92,7 @@ export const environment = {
 
 
     //Token and id
-    appToken: "BsSx1gtWoX1VbABg6jc5aA1kkosA594hID7I4nrYZFWv0NZ9thjMlMINOGSX",//no
+    appToken: "dP7rk3T3Zbd9IZvOXZHvbnMZwlCUDBMP9fo3CADjpZZOFHV2yOznYaru6tbi",//no
     appId: "42861",
     default_language: "es",
 

@@ -47,6 +47,7 @@ export class HomePage {
   ionViewWillEnter() {
     this.id_app = appId
     this.presentLoading()
+    console.log('aca no llega');
     this.auth.isAuthenticated().then((access_token) => {
       if (access_token !== null && access_token !== undefined) {
         console.log("(home.ts) gevents>> User is login: ", access_token)
@@ -122,7 +123,7 @@ export class HomePage {
   //Show loader
   presentLoading() {
     this.loader = this.loadingCtrl.create({
-      content: "Un momento por favor...",
+      content: "Un momento por faverr...",
       spinner: 'bubbles'
     })
     this.loader.present()
