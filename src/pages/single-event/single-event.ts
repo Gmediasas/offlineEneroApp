@@ -5,8 +5,8 @@ import { MenuController } from 'ionic-angular'
 import { LoadingController } from 'ionic-angular'
 import { Storage } from '@ionic/storage'
 import { InAppBrowser } from '@ionic-native/in-app-browser';
-
 import { UtilitiesComponent } from '../../components/utilities/utilities';
+import { Slides } from 'ionic-angular';
 
 //Constants
 import { default_image } from '../../app/app.constants'
@@ -81,6 +81,13 @@ export class SingleEventPage {
   direction: number
   search_key: string
   @ViewChild("banner", { read: ElementRef }) banner: ElementRef
+
+  @ViewChild(Slides) slides: Slides;
+  imageContainer = [
+    {name: 'publicidad', url:"anuncio1-min.png", link: "https://www.multiplaza.com/bogota" },
+  {name: 'publicidad', url:"anuncio2-min.png", link: "http://www.granestacion.com.co/" },
+  {name : 'publicidad', url:"anuncio3-min.png", link: "https://www.multiplaza.com/bogota"} ];
+
 
   constructor(
     public navCtrl: NavController,
@@ -787,6 +794,11 @@ export class SingleEventPage {
 
     this.navCtrl.push(RoomPage)
 
+  }
+
+  redirectExternal(para){
+    console.log(para);
+    window.open(para, "_self");
   }
 
 }

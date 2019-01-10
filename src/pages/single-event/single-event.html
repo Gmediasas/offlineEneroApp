@@ -214,7 +214,7 @@
     Cómo llegaroptions
   </button> -->
 
-  <!-- <ion-row class="row">
+  <ion-row class="row">
     <ion-col class="col">
       <div>
         <div class=" ModuleTittle "> Módulos del evento</div>
@@ -225,7 +225,7 @@
       {{ 'VerMas' | translate }}
       </div>
     </ion-col>
-  </ion-row> -->
+  </ion-row>
 
   <div class="suggestion paddingSuggestion">
 
@@ -277,56 +277,6 @@
 
   </div>
 
-
-  <!--   <ion-content class="card-background-page">
-
-    <div class="line"></div>
-
-    <ion-grid class="grid backgroundGrey1">
-
-        <ion-row class="row" >
-
-          <ion-col class="col" col-6  *ngFor="let option of options" (click)="goToPage(option.page)">
-            <div>
-              <ion-card class="{{option.class}}">
-
-                <ion-grid class="grid">
-
-                  <ion-row class="row">
-                      <ion-col class="col">
-                        <div></div>
-                      </ion-col>
-                      
-                      <ion-col class="col" col-auto="">
-                          <div>
-                            <div class="circle main-bg-Monocromatico " >
-                              <i class="{{option.icon.ios}}" [innerHTML]="option.icon.code"></i>
-                           
-                            </div>
-                          </div>
-                      </ion-col>
-
-                    <ion-col class="col">
-                      <div></div>
-                    </ion-col>
-
-                  </ion-row>
-
-              </ion-grid>
-
-              <div class="card-title  main-text-colorSecond">{{option.text}}</div>
-
-            </ion-card>
-
-          </div>
-
-        </ion-col>
-
-      </ion-row>
-
-    </ion-grid>
-
-  </ion-content> -->
   <div class="det-padding PaddingDescription">
     <h4 class="sub-heading main-text-color">{{ 'Sobreevento' | translate }}</h4>
 
@@ -336,7 +286,15 @@
 
 
 <ion-footer class="comment-footer sec-main-bg animated slideInUp">
+    <ion-row class="row">
+        <ion-slides autoplay="1000" loop="true" speed="900" pager>
+            <ion-slide *ngFor="let image of imageContainer" >
+              <img (click)="redirectExternal(image.link)" src="assets/img/{{image.url}}" alt="">
+            </ion-slide>
+          </ion-slides>
+    </ion-row>
   <ion-grid class="grid">
+    
     <ion-row class="row">
       
       <ion-col class="col LineRight">
@@ -370,14 +328,3 @@
     </ion-row>
   </ion-grid>
 </ion-footer>
-
-
-<!--<ion-menu [content]="mycontent">
-  <ion-content>
-    <ion-list>
-      <p>some menu content, could be list items</p>
-    </ion-list>
-  </ion-content>
-</ion-menu>
-
-<ion-nav #mycontent [root]="rootPage"></ion-nav>-->

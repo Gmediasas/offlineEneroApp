@@ -52,10 +52,18 @@ export class AttendantPage {
     public myFriendsProvider:MyFriendsProvider
   ){
 
- 
-
   }
  
+
+  ionViewDidEnter() {
+    this.storage.get(`access_token`).then((access_token) => {
+    this.access_token = access_token
+    //Get storage
+    
+  })
+}
+
+
   ionViewWillEnter() {
     
     //Flag for firebase push notification

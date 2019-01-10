@@ -123,7 +123,7 @@ export class HomePage {
   //Show loader
   presentLoading() {
     this.loader = this.loadingCtrl.create({
-      content: "Un momento por faverr...",
+      content: "Un momento por favor...",
       spinner: 'bubbles'
     })
     this.loader.present()
