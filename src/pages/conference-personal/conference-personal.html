@@ -53,29 +53,21 @@
 
           </div>
         </ion-col>
-        <ion-col class="col" col-8>
 
+        <ion-col class="col" col-8>
           <div>
             <ion-slides pager>
-
               <ion-slide *ngFor="let schdle of schdle_group">
-                <ion-toolbar>
-
+                <ion-toolbar class="toolbarConfePers">
                   <div class="slideTitle">
-
                     <h2 class="slide-title"> Día {{schdle.key}}</h2>
-
                     <span class="fechaTittle">
                       {{schdle.date | date:'LLLL dd yyyy'}}
                     </span>
-
                   </div>
-
                 </ion-toolbar>
               </ion-slide>
-
             </ion-slides>
-
           </div>
 
         </ion-col>
@@ -89,24 +81,7 @@
 
 
     </ion-grid>
-    <div class=" backgroundOpacidad AlturaCard1">
-      <ion-row class="">
-        <ion-col class="col text-center">
-          <!-- <div>
-            <ion-icon ios="ios-add-circle-outline" md="md-add-circle" class="IconsCalendarHeader AddConferenceicon"></ion-icon>
-          </div> -->
-        </ion-col>
-        <ion-col class="col text-center" col-6="">
-          <div class="calendarFont">2018</div>
-        </ion-col>
-        <ion-col class="col text-center">
-          <!--  <div (click)="goToConferencePersonal()">
-            <ion-icon ios="ios-calendar" md="md-calendar" class="IconsCalendarHeader"></ion-icon>
-          </div> -->
-        </ion-col>
-      </ion-row>
-
-    </div>
+    
 
   </div>
 

@@ -48,6 +48,8 @@ import { CodeQrCardPage } from '../code-qr-card/code-qr-card';
 import { ModalAdsPage } from '../modal-ads/modal-ads'
 
 import { GoogleMapPage } from '../google-map/google-map';
+import {CodeQrDetailPage} from '../code-qr-detail/code-qr-detail'
+
 
 
 /**
@@ -363,6 +365,10 @@ export class SingleEventPage {
       // },
     ]
 
+  }
+
+  goToCodeQrDetail(){
+    this.navCtrl.push(CodeQrDetailPage)
   }
 
   ionViewDidEnter() {

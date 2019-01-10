@@ -1,4 +1,9 @@
 page-conference-personal {
+
+	.toolbarConfePers{
+		height: auto !important;
+	}
+
 	.toolbar-background {
 		background: #fff;
 		border-color: transparent;
@@ -137,9 +142,9 @@ page-conference-personal {
 		//	border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 		}
 		.ArrowConference{
-			padding: 58px 0px;
-			font-size: 40px;
-			color: rgba(255, 255, 255, 0.58);
+			padding: 42px 0px;
+		  font-size: 40px;
+		  color: rgba(255, 255, 255, 0.58);
 		}
 		.AddConferenceicon{
 			margin-left: -38px;
