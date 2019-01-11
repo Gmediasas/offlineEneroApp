@@ -43,6 +43,7 @@ export class GalleryPage {
   ) {
 
     this.appAppearance = appAppearance
+    console.log(this.appAppearance)
     this.current_event = ''
     this.gallery = []
     this.recent_gallery = []

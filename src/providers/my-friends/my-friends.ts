@@ -104,7 +104,7 @@ export class MyFriendsProvider  extends BaseService{
       lang: this.language,
 
     }
-    
+    console.log(body);
     return this.post( this.apiMiddleUrl + this.my_friends_create_path , body, {})
 
   }

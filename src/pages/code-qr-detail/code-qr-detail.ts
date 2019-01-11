@@ -30,6 +30,8 @@ export class CodeQrDetailPage {
     public alertCtrl: AlertController,
     public profileProvider: ProfileProvider
     ) {
+      let event_param = navParams.get('event');
+      console.log(`event_param: ${this.navParams.data.event}`);
   }
 
   ionViewDidLoad() {
