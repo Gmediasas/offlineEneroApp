@@ -191,7 +191,7 @@
               <ion-col>
                 <div class="RowDetailCard">
                   <h4 class="SubTittle main-text-color">{{schduleData.schdlName}}</h4>
-                  <div class="lineCard"></div>
+                  
                   <p class="textCardRow">{{schduleData.schdlDescription}}</p>
                 </div>
               </ion-col>
@@ -200,7 +200,6 @@
               <ion-col>
                 <div class="RowDetailCard">
                   <h4 class="SubTittle main-text-color">Video de la conferencia</h4>
-                  <div class="lineCard"></div>
 
                   <ion-card class="card card-ios  shadowCards heightCards borderCard marginTopCard" (click)="openBrowserVideo(schduleData.schdlVideo)">
 
@@ -244,7 +243,6 @@
               <ion-col>
                 <div class="RowDetailCard">
                   <h4 class="SubTittle main-text-color">Conferencistas</h4>
-                  <div class="lineCard"></div>
 
                   <ion-card class="card card-ios  shadowCards heightCards borderCard marginTopCard" *ngFor="let speaker of schduleData.schdlSpeakers"
                     (click)="goToSpeakerDeatil(speaker.id)">

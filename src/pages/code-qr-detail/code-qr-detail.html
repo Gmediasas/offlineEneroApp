@@ -102,12 +102,13 @@
     </ion-col>
      <ion-col> 
       <div class="textDate">
-       Mayo 7 del 2018 | 11:00 AM
+        {{event.evntStartDate | date}} | {{event.evntStartDate | date:'HH:mm a'}}
       </div>
       <div class="lineNotifications"></div>
       <div class="textNotification">
+        <b>{{event.evntName}}</b>
         <br>
-       <b>La paz mundial en el 2018</b>
+       {{event.evntPlace?.placeName}}
       </div>
     </ion-col>
     </ion-row>
