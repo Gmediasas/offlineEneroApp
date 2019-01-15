@@ -29,125 +29,71 @@ export class DynamicFormComponent implements OnInit, OnChanges  {
     private storage: Storage,
     private alertCtrl: AlertController,
   ) {
-
     this.component_init = false
-
   }
 
   ngOnInit(){
-
     // alert("ngOnInit()")
-    
     this.prepareFormModel()
     this.component_init = true
-
   }
 
   prepareFormModel(){
-
     console.log( "survey?", this.survey )
-
     const formGroup = {}
-
     this.survey.questions.forEach( question => {
-
       console.log(question)
-
       question.key = question.nid
       question.label = question.title
-
       if(question.type === "Cerrada"){
-
         question.type = 'radio'
-       
         let radio_options = []
-
         question.options.forEach( option =>{
-          
           radio_options.push( { 
             label: option, 
             value: option
           })
-
         })
-
         question.options = radio_options
-
         formGroup[question.key] = new FormControl( question.response || false )
-         
       }
-
-      if(question.type === "MultipleOpciones"){
-
-        
+      if(question.type === "MultiOpciones"){
         question.type = 'checkbox'
-       
         let checkbox_options = []
-
         question.options.forEach( option =>{
-
-
           var checked = false
-
           if( question.response != undefined && question.response  != null && question.response  !== '' ){
-
             let question_response_checked = JSON.parse(question.response) 
-
             question_response_checked.forEach( response => {
-
               console.log(`
-
                 response: ${response}
-
                 option: ${option}
-              
               `)
-
               if( response === option ){
-
                 if( this.questions_multiple_answers[question.key]  === undefined  ){
-
                   this.questions_multiple_answers[question.key] = {
                     options: []
-                  }
-            
+                  }          
                 }
-
                 this.questions_multiple_answers[question.key].options.push(option)
-
                 checked = true
-
               }
-
-            });
-                 
+            });        
           }
-
-
           checkbox_options.push({ 
             label: option, 
             value: option,
             checked: checked,
           })
-
-
         })
-
         question.options = checkbox_options
-
         // formGroup[question.key] = new FormControl(question.response || false)
-
         formGroup[question.key] = new FormControl()
-         
       }
-
       if(question.type === "Abierta"){
-
         question.type = 'text'
         formGroup[question.key] = new FormControl(question.response || '')
-
       }
-      
     })
 
     console.log("survey after each ", this.survey)

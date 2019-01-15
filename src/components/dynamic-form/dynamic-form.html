@@ -38,6 +38,28 @@
 
     </div>
 
+    <!-- Preguntas multiopcion -->
+    <div *ngIf="question.type == 'MultiOpciones'">
+
+        <ion-list 
+        [formControlName]="question.key">
+
+      <ion-item class="labelAnswer"  *ngFor="let option of question.options">
+
+          <ion-label> 
+            wewe{{option}} 
+          </ion-label>
+
+          <ion-checkbox 
+            >
+          </ion-checkbox>
+
+
+      </ion-item>
+    </ion-list>
+
+  </div>
+
     <!-- Preguntas abiertas -->
     <div  *ngIf="question.type == 'checkbox'">
 
