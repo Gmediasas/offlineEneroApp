@@ -114,33 +114,7 @@
                     </div>
                   </ion-col>
 
-                  <ion-col class="col">
-
-                    <!--<div class=" animated flipInX" *ngIf="!schdle.asistire" (click)="addConference(schdle.schdlUID,schdle)">
-
-                      <button class="BtnFollowConference  btnAsistir  btnOnly">
-                        <span>
-                          <ion-icon aria-label="person add" class="icon icon-ios ion-md-person-add" name="md-person-add" ng-reflect-name="md-person-add"
-                            role="img"></ion-icon>
-                          Asistir
-                        </span>
-                        <div class="button-effect"></div>
-                      </button>
-
-                    </div>-->
-
-                    <div class=" animated flipInX" *ngIf="schdle.asistire" (click)="removeConference(schdle.schdlUID)">
-
-                      <button class="BtnFollowConference  btnAsistir  btnOnly">
-                        <span>
-                          No asistir
-                        </span>
-                        <div class="button-effect"></div>
-                      </button>
-
-                    </div>
-
-                  </ion-col>
+                  
                 </ion-row>
                 <ion-row class="row">
                   <ion-col class="col NoPadding1">
@@ -148,6 +122,23 @@
                       <span class="TimeConferenceTittle ">
                         <i class="demo-icon icon-geventslocation icon100 ">&#xe815;</i>{{schdle.schdlEventRoom}}</span>
                     </div>
+                  </ion-col>
+
+                  <ion-col class="col">
+
+                    <div class=" animated flipInX" (click)="removeConference(schdle.schdlUID)">
+
+                      <button class="BtnFollowConference  btnAsistir  btnOnly">
+                        <span>
+                          <ion-icon aria-label="person add" class="icon icon-ios ion-md-person-add" name="md-person-add" ng-reflect-name="md-person-add"
+                            role="img"></ion-icon>
+                            {{'Noasistir'| translate}}
+                        </span>
+                        <div class="button-effect"></div>
+                      </button>
+
+                    </div>
+
                   </ion-col>
 
                 </ion-row>

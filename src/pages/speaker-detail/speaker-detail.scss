@@ -1,4 +1,9 @@
 page-speaker-detail {
+
+	.conteImagen{
+		text-align: center;
+	}
+
 	.linkSitio{
 		margin-left: 9%;
 	}
@@ -50,7 +55,8 @@ page-speaker-detail {
 	    text-align: center;
 	    font-weight: 500;
 	    color: $main_bg_color_opacity;
-	    text-transform: capitalize;
+		text-transform: capitalize;
+		margin-top: 0;
 	}
 	.labelIcons{
 		 padding-left: 13px;
