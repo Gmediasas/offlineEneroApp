@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>926127945374-fc6k90mi9pgruee4ahj1phbm2cp3dge5.apps.googleusercontent.com</string>
+	<string>32947351738-jppc3atgpl6f82tvc6fg1jlns6gsfonq.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.926127945374-fc6k90mi9pgruee4ahj1phbm2cp3dge5</string>
+	<string>com.googleusercontent.apps.32947351738-jppc3atgpl6f82tvc6fg1jlns6gsfonq</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB2F14ChoL40ZO0nRCxp0WPcGGCOmma_WY</string>
+	<string>AIzaSyBY2mcnVyZX4HteqBGoXPV7sJX2mHkM87g</string>
 	<key>GCM_SENDER_ID</key>
-	<string>926127945374</string>
+	<string>32947351738</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.gmediasas.fseguridadapp</string>
+	<string>com.gmediasas.geventsmovil</string>
 	<key>PROJECT_ID</key>
-	<string>feria-de-seguridad</string>
+	<string>geventsmovil</string>
 	<key>STORAGE_BUCKET</key>
-	<string>feria-de-seguridad.appspot.com</string>
+	<string>geventsmovil.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:926127945374:ios:3d39fa6788fe1ff3</string>
+	<string>1:32947351738:ios:8919d84a810ecfb1</string>
 	<key>DATABASE_URL</key>
-	<string>https://feria-de-seguridad.firebaseio.com</string>
+	<string>https://geventsmovil.firebaseio.com</string>
 </dict>
 </plist>
