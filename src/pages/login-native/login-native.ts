@@ -67,7 +67,7 @@ export class LoginNativePage {
     this.device = eventAppearance.getDevice()
     this.app_instance = appAppearance
 
-    console.log(`(login-native.ts) gevents>> ${this.device}`)
+    //console.log(`(login-native.ts) gevents>> ${this.device}`)
     console.log(
       storage.get('remember_account').then((val) => {
         console.log('Your name is', val);
@@ -83,7 +83,7 @@ export class LoginNativePage {
 
   public login() {
 
-    console.log(`(login-native.ts) gevents>> Credenciales: email = ${this.registerCredentials.email} pass = ${this.registerCredentials.password}`)
+    //console.log(`(login-native.ts) gevents>> Credenciales: email = ${this.registerCredentials.email} pass = ${this.registerCredentials.password}`)
     this.presentLoading()
     this.auth.login(this.registerCredentials).subscribe(data => {
       console.log("`(login-native.ts) gevents>> Data server ===>", data);

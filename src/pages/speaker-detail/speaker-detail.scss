@@ -1,4 +1,13 @@
 page-speaker-detail {
+	.labelDoc{
+		font-size: 14px;
+		text-align: center !important;
+	}
+
+	.suggestion .item-det{
+		margin-top: 0;
+	}
+
 	ion-fab[bottom]{
 		bottom: -5px;
 	}
@@ -72,7 +81,7 @@ page-speaker-detail {
 	.SubTittle{
 		font-size: 18px;
 	    font-weight: bold;
-	    margin: 20px 0;
+	    margin: 0 0 15px 0;
 	    /* text-align: center; */
 	}
 	.textCardRow{

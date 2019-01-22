@@ -32,7 +32,7 @@ export class AuthServiceProvider extends BaseService {
 
   public login(credentials) {
 
-    console.log("Login..")
+    //console.log("Login..")
 
     let body = {
       api_token: appToken,

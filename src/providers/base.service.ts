@@ -73,7 +73,7 @@ export abstract class BaseService {
     //     })
     // }
    
-    console.log("url pedida" + this.baseUrl + relativeUrl )
+    console.log("url pedida " + this.baseUrl + relativeUrl )
     return this.http.get( this.baseUrl + relativeUrl)
       .map((res: Response) => {
         return this.handleResponse(res)

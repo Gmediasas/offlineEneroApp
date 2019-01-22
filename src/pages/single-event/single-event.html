@@ -303,12 +303,15 @@
           <div class="LabelTabs text-center">{{ 'Más' | translate }}</div>
         </div>
       </ion-col>
-      <ion-col class="col LineRight">
-        <div class="contentIconTab" (click)="goToFastNotesPage()">
-          <div class="dothRed"></div>
-          <i class="demo-icon icon-geventsdoc icontabs text-center">&#xe813;</i>
+      <ion-col class="">
+        <div (click)="goToChatGeneral()">
+          <i class="demo-icon    icon-geventschat icon100">&#xe805;</i>
+          <div class="date1 text-center">
 
-          <div class="LabelTabs text-center">{{ 'Notas' | translate }}</div>
+
+            {{ 'Chat' | translate }}
+
+          </div>
         </div>
       </ion-col>
       <ion-col class="col LineRight">
