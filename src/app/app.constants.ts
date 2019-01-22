@@ -13,12 +13,12 @@ export const default_image = {
 }
 
 export const fireBaseConfig = {
-  apiKey: "AIzaSyBRq1WK2anbdodBW8rJ2Yq5cACbOeAGhg4",
-  authDomain: "geventsapp.firebaseapp.com",
-  databaseURL: "https://geventsapp.firebaseio.com",
-  projectId: "geventsapp",
-  storageBucket: "geventsapp.appspot.com",
-  messagingSenderId: "178033977816"
+  apiKey: "AIzaSyCSfp4ilcPGumhPwm-knc_aBZuNTk9b87s",
+  authDomain: "microcode-a7f2b.firebaseapp.com",
+  //databaseURL: "https://geventsapp.firebaseio.com",
+  projectId: "microcode-a7f2b",
+  storageBucket: "microcode-a7f2b.appspot.com",
+  messagingSenderId: "589048302344"
 }
 
 export const roleNames = {
